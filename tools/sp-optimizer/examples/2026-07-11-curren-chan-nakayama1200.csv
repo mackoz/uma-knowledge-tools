@@ -1,0 +1,16 @@
+name,cost,value,requires
+Firm Conditions ◎,71,0.19,
+Turbo Sprint (gold),160,0.31,
+Ignited Spirit SPD,120,0.21,
+Burning Spirit SPD (gold),260,0.26,Ignited Spirit SPD
+Nimble Navigator,150,0.25,
+No Stopping Me! (gold),285,0.15,Nimble Navigator
+Ignited Spirit PWR,180,0.25,
+Ignited Spirit GUTS,120,0.19,
+Pace Chaser Corners ◎,98,0.16,
+Homestretch Haste,136,0.17,
+Prepared to Pass,162,0.14,
+Summer Runner ◎,99,0.10,
+Pace Chaser Savvy ○,110,0.09,
+Outer Post Proficiency ○,72,0.07,
+Lay Low,144,0.02,
