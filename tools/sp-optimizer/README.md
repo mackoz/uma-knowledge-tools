@@ -7,7 +7,7 @@ The method for gathering the input data (umalator skill chart for ΔL values, in
 ## Usage
 
 ```
-python3 optimize.py <skills.csv> <budget> [--top N]
+python3 optimize.py <skills.csv> <budget> [--top N] [--notes TEXT] [--no-log]
 ```
 
 Example (Curren Chan @ Nakayama 1200m, 524 SP — see [questions/2026-07-11-sp-minmax.md](../../questions/2026-07-11-sp-minmax.md)):
@@ -28,3 +28,7 @@ python3 optimize.py examples/2026-07-11-curren-chan-nakayama1200.csv 524
 Only include skills that can actually proc on the target course/style/conditions — filtering out dead skills is most of the work (and keeps the exhaustive search fast; it caps at 22 items).
 
 Output: efficiency ranking, the optimal set, and the top N distinct sets so near-misses are visible.
+
+## Run logs
+
+Every run also writes a markdown log to `runs/` next to the script (gitignored — session data, not repo content), named `<UTC timestamp>-<csv stem>.md`. It records the command line, budget, notes, the full skill snapshot (costs, ΔL, efficiency), the optimal/alternative sets, and the input CSV verbatim so the run stays reproducible after the CSV changes. Pass `--notes "Curren Chan, Nakayama 1200m, firm"` to capture the context the CSV can't, or `--no-log` to skip logging.

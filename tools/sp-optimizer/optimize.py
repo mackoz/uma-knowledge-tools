@@ -2,7 +2,7 @@
 """Find the skill purchase set that maximizes total estimated L gain within an SP budget.
 
 Usage:
-    python3 optimize.py <skills.csv> <budget> [--top N]
+    python3 optimize.py <skills.csv> <budget> [--top N] [--notes TEXT] [--no-log]
 
 CSV columns (header required):
     name      skill name
@@ -11,6 +11,9 @@ CSV columns (header required):
     requires  (optional) name of prerequisite skill, e.g. the white base of a gold.
               For a gold whose base is unowned, set value = ΔL(gold) - ΔL(white).
 
+Each run is logged to runs/ next to this script (gitignored) unless --no-log is
+given; use --notes to record the uma, course, and conditions in the log.
+
 Only include skills that can actually proc on the target course/style; see
 knowledge/sp-minmaxing.md for the filtering method and caveats (recovery skills
 and debuffs are not valued by the chart — handle them separately).
@@ -18,7 +21,9 @@ and debuffs are not valued by the chart — handle them separately).
 import argparse
 import csv
 import sys
+from datetime import datetime, timezone
 from itertools import combinations
+from pathlib import Path
 
 
 def load(path):
@@ -58,38 +63,86 @@ def solve(items, budget):
     return results
 
 
-def main():
-    ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("csv_path")
-    ap.add_argument("budget", type=int)
-    ap.add_argument("--top", type=int, default=5, help="show N best distinct sets")
-    args = ap.parse_args()
-
-    items = load(args.csv_path)
+def render_report(items, results, budget, top):
+    """Render the ranking / optimal set / alternatives as text sections."""
     by_name = {i["name"]: i for i in items}
+    lines = [f"{len(items)} skills, budget {budget} SP", ""]
 
-    print(f"{len(items)} skills, budget {args.budget} SP\n")
-    print("Efficiency ranking (L per 100 SP):")
+    lines.append("Efficiency ranking (L per 100 SP):")
     for i in sorted(items, key=lambda i: i["value"] / i["cost"], reverse=True):
         req = f"  (requires {i['requires']})" if i["requires"] else ""
-        print(f"  {i['value']/i['cost']*100:5.2f}  {i['name']:32s} {i['cost']:>4} SP  +{i['value']:.2f} L{req}")
+        lines.append(f"  {i['value']/i['cost']*100:5.2f}  {i['name']:32s} "
+                     f"{i['cost']:>4} SP  +{i['value']:.2f} L{req}")
 
-    results = solve(items, args.budget)
     best = results[0]
-    print(f"\nOPTIMAL: +{best[0]:.2f} L for {best[1]} SP (leftover {args.budget - best[1]})")
+    lines += ["", f"OPTIMAL: +{best[0]:.2f} L for {best[1]} SP (leftover {budget - best[1]})"]
     for name in best[2]:
         i = by_name[name]
-        print(f"  {name:32s} {i['cost']:>4} SP  +{i['value']:.2f} L")
+        lines.append(f"  {name:32s} {i['cost']:>4} SP  +{i['value']:.2f} L")
 
-    print(f"\nTop {args.top} sets:")
+    lines += ["", f"Top {top} sets:"]
     seen = set()
     for value, cost, names in results:
         if names in seen:
             continue
         seen.add(names)
-        print(f"  +{value:.2f} L / {cost:>3} SP: {', '.join(names)}")
-        if len(seen) >= args.top:
+        lines.append(f"  +{value:.2f} L / {cost:>3} SP: {', '.join(names)}")
+        if len(seen) >= top:
             break
+    return "\n".join(lines)
+
+
+def write_log(csv_path, report, args, timestamp):
+    runs_dir = Path(__file__).resolve().parent / "runs"
+    runs_dir.mkdir(exist_ok=True)
+    log_path = runs_dir / f"{timestamp:%Y-%m-%dT%H%M%SZ}-{csv_path.stem}.md"
+    csv_text = csv_path.read_text(encoding="utf-8").rstrip()
+    notes = args.notes or "(none)"
+    log_path.write_text(f"""\
+# sp-optimizer run — {timestamp:%Y-%m-%d %H:%M:%S} UTC
+
+- **Command:** `python3 {' '.join(sys.argv)}`
+- **Input:** `{csv_path}`
+- **Budget:** {args.budget} SP
+- **Notes:** {notes}
+
+## Result
+
+```
+{report}
+```
+
+## Input CSV (verbatim)
+
+```csv
+{csv_text}
+```
+
+---
+Caveats (see `knowledge/sp-minmaxing.md`): ΔL values come from the umalator skill
+chart and assume additivity — re-sim the chosen set combined before buying.
+Recovery skills and debuffs are not valued by the chart; check spurt rate separately.
+""", encoding="utf-8")
+    return log_path
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap.add_argument("csv_path", type=Path)
+    ap.add_argument("budget", type=int)
+    ap.add_argument("--top", type=int, default=5, help="show N best distinct sets")
+    ap.add_argument("--notes", help="run context (uma, course, conditions) recorded in the log")
+    ap.add_argument("--no-log", action="store_true", help="skip writing a log file to runs/")
+    args = ap.parse_args()
+
+    items = load(args.csv_path)
+    results = solve(items, args.budget)
+    report = render_report(items, results, args.budget, args.top)
+    print(report)
+
+    if not args.no_log:
+        log_path = write_log(args.csv_path, report, args, datetime.now(timezone.utc))
+        print(f"\nlogged to {log_path}")
 
 
 if __name__ == "__main__":
