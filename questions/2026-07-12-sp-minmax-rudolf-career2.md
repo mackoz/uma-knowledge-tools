@@ -17,7 +17,7 @@ Chart pairing (values row above name, sorted by median descending) verified agai
 - No Slick Surge / On Your Left!, no Sprinting Gear, no Leap Forward, no 15,000,000 CC.
 - Instead: **No Stopping Me!** (gold over Nimble Navigator — last-spurt maneuverability, chart total 1.58) and **Fast & Furious** (Late Surger gold over Position Pilfer).
 - Let's Pump Some Iron! at Hint Lv4 → only 130 SP.
-- Corner Adept ○ **not** owned this career, so Professor of Curvature costs 342+180 for the chain.
+- Corner Adept ○ **not** owned this career, so Professor of Curvature's shown price (342) bundles it — see the correction below.
 
 ### Filtered out as dead
 
@@ -28,32 +28,44 @@ Chart pairing (values row above name, sorted by median descending) verified agai
 - Recovery/navigation, chart-unvalued; 1200m sprint so skipped: Straightaway Recovery, Lay Low, Calm in a Crowd, Go with the Flow, Meticulous Measures.
 - Debuffs (chart can't value them; excluded, treat as unknown): Hesitant Front Runners 117, Subdued Late Surgers 130.
 
-## Result
+## ~~Result (first run — WRONG, superseded)~~
 
-**OPTIMAL: +6.97 L for 2230 SP (33 leftover), 14 skills** (exhaustive over 19 candidates):
+~~+6.97 L for 2230 SP, 14 skills~~ — this run **double-counted every gold chain**: it treated the gold's shown price as an *additional* cost on top of the white's, wasting ~537 phantom SP. See the correction below for what went wrong and the real answer.
 
-| Skill | SP | mean ΔL |
+## Correction: Learn-screen gold prices are bundles
+
+Caught by the user after the first run: **when a gold's white prereq is unowned, the price shown on the gold already includes the white listed beneath it.** Fast & Furious "306" = 126 (its own base 180 at Hint Lv3) + 180 (Position Pilfer). Verified exactly for all six gold chains this career, cross-validated against base costs in `tools/skill-db/skills.json` (built from the umalator's own data — see `tools/skill-db/`).
+
+Two consequences:
+
+- `optimize.py` now computes a `requires` row's effective cost as *shown price − prereq's shown price*; CSVs keep recording shown prices verbatim.
+- The Firm Conditions chain has a hidden middle tier: 246 (Firm Course Menace) = 117 gold (Lv1) + **71 Firm Conditions ◎ (Lv4)** + 58 ○ (Lv4) — the ◎ wasn't visible in the screenshots but the decomposition is exact. The CSV now models ○ → ◎ → gold explicitly (◎ contributes its own chart ΔL of 0.36).
+
+**CORRECTED OPTIMAL: +8.22 L for 2235 SP (28 leftover), 17 skills** (run log `2026-07-12T115940Z-…`):
+
+| Skill | effective SP | mean ΔL |
 |---|---|---|
 | Let's Pump Some Iron! | 130 | +2.00 |
 | Nimble Navigator | 135 | +0.84 |
-| No Stopping Me! (gold, over Nimble Navigator) | 270 | +0.74 |
+| No Stopping Me! (gold; shown 270) | 135 | +0.74 |
 | Ignited Spirit PWR | 180 | +0.76 |
 | Ignited Spirit GUTS | 140 | +0.54 |
 | Firm Conditions ○ | 58 | +0.24 |
-| Firm Course Menace (gold, over Firm Conditions ○) | 246 | +0.32 |
+| Firm Conditions ◎ (shown ~129) | 71 | +0.36 |
+| Firm Course Menace (gold; shown 246) | 117 | +0.56 |
 | Position Pilfer | 180 | +0.25 |
-| Fast & Furious (gold, over Position Pilfer) | 306 | +0.32 |
+| Fast & Furious (gold; shown 306) | 126 | +0.32 |
 | Corner Adept ○ | 180 | +0.26 |
-| Playtime's Over! | 144 | +0.25 |
+| Professor of Curvature (gold; shown 342) | 162 | +0.33 |
 | Ignited Spirit SPD | 120 | +0.22 |
+| Burning Spirit SPD (gold; shown 260) | 140 | +0.27 |
+| Playtime's Over! | 144 | +0.25 |
+| Ramp Up | 136 | +0.15 |
 | Right-Handed ○ | 81 | +0.13 |
-| Sprint Straightaways ○ | 60 | +0.10 |
 
-Exact tie at +6.97 (2260 SP, 3 leftover): swap **Fast & Furious + Sprint Straightaways ○** for **Burning Spirit SPD + Ramp Up**. Kept the primary set — Fast & Furious is a Late-Surger-tailored mid-race velocity gold with a tighter proc condition already satisfied by the style, and the tie set leaves the same expected L. Either is defensible.
+That's everything on the candidate list except It's On! (gold increment 136 for +0.18), Sprint Straightaways ○ (60, +0.10), and Outer Post Proficiency ○ (81, +0.04) — the corrected costs fit both big gold chains *and* the whole Ignited/Burning Spirit block. Runner-up +8.21/2240 swaps Ramp Up for Sprint Straightaways ○ + Outer Post Proficiency ○ — noise.
 
-Skipped by the optimizer: Professor of Curvature chain (342+180 for +0.59 total — priced out this career), It's On!/Ramp Up chain, Burning Spirit SPD, Outer Post Proficiency ○ (mean 0.04, median 0.00 — bracket lottery).
-
-The 33 leftover SP buys nothing on the list (cheapest skipped item is Outer Post Proficiency ○ at 81, +0.04 — noise). Hesitant Front Runners (117) doesn't fit either.
+The 28 leftover SP buys nothing (cheapest skipped is Sprint Straightaways ○ at 60 for +0.10; adding it means dropping Ramp Up's +0.15). Hesitant Front Runners (117) still doesn't fit without dropping something better.
 
 ## Caveats
 
