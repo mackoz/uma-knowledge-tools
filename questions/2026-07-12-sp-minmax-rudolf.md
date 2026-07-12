@@ -9,7 +9,10 @@
 | Total available | 2059 |
 | − 564 Escapades (pre-committed, hint Lv1) | 180 |
 | − Dominator (pre-committed) | 160 |
-| **Optimizer budget** | **1719** |
+| − Hesitant Pace Chasers (pre-committed, remembered late — see final revision) | 117 |
+| **Optimizer budget (final)** | **1602** |
+
+*(The first two runs below used 1719, before Hesitant Pace Chasers was remembered.)*
 
 564 Escapades and Dominator were locked in by choice before optimizing and modeled as already owned. Note the chart values them at ~0 here: 564 Escapades mean 0.05 L, and Dominator is **Medium-gated so it can't proc at 1200m at all** (absent from the chart) — both are being bought for reasons outside this race.
 
@@ -65,6 +68,29 @@ New optimum is a **statistical tie** with the v1 set:
 2. +8.55 L / 1719 SP: the **v1 set unchanged**.
 
 **Decision: keep the v1 buy list** (all 11 skills above). Expected L is identical to 2 decimals, leftover SP is worthless at end of career, and the extra learned skill adds a bit of evaluation score. Adding 15,000,000 CC instead of Professor of Curvature is equally defensible.
+
+## Final revision: Hesitant Pace Chasers also pre-committed → budget 1602
+
+A third pre-committed purchase surfaced: **Hesitant Pace Chasers (117 SP)** — a debuff, so chart-unvalued and simply subtracted. Same v2 CSV, budget 1602 (run log `2026-07-12T103127Z-…`). The tighter budget finally squeezes out the big gold:
+
+**FINAL BUY LIST: +8.30 L for 1581 SP (21 leftover), 12 skills — On Your Left! is dropped:**
+
+| Skill | SP | mean ΔL |
+|---|---|---|
+| Let's Pump Some Iron! | 160 | +1.93 |
+| Slick Surge | 180 | +1.18 |
+| Sprinting Gear | 144 | +1.07 |
+| Leap Forward | 162 | +0.95 |
+| Ignited Spirit PWR | 140 | +0.70 |
+| Corner Acceleration ○ | 144 | +0.52 |
+| Ignited Spirit GUTS | 160 | +0.50 |
+| Professor of Curvature (gold) | 126 | +0.34 |
+| 15,000,000 CC (gold) | 84 | +0.34 |
+| Sprint Corners ○ | 80 | +0.30 |
+| Firm Conditions ○ | 81 | +0.25 |
+| Ignited Spirit SPD | 120 | +0.22 |
+
+Exact tie at +8.30 (1596 SP): keep **On Your Left! + Slick Surge** but drop Firm Conditions ○, Professor of Curvature, and Ignited Spirit SPD (10 skills). Chose the 12-skill set: same expected L with more, smaller, mostly-consistent procs (OYL's v2 floor is 0.34), plus two extra learned skills for evaluation score. Either is defensible.
 
 ## Caveats
 
