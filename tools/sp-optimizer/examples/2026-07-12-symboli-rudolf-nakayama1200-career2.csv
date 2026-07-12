@@ -1,0 +1,20 @@
+name,cost,value,requires
+Let's Pump Some Iron!,130,2.00,
+Nimble Navigator,135,0.84,
+No Stopping Me! (gold),270,0.74,Nimble Navigator
+Ignited Spirit PWR,180,0.76,
+Ignited Spirit GUTS,140,0.54,
+Corner Adept ○,180,0.26,
+Professor of Curvature (gold),342,0.33,Corner Adept ○
+Firm Conditions ○,58,0.24,
+Firm Course Menace (gold),246,0.32,Firm Conditions ○
+Position Pilfer,180,0.25,
+Fast & Furious (gold),306,0.32,Position Pilfer
+Ramp Up,136,0.15,
+It's On! (gold),272,0.18,Ramp Up
+Ignited Spirit SPD,120,0.22,
+Burning Spirit SPD (gold),260,0.27,Ignited Spirit SPD
+Playtime's Over!,144,0.25,
+Right-Handed ○,81,0.13,
+Sprint Straightaways ○,60,0.10,
+Outer Post Proficiency ○,81,0.04,
