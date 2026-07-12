@@ -21,9 +21,13 @@ python3 optimize.py examples/2026-07-11-curren-chan-nakayama1200.csv 524
 | Column | Meaning |
 |--------|---------|
 | `name` | Skill name |
-| `cost` | Actual SP cost from the Learn screen (hint discounts applied) |
+| `cost` | The SP price **shown on the Learn screen**, entered verbatim (hint discounts applied) |
 | `value` | Mean ΔL from the umalator skill chart (incremental vs current build) |
 | `requires` | Optional prerequisite skill name. For a gold whose white base is unowned, list the white as its own row and set the gold's `value` to ΔL(gold) − ΔL(white). |
+
+**Gold bundle pricing:** when a gold's white prereq is unowned, the game shows a *bundle* price on the gold that already includes the white listed beneath it (e.g. Fast & Furious "306" = 126 own + 180 Position Pilfer). Enter shown prices verbatim; for rows with `requires`, the optimizer uses shown − prereq's shown as the effective cost. When the white is already owned, the gold shows only its own price — omit `requires` and nothing is subtracted. Green-skill rare golds (e.g. Firm Course Menace) bundle a hidden ◎ tier too: model the chain ○ → ◎ → gold as three rows (see `tools/skill-db/README.md`).
+
+If `../skill-db/skills.json` exists, every row is cross-checked against it (gold missing `requires` while its white is also listed, wrong prereq name, effective cost not matching baseCost × any hint discount) and mismatches print warnings.
 
 Only include skills that can actually proc on the target course/style/conditions — filtering out dead skills is most of the work (and keeps the exhaustive search fast; it caps at 22 items).
 

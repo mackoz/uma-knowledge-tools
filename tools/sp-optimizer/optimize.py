@@ -6,10 +6,20 @@ Usage:
 
 CSV columns (header required):
     name      skill name
-    cost      actual SP cost from the in-game Learn screen (hint-discounted)
+    cost      the SP price shown on the in-game Learn screen (hint-discounted),
+              entered verbatim
     value     mean ΔL from the umalator skill chart (incremental vs current build)
     requires  (optional) name of prerequisite skill, e.g. the white base of a gold.
               For a gold whose base is unowned, set value = ΔL(gold) - ΔL(white).
+
+Gold-skill pricing: when a gold's white prereq is unowned, the Learn screen shows
+a BUNDLE price on the gold that already includes the white listed beneath it.
+Enter that shown price and set `requires`; the effective cost used here is
+cost(gold row) - cost(required row). When the white is already owned, the gold
+shows only its own price — enter it with no `requires` and nothing is subtracted.
+If tools/skill-db/skills.json exists, rows are cross-checked against it (known
+gold missing `requires`, wrong prereq, cost not matching baseCost x hint discount)
+and mismatches print warnings.
 
 Each run is logged to runs/ next to this script (gitignored) unless --no-log is
 given; use --notes to record the uma, course, and conditions in the log.
@@ -25,11 +35,14 @@ and debuffs are not valued by the chart — handle them separately).
 """
 import argparse
 import csv
+import json
 import shutil
 import sys
 from datetime import datetime, timezone
 from itertools import combinations
 from pathlib import Path
+
+HINT_PCTS = (100, 90, 80, 70, 65, 60)  # none, Lv1..Lv4, Max (price floored)
 
 
 def load(path):
@@ -38,15 +51,59 @@ def load(path):
         for row in csv.DictReader(f):
             rows.append({
                 "name": row["name"].strip(),
-                "cost": int(row["cost"]),
+                "cost": int(row["cost"]),        # shown Learn-screen price
                 "value": float(row["value"]),
                 "requires": (row.get("requires") or "").strip() or None,
             })
-    names = {r["name"] for r in rows}
+    by_name = {r["name"]: r for r in rows}
     for r in rows:
-        if r["requires"] and r["requires"] not in names:
-            sys.exit(f"error: {r['name']!r} requires unknown skill {r['requires']!r}")
+        r["display_cost"] = r["cost"]
+        if r["requires"]:
+            base = by_name.get(r["requires"])
+            if base is None:
+                sys.exit(f"error: {r['name']!r} requires unknown skill {r['requires']!r}")
+            # shown gold price bundles the unowned white beneath it
+            r["cost"] = r["display_cost"] - base["display_cost"]
+            if r["cost"] <= 0:
+                sys.exit(f"error: {r['name']!r} shown price {r['display_cost']} does not "
+                         f"exceed its prereq {r['requires']!r} ({base['display_cost']})")
+    cross_check(rows)
     return rows
+
+
+def cross_check(rows):
+    """Warn about rows inconsistent with tools/skill-db/skills.json, if present."""
+    db_path = Path(__file__).resolve().parent.parent / "skill-db" / "skills.json"
+    if not db_path.is_file():
+        return
+    db = json.loads(db_path.read_text(encoding="utf-8"))["skills"]
+    for r in rows:
+        name = r["name"].removesuffix(" (gold)").strip()
+        entry = db.get(name)
+        if entry is None:
+            continue
+        ok_requires = {entry["pair"], entry.get("middle")} - {None}
+        if entry["gold"] and entry["pair"] and not r["requires"]:
+            if any(row["name"].removesuffix(" (gold)").strip() == entry["pair"]
+                   for row in rows):
+                print(f"warning: {r['name']!r} and its white {entry['pair']!r} are both "
+                      "listed but not linked with `requires` — the gold's shown price "
+                      "bundles the white; add `requires` or you'll double-count")
+            else:
+                print(f"note: {r['name']!r} is the gold of {entry['pair']!r}; fine if the "
+                      "white wasn't listed beneath it in-game (then the shown price is "
+                      "standalone), but if it was, add a row + `requires`")
+        elif r["requires"] and ok_requires and r["requires"] not in ok_requires:
+            print(f"warning: {r['name']!r} requires {r['requires']!r} "
+                  f"but skill-db pairs it with {entry['pair']!r}")
+        if entry.get("middle") and r["requires"] != entry["middle"]:
+            continue  # bundle also contains the ◎ tier; per-skill cost check n/a
+        if entry.get("baseCost"):
+            # the game floors discounted prices (90 SP at Lv4 -> 58)
+            allowed = {entry["baseCost"] * p // 100 for p in HINT_PCTS}
+            if r["cost"] not in allowed:
+                print(f"warning: {r['name']!r} effective cost {r['cost']} doesn't match "
+                      f"baseCost {entry['baseCost']} at any hint discount")
 
 
 def clear_reference():
@@ -89,17 +146,22 @@ def render_report(items, results, budget, top):
     by_name = {i["name"]: i for i in items}
     lines = [f"{len(items)} skills, budget {budget} SP", ""]
 
+    def bundle_note(i):
+        if i["display_cost"] != i["cost"]:
+            return f"  (shown {i['display_cost']}, includes {i['requires']})"
+        return ""
+
     lines.append("Efficiency ranking (L per 100 SP):")
     for i in sorted(items, key=lambda i: i["value"] / i["cost"], reverse=True):
         req = f"  (requires {i['requires']})" if i["requires"] else ""
         lines.append(f"  {i['value']/i['cost']*100:5.2f}  {i['name']:32s} "
-                     f"{i['cost']:>4} SP  +{i['value']:.2f} L{req}")
+                     f"{i['cost']:>4} SP  +{i['value']:.2f} L{req}{bundle_note(i)}")
 
     best = results[0]
     lines += ["", f"OPTIMAL: +{best[0]:.2f} L for {best[1]} SP (leftover {budget - best[1]})"]
     for name in best[2]:
         i = by_name[name]
-        lines.append(f"  {name:32s} {i['cost']:>4} SP  +{i['value']:.2f} L")
+        lines.append(f"  {name:32s} {i['cost']:>4} SP  +{i['value']:.2f} L{bundle_note(i)}")
 
     lines += ["", f"Top {top} sets:"]
     seen = set()

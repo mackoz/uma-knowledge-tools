@@ -16,6 +16,7 @@ Personal knowledge base and homegrown tools for Uma Musume: Pretty Derby (**glob
 | `knowledge/umalator.md` | The umalator-global race simulator (external): usage, internals, caveats |
 | `tools/` | Homegrown runnable tools, one subfolder each with its own README |
 | `tools/sp-optimizer/` | Knapsack solver: best skill purchases for a given SP budget |
+| `tools/skill-db/` | Skill database (global names, base costs, gold/white prereq pairs) + price lookup |
 | `questions/` | One file per question worked through (skill picks, build comparisons, etc.) |
 | `reference/` | **Local-only staging** (gitignored) for the current run's inputs: umalator PDF capture, game screenshots. Cleared automatically by each sp-optimizer run |
 

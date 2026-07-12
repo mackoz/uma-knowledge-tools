@@ -1,0 +1,9011 @@
+{
+ "fetched": "2026-07-12",
+ "sources": [
+  "https://raw.githubusercontent.com/kachi-dev/uma-tools/master/skill_meta.json",
+  "https://kachi-dev.github.io/uma-tools/umalator-global/bundle.js"
+ ],
+ "skills": {
+  "Carnival Bonus": {
+   "id": "1000011",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Shooting Star": {
+   "id": "900011",
+   "baseCost": 200,
+   "groupId": "90001",
+   "gold": false,
+   "pair": null
+  },
+  "The View from the Lead Is Mine!": {
+   "id": "900021",
+   "baseCost": 200,
+   "groupId": "90002",
+   "gold": false,
+   "pair": null
+  },
+  "Sky-High Teio Step": {
+   "id": "900031",
+   "baseCost": 200,
+   "groupId": "90003",
+   "gold": false,
+   "pair": null
+  },
+  "Red Shift/LP1211-M": {
+   "id": "900041",
+   "baseCost": 200,
+   "groupId": "90004",
+   "gold": false,
+   "pair": null
+  },
+  "Lights of Vaudeville": {
+   "id": "900051",
+   "baseCost": 200,
+   "groupId": "90005",
+   "gold": false,
+   "pair": null
+  },
+  "Triumphant Pulse": {
+   "id": "900061",
+   "baseCost": 200,
+   "groupId": "90006",
+   "gold": false,
+   "pair": null
+  },
+  "Anchors Aweigh!": {
+   "id": "900071",
+   "baseCost": 200,
+   "groupId": "90007",
+   "gold": false,
+   "pair": null
+  },
+  "Cut and Drive!": {
+   "id": "900081",
+   "baseCost": 200,
+   "groupId": "90008",
+   "gold": false,
+   "pair": null
+  },
+  "Resplendent Red Ace": {
+   "id": "900091",
+   "baseCost": 200,
+   "groupId": "90009",
+   "gold": false,
+   "pair": null
+  },
+  "Shooting for Victory!": {
+   "id": "900101",
+   "baseCost": 200,
+   "groupId": "90010",
+   "gold": false,
+   "pair": null
+  },
+  "Gluttonous Ruler": {
+   "id": "100101111",
+   "baseCost": 0,
+   "groupId": "20135",
+   "gold": false,
+   "pair": null
+  },
+  "Accelerating to My Dreams!": {
+   "id": "100101211",
+   "baseCost": 0,
+   "groupId": "20051",
+   "gold": false,
+   "pair": null
+  },
+  "Sunshine 'n' Spirit!": {
+   "id": "100102111",
+   "baseCost": 0,
+   "groupId": "20059",
+   "gold": false,
+   "pair": null
+  },
+  "Ruler of Summer": {
+   "id": "100102211",
+   "baseCost": 0,
+   "groupId": "20046",
+   "gold": false,
+   "pair": null
+  },
+  "Overwhelming Advance": {
+   "id": "100103111",
+   "baseCost": 0,
+   "groupId": "20121",
+   "gold": false,
+   "pair": null
+  },
+  "Gutsiest in Japan": {
+   "id": "100103211",
+   "baseCost": 0,
+   "groupId": "20206",
+   "gold": false,
+   "pair": null
+  },
+  "Where There's a Will, There's a Way": {
+   "id": "900111",
+   "baseCost": 200,
+   "groupId": "90011",
+   "gold": false,
+   "pair": null
+  },
+  "You and Me! One-on-One!": {
+   "id": "900121",
+   "baseCost": 200,
+   "groupId": "90012",
+   "gold": false,
+   "pair": null
+  },
+  "The Duty of Dignity Calls": {
+   "id": "900131",
+   "baseCost": 200,
+   "groupId": "90013",
+   "gold": false,
+   "pair": null
+  },
+  "Victoria por plancha ☆": {
+   "id": "900141",
+   "baseCost": 200,
+   "groupId": "90014",
+   "gold": false,
+   "pair": null
+  },
+  "This Dance Is for Vittoria!": {
+   "id": "900151",
+   "baseCost": 200,
+   "groupId": "90015",
+   "gold": false,
+   "pair": null
+  },
+  "Shadow Break": {
+   "id": "900161",
+   "baseCost": 200,
+   "groupId": "90016",
+   "gold": false,
+   "pair": null
+  },
+  "Behold Thine Emperor's Divine Might": {
+   "id": "900171",
+   "baseCost": 200,
+   "groupId": "90017",
+   "gold": false,
+   "pair": null
+  },
+  "Blazing Pride": {
+   "id": "900181",
+   "baseCost": 200,
+   "groupId": "90018",
+   "gold": false,
+   "pair": null
+  },
+  "OMG! (ﾟ∀ﾟ)  The Final Sprint! ☆": {
+   "id": "900191",
+   "baseCost": 200,
+   "groupId": "90019",
+   "gold": false,
+   "pair": null
+  },
+  "Angling and Scheming": {
+   "id": "900201",
+   "baseCost": 200,
+   "groupId": "90020",
+   "gold": false,
+   "pair": null
+  },
+  "Fully Focused": {
+   "id": "100201111",
+   "baseCost": 0,
+   "groupId": "20043",
+   "gold": false,
+   "pair": null
+  },
+  "Otherworldly Front-Runner": {
+   "id": "100201211",
+   "baseCost": 0,
+   "groupId": "20055",
+   "gold": false,
+   "pair": null
+  },
+  "Ultramarine Getaway": {
+   "id": "100202111",
+   "baseCost": 0,
+   "groupId": "20054",
+   "gold": false,
+   "pair": null
+  },
+  "Ráfaga Azul": {
+   "id": "100202211",
+   "baseCost": 0,
+   "groupId": "20269",
+   "gold": false,
+   "pair": null
+  },
+  "White Lightning Comin' Through!": {
+   "id": "900211",
+   "baseCost": 200,
+   "groupId": "90021",
+   "gold": false,
+   "pair": null
+  },
+  "Fairy Tale": {
+   "id": "900221",
+   "baseCost": 200,
+   "groupId": "90022",
+   "gold": false,
+   "pair": null
+  },
+  "∴win Q.E.D.": {
+   "id": "900231",
+   "baseCost": 200,
+   "groupId": "90023",
+   "gold": false,
+   "pair": null
+  },
+  "Flashy☆Landing": {
+   "id": "900241",
+   "baseCost": 200,
+   "groupId": "90024",
+   "gold": false,
+   "pair": null
+  },
+  "Chasing After You": {
+   "id": "900251",
+   "baseCost": 200,
+   "groupId": "90025",
+   "gold": false,
+   "pair": null
+  },
+  "G00 1st. F∞;": {
+   "id": "900261",
+   "baseCost": 200,
+   "groupId": "90026",
+   "gold": false,
+   "pair": null
+  },
+  "Let's Pump Some Iron!": {
+   "id": "900271",
+   "baseCost": 200,
+   "groupId": "90027",
+   "gold": false,
+   "pair": null
+  },
+  "YUMMY☆SPEED!": {
+   "id": "900281",
+   "baseCost": 200,
+   "groupId": "90028",
+   "gold": false,
+   "pair": null
+  },
+  "Snow Bright, Snow Flight": {
+   "id": "900291",
+   "baseCost": 200,
+   "groupId": "90029",
+   "gold": false,
+   "pair": null
+  },
+  "Blue Rose Closer": {
+   "id": "900301",
+   "baseCost": 200,
+   "groupId": "90030",
+   "gold": false,
+   "pair": null
+  },
+  "Talented Technique": {
+   "id": "100301111",
+   "baseCost": 0,
+   "groupId": "20133",
+   "gold": false,
+   "pair": null
+  },
+  "Teio Step": {
+   "id": "100301211",
+   "baseCost": 0,
+   "groupId": "20113",
+   "gold": false,
+   "pair": null
+  },
+  "Racing Prodigy": {
+   "id": "100302111",
+   "baseCost": 0,
+   "groupId": "20057",
+   "gold": false,
+   "pair": null
+  },
+  "To the Ends of the Earth": {
+   "id": "100302211",
+   "baseCost": 0,
+   "groupId": "20114",
+   "gold": false,
+   "pair": null
+  },
+  "All Charged! It's Go Time!": {
+   "id": "900311",
+   "baseCost": 200,
+   "groupId": "90031",
+   "gold": false,
+   "pair": null
+  },
+  "U=ma2": {
+   "id": "900321",
+   "baseCost": 200,
+   "groupId": "90032",
+   "gold": false,
+   "pair": null
+  },
+  "Shooting Star of Dioskouroi": {
+   "id": "900331",
+   "baseCost": 200,
+   "groupId": "90033",
+   "gold": false,
+   "pair": null
+  },
+  "Now We're Cruisin'!": {
+   "id": "900341",
+   "baseCost": 200,
+   "groupId": "90034",
+   "gold": false,
+   "pair": null
+  },
+  "Our Ticket to Win!": {
+   "id": "900351",
+   "baseCost": 200,
+   "groupId": "90035",
+   "gold": false,
+   "pair": null
+  },
+  "trigger:BEAT": {
+   "id": "900361",
+   "baseCost": 200,
+   "groupId": "90036",
+   "gold": false,
+   "pair": null
+  },
+  "Schwarzes Schwert": {
+   "id": "900371",
+   "baseCost": 200,
+   "groupId": "90037",
+   "gold": false,
+   "pair": null
+  },
+  "#LookatCurren": {
+   "id": "900381",
+   "baseCost": 200,
+   "groupId": "90038",
+   "gold": false,
+   "pair": null
+  },
+  "A Princess Must Seize Victory!": {
+   "id": "900391",
+   "baseCost": 200,
+   "groupId": "90039",
+   "gold": false,
+   "pair": null
+  },
+  "KEEP IT REAL.": {
+   "id": "900401",
+   "baseCost": 200,
+   "groupId": "90040",
+   "gold": false,
+   "pair": null
+  },
+  "Let's Floor It, Baby!": {
+   "id": "100401111",
+   "baseCost": 0,
+   "groupId": "20105",
+   "gold": false,
+   "pair": null
+  },
+  "Revved Up Red-Hot": {
+   "id": "100401211",
+   "baseCost": 0,
+   "groupId": "20106",
+   "gold": false,
+   "pair": null
+  },
+  "You Can't Handle Me ☆": {
+   "id": "100402111",
+   "baseCost": 0,
+   "groupId": "20128",
+   "gold": false,
+   "pair": null
+  },
+  "Queen of the Stage": {
+   "id": "100402211",
+   "baseCost": 0,
+   "groupId": "20068",
+   "gold": false,
+   "pair": null
+  },
+  "Genius x Bakushin = Victory": {
+   "id": "900411",
+   "baseCost": 200,
+   "groupId": "90041",
+   "gold": false,
+   "pair": null
+  },
+  "I'm Possible!": {
+   "id": "900421",
+   "baseCost": 200,
+   "groupId": "90042",
+   "gold": false,
+   "pair": null
+  },
+  "Ding Dong, Boo!": {
+   "id": "900431",
+   "baseCost": 200,
+   "groupId": "90043",
+   "gold": false,
+   "pair": null
+  },
+  "Victory belongs to me—Strelitzia! ☆": {
+   "id": "900441",
+   "baseCost": 200,
+   "groupId": "90044",
+   "gold": false,
+   "pair": null
+  },
+  "Pure Heart": {
+   "id": "900451",
+   "baseCost": 200,
+   "groupId": "90045",
+   "gold": false,
+   "pair": null
+  },
+  "SPARKLY☆STARDOM": {
+   "id": "900461",
+   "baseCost": 200,
+   "groupId": "90046",
+   "gold": false,
+   "pair": null
+  },
+  "Raise My Soul's Blade!": {
+   "id": "900471",
+   "baseCost": 200,
+   "groupId": "90047",
+   "gold": false,
+   "pair": null
+  },
+  "Pop & Polish": {
+   "id": "900481",
+   "baseCost": 200,
+   "groupId": "90048",
+   "gold": false,
+   "pair": null
+  },
+  "Laugh at the Odds": {
+   "id": "900491",
+   "baseCost": 200,
+   "groupId": "90049",
+   "gold": false,
+   "pair": null
+  },
+  "Nemesis": {
+   "id": "900501",
+   "baseCost": 200,
+   "groupId": "90050",
+   "gold": false,
+   "pair": null
+  },
+  "Dazzling Star": {
+   "id": "100501111",
+   "baseCost": 0,
+   "groupId": "20107",
+   "gold": false,
+   "pair": null
+  },
+  "Entertainer": {
+   "id": "100501211",
+   "baseCost": 0,
+   "groupId": "20057",
+   "gold": false,
+   "pair": null
+  },
+  "Stunning Trick": {
+   "id": "100502111",
+   "baseCost": 0,
+   "groupId": "20077",
+   "gold": false,
+   "pair": null
+  },
+  "Glittering Star": {
+   "id": "210062",
+   "baseCost": 200,
+   "groupId": "21006",
+   "gold": false,
+   "pair": "Radiant Star"
+  },
+  "Budding Blossom": {
+   "id": "900511",
+   "baseCost": 200,
+   "groupId": "90051",
+   "gold": false,
+   "pair": null
+  },
+  "Super-Duper Climax": {
+   "id": "900521",
+   "baseCost": 200,
+   "groupId": "90052",
+   "gold": false,
+   "pair": null
+  },
+  "Red-Hot Discipline!": {
+   "id": "900531",
+   "baseCost": 200,
+   "groupId": "90053",
+   "gold": false,
+   "pair": null
+  },
+  "Magical☆Marvelous★World": {
+   "id": "900551",
+   "baseCost": 200,
+   "groupId": "90055",
+   "gold": false,
+   "pair": null
+  },
+  "I See Victory in My Future!": {
+   "id": "900561",
+   "baseCost": 200,
+   "groupId": "90056",
+   "gold": false,
+   "pair": null
+  },
+  "Lyrical Journey": {
+   "id": "900571",
+   "baseCost": 200,
+   "groupId": "90057",
+   "gold": false,
+   "pair": null
+  },
+  "I Never Goof Up!": {
+   "id": "900581",
+   "baseCost": 200,
+   "groupId": "90058",
+   "gold": false,
+   "pair": null
+  },
+  "Moving Past, and Beyond": {
+   "id": "900591",
+   "baseCost": 200,
+   "groupId": "90059",
+   "gold": false,
+   "pair": null
+  },
+  "Just a Little Farther!": {
+   "id": "900601",
+   "baseCost": 200,
+   "groupId": "90060",
+   "gold": false,
+   "pair": null
+  },
+  "Kasamatsu's Bottomless Pit": {
+   "id": "100601111",
+   "baseCost": 0,
+   "groupId": "20135",
+   "gold": false,
+   "pair": null
+  },
+  "Cornered by the Beast": {
+   "id": "100601211",
+   "baseCost": 0,
+   "groupId": "20034",
+   "gold": false,
+   "pair": null
+  },
+  "Full Belly, Full Energy": {
+   "id": "100602111",
+   "baseCost": 0,
+   "groupId": "20135",
+   "gold": false,
+   "pair": null
+  },
+  "Holiday Miracle": {
+   "id": "100602211",
+   "baseCost": 0,
+   "groupId": "20075",
+   "gold": false,
+   "pair": null
+  },
+  "Prideful King": {
+   "id": "900611",
+   "baseCost": 200,
+   "groupId": "90061",
+   "gold": false,
+   "pair": null
+  },
+  "Go, Go, Mun!": {
+   "id": "900621",
+   "baseCost": 200,
+   "groupId": "90062",
+   "gold": false,
+   "pair": null
+  },
+  "Keep Pushing Ahead": {
+   "id": "900641",
+   "baseCost": 200,
+   "groupId": "90064",
+   "gold": false,
+   "pair": null
+  },
+  "Hands in the Air Like Ya Don't Care!": {
+   "id": "900651",
+   "baseCost": 200,
+   "groupId": "90065",
+   "gold": false,
+   "pair": null
+  },
+  "Turbo BLAST!": {
+   "id": "900661",
+   "baseCost": 200,
+   "groupId": "90066",
+   "gold": false,
+   "pair": null
+  },
+  "Eternal Encompassing Shine": {
+   "id": "900671",
+   "baseCost": 200,
+   "groupId": "90067",
+   "gold": false,
+   "pair": null
+  },
+  "Victory Cheer!": {
+   "id": "900681",
+   "baseCost": 200,
+   "groupId": "90068",
+   "gold": false,
+   "pair": null
+  },
+  "Ambition to Surpass the Sakura": {
+   "id": "900691",
+   "baseCost": 200,
+   "groupId": "90069",
+   "gold": false,
+   "pair": null
+  },
+  "Seirios": {
+   "id": "900701",
+   "baseCost": 200,
+   "groupId": "90070",
+   "gold": false,
+   "pair": null
+  },
+  "Her Lordship Seeth All": {
+   "id": "100701111",
+   "baseCost": 0,
+   "groupId": "20147",
+   "gold": false,
+   "pair": null
+  },
+  "It's All Goin' Downhill from Here!": {
+   "id": "100701211",
+   "baseCost": 0,
+   "groupId": "20148",
+   "gold": false,
+   "pair": null
+  },
+  "Golshi's Out-of-Body Experience": {
+   "id": "100702111",
+   "baseCost": 0,
+   "groupId": "20075",
+   "gold": false,
+   "pair": null
+  },
+  "Have Some Squid, Kid!": {
+   "id": "100702211",
+   "baseCost": 0,
+   "groupId": "20210",
+   "gold": false,
+   "pair": null
+  },
+  "Warning Shot!": {
+   "id": "10071",
+   "baseCost": 0,
+   "groupId": "1007",
+   "gold": false,
+   "pair": null
+  },
+  "A Lifelong Dream, A Moment's Flight": {
+   "id": "900711",
+   "baseCost": 200,
+   "groupId": "90071",
+   "gold": false,
+   "pair": null
+  },
+  "Peerless Dance of Flowering Flames": {
+   "id": "900721",
+   "baseCost": 200,
+   "groupId": "90072",
+   "gold": false,
+   "pair": null
+  },
+  "Lovely Spring Breeze": {
+   "id": "900741",
+   "baseCost": 200,
+   "groupId": "90074",
+   "gold": false,
+   "pair": null
+  },
+  "World in Bloom": {
+   "id": "900761",
+   "baseCost": 200,
+   "groupId": "90076",
+   "gold": false,
+   "pair": null
+  },
+  "Sunny Breeze": {
+   "id": "900781",
+   "baseCost": 200,
+   "groupId": "90078",
+   "gold": false,
+   "pair": null
+  },
+  "A Swig of Strength": {
+   "id": "100801111",
+   "baseCost": 0,
+   "groupId": "20038",
+   "gold": false,
+   "pair": null
+  },
+  "Feet of Fury": {
+   "id": "100801211",
+   "baseCost": 0,
+   "groupId": "20070",
+   "gold": false,
+   "pair": null
+  },
+  "Cuttin' Through!": {
+   "id": "100802111",
+   "baseCost": 0,
+   "groupId": "20049",
+   "gold": false,
+   "pair": null
+  },
+  "Kick It into Top Gear!": {
+   "id": "100802211",
+   "baseCost": 0,
+   "groupId": "20245",
+   "gold": false,
+   "pair": null
+  },
+  "Xceleration": {
+   "id": "10081",
+   "baseCost": 0,
+   "groupId": "1008",
+   "gold": false,
+   "pair": null
+  },
+  "Mission: Triumph": {
+   "id": "900831",
+   "baseCost": 200,
+   "groupId": "90083",
+   "gold": false,
+   "pair": null
+  },
+  "Sublimated Thunder": {
+   "id": "900841",
+   "baseCost": 200,
+   "groupId": "90084",
+   "gold": false,
+   "pair": null
+  },
+  "Ever Supreme": {
+   "id": "900851",
+   "baseCost": 200,
+   "groupId": "90085",
+   "gold": false,
+   "pair": null
+  },
+  "Silent Letter": {
+   "id": "900871",
+   "baseCost": 200,
+   "groupId": "90087",
+   "gold": false,
+   "pair": null
+  },
+  "Perfectly Tuned": {
+   "id": "100901111",
+   "baseCost": 0,
+   "groupId": "20072",
+   "gold": false,
+   "pair": null
+  },
+  "First Place Is MINE!": {
+   "id": "100901211",
+   "baseCost": 0,
+   "groupId": "20057",
+   "gold": false,
+   "pair": null
+  },
+  "Rough Queen": {
+   "id": "100902111",
+   "baseCost": 0,
+   "groupId": "20128",
+   "gold": false,
+   "pair": null
+  },
+  "Door to My Dream": {
+   "id": "100902211",
+   "baseCost": 0,
+   "groupId": "20246",
+   "gold": false,
+   "pair": null
+  },
+  "Red Ace": {
+   "id": "10091",
+   "baseCost": 0,
+   "groupId": "1009",
+   "gold": false,
+   "pair": null
+  },
+  "Luck Runs My Way": {
+   "id": "900981",
+   "baseCost": 200,
+   "groupId": "90098",
+   "gold": false,
+   "pair": null
+  },
+  "Shine On, Tomakomai! ☆": {
+   "id": "900991",
+   "baseCost": 200,
+   "groupId": "90099",
+   "gold": false,
+   "pair": null
+  },
+  "Never Say Never": {
+   "id": "901001",
+   "baseCost": 200,
+   "groupId": "90100",
+   "gold": false,
+   "pair": null
+  },
+  "Shootin' Straight Ahead!": {
+   "id": "101001111",
+   "baseCost": 0,
+   "groupId": "20105",
+   "gold": false,
+   "pair": null
+  },
+  "Frontier Spirit": {
+   "id": "101001211",
+   "baseCost": 0,
+   "groupId": "20068",
+   "gold": false,
+   "pair": null
+  },
+  "Takin' Y'all on a Wild Ride!": {
+   "id": "101002111",
+   "baseCost": 0,
+   "groupId": "20068",
+   "gold": false,
+   "pair": null
+  },
+  "May the Best Uma Win!": {
+   "id": "101002211",
+   "baseCost": 0,
+   "groupId": "20190",
+   "gold": false,
+   "pair": null
+  },
+  "Sunrise Banner—Katsuragi Ace!": {
+   "id": "901041",
+   "baseCost": 200,
+   "groupId": "90104",
+   "gold": false,
+   "pair": null
+  },
+  "Ad Astra": {
+   "id": "901051",
+   "baseCost": 200,
+   "groupId": "90105",
+   "gold": false,
+   "pair": null
+  },
+  "Bang! Miracle Shot ☆": {
+   "id": "901061",
+   "baseCost": 200,
+   "groupId": "90106",
+   "gold": false,
+   "pair": null
+  },
+  "Yamato Nadeshiko": {
+   "id": "101101111",
+   "baseCost": 0,
+   "groupId": "20115",
+   "gold": false,
+   "pair": null
+  },
+  "Indomitable Spirit": {
+   "id": "101101211",
+   "baseCost": 0,
+   "groupId": "20060",
+   "gold": false,
+   "pair": null
+  },
+  "Comforting Heal": {
+   "id": "101102111",
+   "baseCost": 0,
+   "groupId": "20074",
+   "gold": false,
+   "pair": null
+  },
+  "The Magic of Courage": {
+   "id": "101102211",
+   "baseCost": 0,
+   "groupId": "20142",
+   "gold": false,
+   "pair": null
+  },
+  "Focused Mind": {
+   "id": "10111",
+   "baseCost": 0,
+   "groupId": "1011",
+   "gold": false,
+   "pair": null
+  },
+  "Cry of Victory": {
+   "id": "101201111",
+   "baseCost": 0,
+   "groupId": "20073",
+   "gold": false,
+   "pair": null
+  },
+  "Pororoca Roar": {
+   "id": "101201211",
+   "baseCost": 0,
+   "groupId": "20063",
+   "gold": false,
+   "pair": null
+  },
+  "Engaging Engine!": {
+   "id": "101202111",
+   "baseCost": 0,
+   "groupId": "20202",
+   "gold": false,
+   "pair": null
+  },
+  "Cake-Cuttin' Time!": {
+   "id": "101202211",
+   "baseCost": 0,
+   "groupId": "20249",
+   "gold": false,
+   "pair": null
+  },
+  "As Befits a Mejiro": {
+   "id": "101301111",
+   "baseCost": 0,
+   "groupId": "20119",
+   "gold": false,
+   "pair": null
+  },
+  "Top-Class Composure": {
+   "id": "101301211",
+   "baseCost": 0,
+   "groupId": "20056",
+   "gold": false,
+   "pair": null
+  },
+  "Rigorous Rest": {
+   "id": "101302111",
+   "baseCost": 0,
+   "groupId": "20074",
+   "gold": false,
+   "pair": null
+  },
+  "Above the Cloudline": {
+   "id": "101302211",
+   "baseCost": 0,
+   "groupId": "20036",
+   "gold": false,
+   "pair": null
+  },
+  "Classy Summer": {
+   "id": "101303111",
+   "baseCost": 0,
+   "groupId": "20201",
+   "gold": false,
+   "pair": null
+  },
+  "An Earnest Breather": {
+   "id": "101303211",
+   "baseCost": 0,
+   "groupId": "20219",
+   "gold": false,
+   "pair": null
+  },
+  "Eyes of the Condor": {
+   "id": "101401111",
+   "baseCost": 0,
+   "groupId": "20112",
+   "gold": false,
+   "pair": null
+  },
+  "Performing Perfecto!": {
+   "id": "101401211",
+   "baseCost": 0,
+   "groupId": "20056",
+   "gold": false,
+   "pair": null
+  },
+  "Heroic Flurry": {
+   "id": "101402111",
+   "baseCost": 0,
+   "groupId": "20070",
+   "gold": false,
+   "pair": null
+  },
+  "Rising Condor": {
+   "id": "101402211",
+   "baseCost": 0,
+   "groupId": "20061",
+   "gold": false,
+   "pair": null
+  },
+  "Corazón ☆ Ardiente": {
+   "id": "10141",
+   "baseCost": 0,
+   "groupId": "1014",
+   "gold": false,
+   "pair": null
+  },
+  "Entrance of the Centurial Overlord!": {
+   "id": "101501111",
+   "baseCost": 0,
+   "groupId": "20058",
+   "gold": false,
+   "pair": null
+  },
+  "The Leading Actor": {
+   "id": "101501211",
+   "baseCost": 0,
+   "groupId": "20072",
+   "gold": false,
+   "pair": null
+  },
+  "Maestro of the Waltz": {
+   "id": "101502111",
+   "baseCost": 0,
+   "groupId": "20035",
+   "gold": false,
+   "pair": null
+  },
+  "Never a Beat Late!": {
+   "id": "101502211",
+   "baseCost": 0,
+   "groupId": "20201",
+   "gold": false,
+   "pair": null
+  },
+  "Decisive Strike": {
+   "id": "101601111",
+   "baseCost": 0,
+   "groupId": "20036",
+   "gold": false,
+   "pair": null
+  },
+  "In the Wolf's Maw": {
+   "id": "101601211",
+   "baseCost": 0,
+   "groupId": "20051",
+   "gold": false,
+   "pair": null
+  },
+  "Blazing Wolf": {
+   "id": "101602111",
+   "baseCost": 0,
+   "groupId": "20247",
+   "gold": false,
+   "pair": null
+  },
+  "Ravenous Beast": {
+   "id": "101602211",
+   "baseCost": 0,
+   "groupId": "20248",
+   "gold": false,
+   "pair": null
+  },
+  "Eyes of an Emperor": {
+   "id": "101701111",
+   "baseCost": 0,
+   "groupId": "20115",
+   "gold": false,
+   "pair": null
+  },
+  "Unquestioned Might": {
+   "id": "101701211",
+   "baseCost": 0,
+   "groupId": "20033",
+   "gold": false,
+   "pair": null
+  },
+  "Unwavering Expression": {
+   "id": "101702111",
+   "baseCost": 0,
+   "groupId": "20056",
+   "gold": false,
+   "pair": null
+  },
+  "Autumn Grace": {
+   "id": "101702211",
+   "baseCost": 0,
+   "groupId": "20019",
+   "gold": false,
+   "pair": null
+  },
+  "As the Empress Wills": {
+   "id": "101801111",
+   "baseCost": 0,
+   "groupId": "20137",
+   "gold": false,
+   "pair": null
+  },
+  "Untouchable Beauty": {
+   "id": "101801211",
+   "baseCost": 0,
+   "groupId": "20050",
+   "gold": false,
+   "pair": null
+  },
+  "Dignified Empress": {
+   "id": "101802111",
+   "baseCost": 0,
+   "groupId": "20107",
+   "gold": false,
+   "pair": null
+  },
+  "Moonlight Sommelier": {
+   "id": "101802211",
+   "baseCost": 0,
+   "groupId": "20034",
+   "gold": false,
+   "pair": null
+  },
+  "Empress's Pride": {
+   "id": "10181",
+   "baseCost": 0,
+   "groupId": "1018",
+   "gold": false,
+   "pair": null
+  },
+  "Ultimate Uma Simp": {
+   "id": "101901111",
+   "baseCost": 0,
+   "groupId": "20159",
+   "gold": false,
+   "pair": null
+  },
+  "Best View of Anyone!": {
+   "id": "101901211",
+   "baseCost": 0,
+   "groupId": "20168",
+   "gold": false,
+   "pair": null
+  },
+  "Run Like the Fic's Due Tomorrow!": {
+   "id": "101902111",
+   "baseCost": 0,
+   "groupId": "20046",
+   "gold": false,
+   "pair": null
+  },
+  "Back for More Moe!": {
+   "id": "101902211",
+   "baseCost": 0,
+   "groupId": "20227",
+   "gold": false,
+   "pair": null
+  },
+  "Quick Reel": {
+   "id": "102001111",
+   "baseCost": 0,
+   "groupId": "20119",
+   "gold": false,
+   "pair": null
+  },
+  "Breakaway Scheme": {
+   "id": "102001211",
+   "baseCost": 0,
+   "groupId": "20054",
+   "gold": false,
+   "pair": null
+  },
+  "Run If You Can ♪": {
+   "id": "102002111",
+   "baseCost": 0,
+   "groupId": "20054",
+   "gold": false,
+   "pair": null
+  },
+  "Record Runner": {
+   "id": "102002211",
+   "baseCost": 0,
+   "groupId": "20127",
+   "gold": false,
+   "pair": null
+  },
+  "Gone in a Flash": {
+   "id": "102101111",
+   "baseCost": 0,
+   "groupId": "20059",
+   "gold": false,
+   "pair": null
+  },
+  "Paradise Tail": {
+   "id": "102101211",
+   "baseCost": 0,
+   "groupId": "20161",
+   "gold": false,
+   "pair": null
+  },
+  "A Prayer for Our Predecessors": {
+   "id": "102102111",
+   "baseCost": 0,
+   "groupId": "20072",
+   "gold": false,
+   "pair": null
+  },
+  "C'mon, Let's Do This!": {
+   "id": "102102211",
+   "baseCost": 0,
+   "groupId": "20046",
+   "gold": false,
+   "pair": null
+  },
+  "Royal Star": {
+   "id": "102201111",
+   "baseCost": 0,
+   "groupId": "20058",
+   "gold": false,
+   "pair": null
+  },
+  "Heavenly Descent": {
+   "id": "102201211",
+   "baseCost": 0,
+   "groupId": "20134",
+   "gold": false,
+   "pair": null
+  },
+  "Emboldening Memories": {
+   "id": "102202111",
+   "baseCost": 0,
+   "groupId": "20105",
+   "gold": false,
+   "pair": null
+  },
+  "Spear of Morrígan": {
+   "id": "102202211",
+   "baseCost": 0,
+   "groupId": "20190",
+   "gold": false,
+   "pair": null
+  },
+  "All According to Plan": {
+   "id": "102301111",
+   "baseCost": 0,
+   "groupId": "20056",
+   "gold": false,
+   "pair": null
+  },
+  "Strategic Cooldown": {
+   "id": "102301211",
+   "baseCost": 0,
+   "groupId": "20074",
+   "gold": false,
+   "pair": null
+  },
+  "Very Important Positioning": {
+   "id": "102302111",
+   "baseCost": 0,
+   "groupId": "20120",
+   "gold": false,
+   "pair": null
+  },
+  "Speedy Santa": {
+   "id": "102302211",
+   "baseCost": 0,
+   "groupId": "20051",
+   "gold": false,
+   "pair": null
+  },
+  "You copy?": {
+   "id": "102401111",
+   "baseCost": 0,
+   "groupId": "20038",
+   "gold": false,
+   "pair": null
+  },
+  "I copy!": {
+   "id": "102401211",
+   "baseCost": 0,
+   "groupId": "20049",
+   "gold": false,
+   "pair": null
+  },
+  "Soft White Whisper": {
+   "id": "102402111",
+   "baseCost": 0,
+   "groupId": "20116",
+   "gold": false,
+   "pair": null
+  },
+  "Barrel Roll!": {
+   "id": "102402211",
+   "baseCost": 0,
+   "groupId": "20035",
+   "gold": false,
+   "pair": null
+  },
+  "1st Place Kiss☆": {
+   "id": "10241",
+   "baseCost": 0,
+   "groupId": "1024",
+   "gold": false,
+   "pair": null
+  },
+  "Coffee Break": {
+   "id": "102501111",
+   "baseCost": 0,
+   "groupId": "20142",
+   "gold": false,
+   "pair": null
+  },
+  "Don't Leave Me...": {
+   "id": "102501211",
+   "baseCost": 0,
+   "groupId": "20122",
+   "gold": false,
+   "pair": null
+  },
+  "Overclock": {
+   "id": "102601111",
+   "baseCost": 0,
+   "groupId": "20053",
+   "gold": false,
+   "pair": null
+  },
+  "Overcome Any Strife": {
+   "id": "102601211",
+   "baseCost": 0,
+   "groupId": "20071",
+   "gold": false,
+   "pair": null
+  },
+  "Malfunction Mitigation": {
+   "id": "102602111",
+   "baseCost": 0,
+   "groupId": "20054",
+   "gold": false,
+   "pair": null
+  },
+  "Perfect Boost": {
+   "id": "102602211",
+   "baseCost": 0,
+   "groupId": "20043",
+   "gold": false,
+   "pair": null
+  },
+  "Let Those Muscles SING!": {
+   "id": "102701111",
+   "baseCost": 0,
+   "groupId": "20072",
+   "gold": false,
+   "pair": null
+  },
+  "Bulk Up & Away!": {
+   "id": "102701211",
+   "baseCost": 0,
+   "groupId": "20061",
+   "gold": false,
+   "pair": null
+  },
+  "Helping Grant Your Dream": {
+   "id": "102702111",
+   "baseCost": 0,
+   "groupId": "20134",
+   "gold": false,
+   "pair": null
+  },
+  "Give You a Taste of Glory": {
+   "id": "102702211",
+   "baseCost": 0,
+   "groupId": "20217",
+   "gold": false,
+   "pair": null
+  },
+  "Feel the Burn!": {
+   "id": "10271",
+   "baseCost": 0,
+   "groupId": "1027",
+   "gold": false,
+   "pair": null
+  },
+  "Full Tank!": {
+   "id": "102801111",
+   "baseCost": 0,
+   "groupId": "20100",
+   "gold": false,
+   "pair": null
+  },
+  "Always Hungry for More!": {
+   "id": "102801211",
+   "baseCost": 0,
+   "groupId": "20135",
+   "gold": false,
+   "pair": null
+  },
+  "Like They Do in the City!": {
+   "id": "102901111",
+   "baseCost": 0,
+   "groupId": "20049",
+   "gold": false,
+   "pair": null
+  },
+  "Snow Gals Know Howta Sled!": {
+   "id": "102901211",
+   "baseCost": 0,
+   "groupId": "20134",
+   "gold": false,
+   "pair": null
+  },
+  "Heroic Determination": {
+   "id": "103001111",
+   "baseCost": 0,
+   "groupId": "20134",
+   "gold": false,
+   "pair": null
+  },
+  "Dark Assassin": {
+   "id": "103001211",
+   "baseCost": 0,
+   "groupId": "20074",
+   "gold": false,
+   "pair": null
+  },
+  "I Can Do This!": {
+   "id": "103002111",
+   "baseCost": 0,
+   "groupId": "20056",
+   "gold": false,
+   "pair": null
+  },
+  "Trick and Treat": {
+   "id": "103002211",
+   "baseCost": 0,
+   "groupId": "20077",
+   "gold": false,
+   "pair": null
+  },
+  "Stubborn Sis": {
+   "id": "103101111",
+   "baseCost": 0,
+   "groupId": "20128",
+   "gold": false,
+   "pair": null
+  },
+  "Wind God's Wrath": {
+   "id": "103101211",
+   "baseCost": 0,
+   "groupId": "20213",
+   "gold": false,
+   "pair": null
+  },
+  "Perfect ♪ Order Up!": {
+   "id": "103102111",
+   "baseCost": 0,
+   "groupId": "20043",
+   "gold": false,
+   "pair": null
+  },
+  "Slick Serving": {
+   "id": "103102211",
+   "baseCost": 0,
+   "groupId": "20125",
+   "gold": false,
+   "pair": null
+  },
+  "Latent One": {
+   "id": "103201111",
+   "baseCost": 0,
+   "groupId": "20115",
+   "gold": false,
+   "pair": null
+  },
+  "Efficient Rest Methodology": {
+   "id": "103201211",
+   "baseCost": 0,
+   "groupId": "20057",
+   "gold": false,
+   "pair": null
+  },
+  "Devil's Laplace": {
+   "id": "103202111",
+   "baseCost": 0,
+   "groupId": "20270",
+   "gold": false,
+   "pair": null
+  },
+  "Blinding Luxon": {
+   "id": "103202211",
+   "baseCost": 0,
+   "groupId": "20237",
+   "gold": false,
+   "pair": null
+  },
+  "Introduction to Physiology": {
+   "id": "10321",
+   "baseCost": 0,
+   "groupId": "1032",
+   "gold": false,
+   "pair": null
+  },
+  "Quiet Promise": {
+   "id": "103301111",
+   "baseCost": 0,
+   "groupId": "20149",
+   "gold": false,
+   "pair": null
+  },
+  "Self-Destructive Comet": {
+   "id": "103301211",
+   "baseCost": 0,
+   "groupId": "20063",
+   "gold": false,
+   "pair": null
+  },
+  "Firefighter's Ascent": {
+   "id": "103401111",
+   "baseCost": 0,
+   "groupId": "20161",
+   "gold": false,
+   "pair": null
+  },
+  "Expert on the Dirt": {
+   "id": "103401211",
+   "baseCost": 0,
+   "groupId": "20200",
+   "gold": false,
+   "pair": null
+  },
+  "Fan Dance": {
+   "id": "103402111",
+   "baseCost": 0,
+   "groupId": "20075",
+   "gold": false,
+   "pair": null
+  },
+  "Standout Step": {
+   "id": "103402211",
+   "baseCost": 0,
+   "groupId": "20064",
+   "gold": false,
+   "pair": null
+  },
+  "Never Ever Give Up": {
+   "id": "103501111",
+   "baseCost": 0,
+   "groupId": "20140",
+   "gold": false,
+   "pair": null
+  },
+  "Winning Road": {
+   "id": "103501211",
+   "baseCost": 0,
+   "groupId": "20059",
+   "gold": false,
+   "pair": null
+  },
+  "Superpowered Engines!": {
+   "id": "103502111",
+   "baseCost": 0,
+   "groupId": "20141",
+   "gold": false,
+   "pair": null
+  },
+  "I Can Fly!": {
+   "id": "103502211",
+   "baseCost": 0,
+   "groupId": "20170",
+   "gold": false,
+   "pair": null
+  },
+  "V Is for Victory!": {
+   "id": "10351",
+   "baseCost": 0,
+   "groupId": "1035",
+   "gold": false,
+   "pair": null
+  },
+  "Uplift": {
+   "id": "103601111",
+   "baseCost": 0,
+   "groupId": "20210",
+   "gold": false,
+   "pair": null
+  },
+  "Lose Myself": {
+   "id": "103601211",
+   "baseCost": 0,
+   "groupId": "20145",
+   "gold": false,
+   "pair": null
+  },
+  "Blinding Magia": {
+   "id": "103701111",
+   "baseCost": 0,
+   "groupId": "20050",
+   "gold": false,
+   "pair": null
+  },
+  "On My Honor": {
+   "id": "103701211",
+   "baseCost": 0,
+   "groupId": "20051",
+   "gold": false,
+   "pair": null
+  },
+  "Recipe for Victory": {
+   "id": "103702111",
+   "baseCost": 0,
+   "groupId": "20115",
+   "gold": false,
+   "pair": null
+  },
+  "Dark Flash": {
+   "id": "103702211",
+   "baseCost": 0,
+   "groupId": "20110",
+   "gold": false,
+   "pair": null
+  },
+  "#CuteChaos♪": {
+   "id": "103801111",
+   "baseCost": 0,
+   "groupId": "20137",
+   "gold": false,
+   "pair": null
+  },
+  "#GotYouDownBad♪": {
+   "id": "103801211",
+   "baseCost": 0,
+   "groupId": "20101",
+   "gold": false,
+   "pair": null
+  },
+  "#ThinkOfMe": {
+   "id": "103802111",
+   "baseCost": 0,
+   "groupId": "20101",
+   "gold": false,
+   "pair": null
+  },
+  "#BeautifulSprint": {
+   "id": "103802211",
+   "baseCost": 0,
+   "groupId": "20065",
+   "gold": false,
+   "pair": null
+  },
+  "Unstoppable Princess": {
+   "id": "103901111",
+   "baseCost": 0,
+   "groupId": "20049",
+   "gold": false,
+   "pair": null
+  },
+  "Rising Road Rage": {
+   "id": "103901211",
+   "baseCost": 0,
+   "groupId": "20061",
+   "gold": false,
+   "pair": null
+  },
+  "Pristine Foresight": {
+   "id": "104001111",
+   "baseCost": 0,
+   "groupId": "20069",
+   "gold": false,
+   "pair": null
+  },
+  "Star of the Runway": {
+   "id": "104001211",
+   "baseCost": 0,
+   "groupId": "20060",
+   "gold": false,
+   "pair": null
+  },
+  "Golden Formation": {
+   "id": "104002111",
+   "baseCost": 0,
+   "groupId": "20109",
+   "gold": false,
+   "pair": null
+  },
+  "Geared to Strike": {
+   "id": "104002211",
+   "baseCost": 0,
+   "groupId": "20169",
+   "gold": false,
+   "pair": null
+  },
+  "Bakushin SPRINT!": {
+   "id": "104101111",
+   "baseCost": 0,
+   "groupId": "20065",
+   "gold": false,
+   "pair": null
+  },
+  "Bakushin LEAD!": {
+   "id": "104101211",
+   "baseCost": 0,
+   "groupId": "20098",
+   "gold": false,
+   "pair": null
+  },
+  "Full Charge! BAKUSHIIIN!": {
+   "id": "104102111",
+   "baseCost": 0,
+   "groupId": "20204",
+   "gold": false,
+   "pair": null
+  },
+  "Baku-speed! BakuSHIIIIN!": {
+   "id": "104102211",
+   "baseCost": 0,
+   "groupId": "20096",
+   "gold": false,
+   "pair": null
+  },
+  "Class Rep + Speed = Bakushin": {
+   "id": "10411",
+   "baseCost": 0,
+   "groupId": "1041",
+   "gold": false,
+   "pair": null
+  },
+  "The World Is My Oyster": {
+   "id": "104201111",
+   "baseCost": 0,
+   "groupId": "20096",
+   "gold": false,
+   "pair": null
+  },
+  "Pearlescent Danceoff": {
+   "id": "104201211",
+   "baseCost": 0,
+   "groupId": "20107",
+   "gold": false,
+   "pair": null
+  },
+  "Just Run Like Crazy!": {
+   "id": "104301111",
+   "baseCost": 0,
+   "groupId": "20228",
+   "gold": false,
+   "pair": null
+  },
+  "Mischevious Maestro": {
+   "id": "104301211",
+   "baseCost": 0,
+   "groupId": "20234",
+   "gold": false,
+   "pair": null
+  },
+  "After-School Magical Girl": {
+   "id": "104401111",
+   "baseCost": 0,
+   "groupId": "20148",
+   "gold": false,
+   "pair": null
+  },
+  "Magic Charm": {
+   "id": "104401211",
+   "baseCost": 0,
+   "groupId": "20151",
+   "gold": false,
+   "pair": null
+  },
+  "Sweet Trance": {
+   "id": "104501111",
+   "baseCost": 0,
+   "groupId": "20137",
+   "gold": false,
+   "pair": null
+  },
+  "Motherly Maestro": {
+   "id": "104501211",
+   "baseCost": 0,
+   "groupId": "20035",
+   "gold": false,
+   "pair": null
+  },
+  "Expert Caretaker": {
+   "id": "104502111",
+   "baseCost": 0,
+   "groupId": "20033",
+   "gold": false,
+   "pair": null
+  },
+  "Mummy's Sweet Whispers": {
+   "id": "104502211",
+   "baseCost": 0,
+   "groupId": "20116",
+   "gold": false,
+   "pair": null
+  },
+  "Clear Heart": {
+   "id": "10451",
+   "baseCost": 0,
+   "groupId": "1045",
+   "gold": false,
+   "pair": null
+  },
+  "Umadol★Onstage!": {
+   "id": "104601111",
+   "baseCost": 0,
+   "groupId": "20045",
+   "gold": false,
+   "pair": null
+  },
+  "Umadol ♪ Chart Topper!": {
+   "id": "104601211",
+   "baseCost": 0,
+   "groupId": "20167",
+   "gold": false,
+   "pair": null
+  },
+  "Rising to Umadol Stardom!": {
+   "id": "104602111",
+   "baseCost": 0,
+   "groupId": "20167",
+   "gold": false,
+   "pair": null
+  },
+  "Always Center Stage!": {
+   "id": "104602211",
+   "baseCost": 0,
+   "groupId": "20231",
+   "gold": false,
+   "pair": null
+  },
+  "Halfway to Heroism": {
+   "id": "104701111",
+   "baseCost": 0,
+   "groupId": "20057",
+   "gold": false,
+   "pair": null
+  },
+  "Shining Sword": {
+   "id": "104701211",
+   "baseCost": 0,
+   "groupId": "20111",
+   "gold": false,
+   "pair": null
+  },
+  "Lezzgo!": {
+   "id": "104801111",
+   "baseCost": 0,
+   "groupId": "20060",
+   "gold": false,
+   "pair": null
+  },
+  "Trendsetter": {
+   "id": "104801211",
+   "baseCost": 0,
+   "groupId": "20057",
+   "gold": false,
+   "pair": null
+  },
+  "I Can Totes Shake 'Em!": {
+   "id": "104802111",
+   "baseCost": 0,
+   "groupId": "20208",
+   "gold": false,
+   "pair": null
+  },
+  "I'm Literally the Best!": {
+   "id": "104802211",
+   "baseCost": 0,
+   "groupId": "20212",
+   "gold": false,
+   "pair": null
+  },
+  "It's All or Nothing": {
+   "id": "104901111",
+   "baseCost": 0,
+   "groupId": "20203",
+   "gold": false,
+   "pair": null
+  },
+  "Takin' Each Gamble": {
+   "id": "104901211",
+   "baseCost": 0,
+   "groupId": "20244",
+   "gold": false,
+   "pair": null
+  },
+  "Cutting-Edge Senses": {
+   "id": "105001111",
+   "baseCost": 0,
+   "groupId": "20062",
+   "gold": false,
+   "pair": null
+  },
+  "Heart of a Hunter": {
+   "id": "105001211",
+   "baseCost": 0,
+   "groupId": "20064",
+   "gold": false,
+   "pair": null
+  },
+  "I'll Show You!": {
+   "id": "105002111",
+   "baseCost": 0,
+   "groupId": "20238",
+   "gold": false,
+   "pair": null
+  },
+  "Bolt from the Brink": {
+   "id": "105002211",
+   "baseCost": 0,
+   "groupId": "20208",
+   "gold": false,
+   "pair": null
+  },
+  "Petals in the Breeze": {
+   "id": "105101111",
+   "baseCost": 0,
+   "groupId": "20036",
+   "gold": false,
+   "pair": null
+  },
+  "Blooming Resolve": {
+   "id": "105101211",
+   "baseCost": 0,
+   "groupId": "20134",
+   "gold": false,
+   "pair": null
+  },
+  "Flower Girl's Blessing": {
+   "id": "105102111",
+   "baseCost": 0,
+   "groupId": "20104",
+   "gold": false,
+   "pair": null
+  },
+  "Veil in the Spring Breeze": {
+   "id": "105102211",
+   "baseCost": 0,
+   "groupId": "20217",
+   "gold": false,
+   "pair": null
+  },
+  "I'll Keep Trying!": {
+   "id": "105201111",
+   "baseCost": 0,
+   "groupId": "20044",
+   "gold": false,
+   "pair": null
+  },
+  "I Won't Lose!": {
+   "id": "105201211",
+   "baseCost": 0,
+   "groupId": "20047",
+   "gold": false,
+   "pair": null
+  },
+  "Look, Look!": {
+   "id": "105202111",
+   "baseCost": 0,
+   "groupId": "20045",
+   "gold": false,
+   "pair": null
+  },
+  "I'll Do My Very Best!": {
+   "id": "105202211",
+   "baseCost": 0,
+   "groupId": "20140",
+   "gold": false,
+   "pair": null
+  },
+  "Super-Duper Stoked": {
+   "id": "10521",
+   "baseCost": 0,
+   "groupId": "1052",
+   "gold": false,
+   "pair": null
+  },
+  "Peak Discipline": {
+   "id": "105301111",
+   "baseCost": 0,
+   "groupId": "20061",
+   "gold": false,
+   "pair": null
+  },
+  "Ready for a Red-Hot Tech!": {
+   "id": "105301211",
+   "baseCost": 0,
+   "groupId": "20211",
+   "gold": false,
+   "pair": null
+  },
+  "Red-Hot Transforma-Runner!": {
+   "id": "105302111",
+   "baseCost": 0,
+   "groupId": "20060",
+   "gold": false,
+   "pair": null
+  },
+  "Ultimate Ultra-Sprint!": {
+   "id": "105302211",
+   "baseCost": 0,
+   "groupId": "20065",
+   "gold": false,
+   "pair": null
+  },
+  "Marvelous ☆ Thrill": {
+   "id": "105501111",
+   "baseCost": 0,
+   "groupId": "20210",
+   "gold": false,
+   "pair": null
+  },
+  "Make the World Marvelous ☆": {
+   "id": "105501211",
+   "baseCost": 0,
+   "groupId": "20049",
+   "gold": false,
+   "pair": null
+  },
+  "Lucky Sign!": {
+   "id": "105601111",
+   "baseCost": 0,
+   "groupId": "20123",
+   "gold": false,
+   "pair": null
+  },
+  "Lucky Number Seven": {
+   "id": "105601211",
+   "baseCost": 0,
+   "groupId": "20156",
+   "gold": false,
+   "pair": null
+  },
+  "Crazy Extra Mega Lucky!": {
+   "id": "105602111",
+   "baseCost": 0,
+   "groupId": "20121",
+   "gold": false,
+   "pair": null
+  },
+  "Bring On the Luck!": {
+   "id": "105602211",
+   "baseCost": 0,
+   "groupId": "20075",
+   "gold": false,
+   "pair": null
+  },
+  "Luck Be with Me!": {
+   "id": "10561",
+   "baseCost": 0,
+   "groupId": "1056",
+   "gold": false,
+   "pair": null
+  },
+  "Soaring Steps": {
+   "id": "105701111",
+   "baseCost": 0,
+   "groupId": "20252",
+   "gold": false,
+   "pair": null
+  },
+  "Spring from the Earth": {
+   "id": "105701211",
+   "baseCost": 0,
+   "groupId": "20064",
+   "gold": false,
+   "pair": null
+  },
+  "Right on the Dot": {
+   "id": "105801111",
+   "baseCost": 0,
+   "groupId": "20058",
+   "gold": false,
+   "pair": null
+  },
+  "I-I'm Doing My Best!": {
+   "id": "105801211",
+   "baseCost": 0,
+   "groupId": "20047",
+   "gold": false,
+   "pair": null
+  },
+  "For My Rival!": {
+   "id": "105802111",
+   "baseCost": 0,
+   "groupId": "20190",
+   "gold": false,
+   "pair": null
+  },
+  "Soul Guide": {
+   "id": "105802211",
+   "baseCost": 0,
+   "groupId": "20035",
+   "gold": false,
+   "pair": null
+  },
+  "Cold Look": {
+   "id": "105901111",
+   "baseCost": 0,
+   "groupId": "20144",
+   "gold": false,
+   "pair": null
+  },
+  "Queen of Yodo": {
+   "id": "105901211",
+   "baseCost": 0,
+   "groupId": "20006",
+   "gold": false,
+   "pair": null
+  },
+  "I Want to Explore More!": {
+   "id": "105902111",
+   "baseCost": 0,
+   "groupId": "20212",
+   "gold": false,
+   "pair": null
+  },
+  "First Step from the Brink": {
+   "id": "105902211",
+   "baseCost": 0,
+   "groupId": "20208",
+   "gold": false,
+   "pair": null
+  },
+  "Cynical Charm": {
+   "id": "106001111",
+   "baseCost": 0,
+   "groupId": "20116",
+   "gold": false,
+   "pair": null
+  },
+  "Be the Lead!": {
+   "id": "106001211",
+   "baseCost": 0,
+   "groupId": "20144",
+   "gold": false,
+   "pair": null
+  },
+  "Just Gotta Do What I Can": {
+   "id": "106002111",
+   "baseCost": 0,
+   "groupId": "20115",
+   "gold": false,
+   "pair": null
+  },
+  "Keep the Cheers Comin'": {
+   "id": "106002211",
+   "baseCost": 0,
+   "groupId": "20049",
+   "gold": false,
+   "pair": null
+  },
+  "I Can Win Sometimes, Right?": {
+   "id": "10601",
+   "baseCost": 0,
+   "groupId": "1060",
+   "gold": false,
+   "pair": null
+  },
+  "Shocking Sweep": {
+   "id": "106101111",
+   "baseCost": 0,
+   "groupId": "20067",
+   "gold": false,
+   "pair": null
+  },
+  "Kingly View": {
+   "id": "106101211",
+   "baseCost": 0,
+   "groupId": "20143",
+   "gold": false,
+   "pair": null
+  },
+  "Ascend Glory": {
+   "id": "106102111",
+   "baseCost": 0,
+   "groupId": "20061",
+   "gold": false,
+   "pair": null
+  },
+  "Sakura Blossoms in the Breeze": {
+   "id": "106102211",
+   "baseCost": 0,
+   "groupId": "20017",
+   "gold": false,
+   "pair": null
+  },
+  "Call Me King": {
+   "id": "10611",
+   "baseCost": 0,
+   "groupId": "1061",
+   "gold": false,
+   "pair": null
+  },
+  "Goin' My Way!": {
+   "id": "106201111",
+   "baseCost": 0,
+   "groupId": "20048",
+   "gold": false,
+   "pair": null
+  },
+  "Ei, Ei, Mun!": {
+   "id": "106201211",
+   "baseCost": 0,
+   "groupId": "20121",
+   "gold": false,
+   "pair": null
+  },
+  "Positive Smile": {
+   "id": "106202111",
+   "baseCost": 0,
+   "groupId": "20169",
+   "gold": false,
+   "pair": null
+  },
+  "Turning Things Right Around!": {
+   "id": "106202211",
+   "baseCost": 0,
+   "groupId": "20208",
+   "gold": false,
+   "pair": null
+  },
+  "Ready, Go!": {
+   "id": "10621",
+   "baseCost": 0,
+   "groupId": "1062",
+   "gold": false,
+   "pair": null
+  },
+  "WILD, Amirite?": {
+   "id": "106401111",
+   "baseCost": 0,
+   "groupId": "20166",
+   "gold": false,
+   "pair": null
+  },
+  "Breakaway on Lock": {
+   "id": "106401211",
+   "baseCost": 0,
+   "groupId": "20119",
+   "gold": false,
+   "pair": null
+  },
+  "LOL I'm on FIRE!": {
+   "id": "106501111",
+   "baseCost": 0,
+   "groupId": "20105",
+   "gold": false,
+   "pair": null
+  },
+  "DW I'm on It!": {
+   "id": "106501211",
+   "baseCost": 0,
+   "groupId": "20250",
+   "gold": false,
+   "pair": null
+  },
+  "1000% Output!": {
+   "id": "106601111",
+   "baseCost": 0,
+   "groupId": "20239",
+   "gold": false,
+   "pair": null
+  },
+  "Turbo's Leadin' the Charge!": {
+   "id": "106601211",
+   "baseCost": 0,
+   "groupId": "20053",
+   "gold": false,
+   "pair": null
+  },
+  "Engines LIT!": {
+   "id": "10661",
+   "baseCost": 0,
+   "groupId": "1066",
+   "gold": false,
+   "pair": null
+  },
+  "Indestructable": {
+   "id": "106701111",
+   "baseCost": 0,
+   "groupId": "20169",
+   "gold": false,
+   "pair": null
+  },
+  "Rondo to the Right": {
+   "id": "106701211",
+   "baseCost": 0,
+   "groupId": "20001",
+   "gold": false,
+   "pair": null
+  },
+  "Beyond My Station": {
+   "id": "106702111",
+   "baseCost": 0,
+   "groupId": "20242",
+   "gold": false,
+   "pair": null
+  },
+  "The Dawn Always Comes!": {
+   "id": "106702211",
+   "baseCost": 0,
+   "groupId": "20122",
+   "gold": false,
+   "pair": null
+  },
+  "Get the Festival Going!": {
+   "id": "106801111",
+   "baseCost": 0,
+   "groupId": "20053",
+   "gold": false,
+   "pair": null
+  },
+  "Bright Blast": {
+   "id": "106801211",
+   "baseCost": 0,
+   "groupId": "20117",
+   "gold": false,
+   "pair": null
+  },
+  "Leap Ahead to the Future": {
+   "id": "106802111",
+   "baseCost": 0,
+   "groupId": "20054",
+   "gold": false,
+   "pair": null
+  },
+  "Introducing the Victor!": {
+   "id": "106802211",
+   "baseCost": 0,
+   "groupId": "20053",
+   "gold": false,
+   "pair": null
+  },
+  "Good Year for Sakura!": {
+   "id": "106901111",
+   "baseCost": 0,
+   "groupId": "20058",
+   "gold": false,
+   "pair": null
+  },
+  "The Sakura Bloom Regally Today": {
+   "id": "106901211",
+   "baseCost": 0,
+   "groupId": "20017",
+   "gold": false,
+   "pair": null
+  },
+  "Bloom Down the Branch": {
+   "id": "106902111",
+   "baseCost": 0,
+   "groupId": "20036",
+   "gold": false,
+   "pair": null
+  },
+  "I Don't Wanna Lose!": {
+   "id": "106902211",
+   "baseCost": 0,
+   "groupId": "20209",
+   "gold": false,
+   "pair": null
+  },
+  "Unyielding Aster": {
+   "id": "107001111",
+   "baseCost": 0,
+   "groupId": "20170",
+   "gold": false,
+   "pair": null
+  },
+  "Arabesque of the Brightest Star": {
+   "id": "107001211",
+   "baseCost": 0,
+   "groupId": "20072",
+   "gold": false,
+   "pair": null
+  },
+  "Eternal Light": {
+   "id": "107101111",
+   "baseCost": 0,
+   "groupId": "20057",
+   "gold": false,
+   "pair": null
+  },
+  "Give This Moment Everything": {
+   "id": "107101211",
+   "baseCost": 0,
+   "groupId": "20170",
+   "gold": false,
+   "pair": null
+  },
+  "Elegant Phosphorescence": {
+   "id": "107102111",
+   "baseCost": 0,
+   "groupId": "20047",
+   "gold": false,
+   "pair": null
+  },
+  "Fleeting Afterglow": {
+   "id": "107102211",
+   "baseCost": 0,
+   "groupId": "20110",
+   "gold": false,
+   "pair": null
+  },
+  "Growing Flame": {
+   "id": "107201111",
+   "baseCost": 0,
+   "groupId": "20046",
+   "gold": false,
+   "pair": null
+  },
+  "Yaeno's Fighting Spirit": {
+   "id": "107201211",
+   "baseCost": 0,
+   "groupId": "20073",
+   "gold": false,
+   "pair": null
+  },
+  "Ladylike Resolve": {
+   "id": "107401111",
+   "baseCost": 0,
+   "groupId": "20047",
+   "gold": false,
+   "pair": null
+  },
+  "Immovable as a Mountain": {
+   "id": "107401211",
+   "baseCost": 0,
+   "groupId": "20207",
+   "gold": false,
+   "pair": null
+  },
+  "Open All the Buds": {
+   "id": "107601111",
+   "baseCost": 0,
+   "groupId": "20215",
+   "gold": false,
+   "pair": null
+  },
+  "Blossom for Us!": {
+   "id": "107601211",
+   "baseCost": 0,
+   "groupId": "20259",
+   "gold": false,
+   "pair": null
+  },
+  "Shearing Gust": {
+   "id": "107801111",
+   "baseCost": 0,
+   "groupId": "20105",
+   "gold": false,
+   "pair": null
+  },
+  "As Nature Wills": {
+   "id": "107801211",
+   "baseCost": 0,
+   "groupId": "20241",
+   "gold": false,
+   "pair": null
+  },
+  "Simple and Sturdy": {
+   "id": "108301111",
+   "baseCost": 0,
+   "groupId": "20242",
+   "gold": false,
+   "pair": null
+  },
+  "Imposing Innovation": {
+   "id": "108301211",
+   "baseCost": 0,
+   "groupId": "20256",
+   "gold": false,
+   "pair": null
+  },
+  "The Stormcaller of Destruction": {
+   "id": "108401111",
+   "baseCost": 0,
+   "groupId": "20063",
+   "gold": false,
+   "pair": null
+  },
+  "Intoxicate the World": {
+   "id": "108401211",
+   "baseCost": 0,
+   "groupId": "20265",
+   "gold": false,
+   "pair": null
+  },
+  "Ever Graceful": {
+   "id": "108501111",
+   "baseCost": 0,
+   "groupId": "20254",
+   "gold": false,
+   "pair": null
+  },
+  "Always the Most Brilliant": {
+   "id": "108501211",
+   "baseCost": 0,
+   "groupId": "20240",
+   "gold": false,
+   "pair": null
+  },
+  "Raise the Pitch": {
+   "id": "108701111",
+   "baseCost": 0,
+   "groupId": "20053",
+   "gold": false,
+   "pair": null
+  },
+  "Leave a Footprint in Your Memory": {
+   "id": "108701211",
+   "baseCost": 0,
+   "groupId": "20204",
+   "gold": false,
+   "pair": null
+  },
+  "Lucky Rickey!": {
+   "id": "109801111",
+   "baseCost": 0,
+   "groupId": "20226",
+   "gold": false,
+   "pair": null
+  },
+  "Longmai Pulse": {
+   "id": "109801211",
+   "baseCost": 0,
+   "groupId": "20233",
+   "gold": false,
+   "pair": null
+  },
+  "Thinkin' About Tomakomai Food": {
+   "id": "109901111",
+   "baseCost": 0,
+   "groupId": "20056",
+   "gold": false,
+   "pair": null
+  },
+  "Be a Good Ambassador!": {
+   "id": "109901211",
+   "baseCost": 0,
+   "groupId": "20167",
+   "gold": false,
+   "pair": null
+  },
+  "Feelin' a Bit Silly": {
+   "id": "1100011",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "A Dose of Ambition": {
+   "id": "110001111",
+   "baseCost": 0,
+   "groupId": "20107",
+   "gold": false,
+   "pair": null
+  },
+  "Divine on the Dirt": {
+   "id": "110001211",
+   "baseCost": 0,
+   "groupId": "20230",
+   "gold": false,
+   "pair": null
+  },
+  "Dazzl'n ♪ Diver": {
+   "id": "910011",
+   "baseCost": 200,
+   "groupId": "91001",
+   "gold": false,
+   "pair": null
+  },
+  "Ahead of the Horizon": {
+   "id": "910021",
+   "baseCost": 200,
+   "groupId": "91002",
+   "gold": false,
+   "pair": null
+  },
+  "Certain Victory": {
+   "id": "910031",
+   "baseCost": 200,
+   "groupId": "91003",
+   "gold": false,
+   "pair": null
+  },
+  "A Kiss for Courage": {
+   "id": "910041",
+   "baseCost": 200,
+   "groupId": "91004",
+   "gold": false,
+   "pair": null
+  },
+  "Ravissant": {
+   "id": "910051",
+   "baseCost": 200,
+   "groupId": "91005",
+   "gold": false,
+   "pair": null
+  },
+  "Festive Miracle": {
+   "id": "910061",
+   "baseCost": 200,
+   "groupId": "91006",
+   "gold": false,
+   "pair": null
+  },
+  "564 Escapades": {
+   "id": "910071",
+   "baseCost": 200,
+   "groupId": "91007",
+   "gold": false,
+   "pair": null
+  },
+  "Into High Gear!": {
+   "id": "910081",
+   "baseCost": 200,
+   "groupId": "91008",
+   "gold": false,
+   "pair": null
+  },
+  "Queen's Lumination": {
+   "id": "910091",
+   "baseCost": 200,
+   "groupId": "91009",
+   "gold": false,
+   "pair": null
+  },
+  "Joyful Voyage!": {
+   "id": "910101",
+   "baseCost": 200,
+   "groupId": "91010",
+   "gold": false,
+   "pair": null
+  },
+  "Superior Heal": {
+   "id": "910111",
+   "baseCost": 200,
+   "groupId": "91011",
+   "gold": false,
+   "pair": null
+  },
+  "First Bite of the Feast!": {
+   "id": "910121",
+   "baseCost": 200,
+   "groupId": "91012",
+   "gold": false,
+   "pair": null
+  },
+  "Legacy of the Strong": {
+   "id": "910131",
+   "baseCost": 200,
+   "groupId": "91013",
+   "gold": false,
+   "pair": null
+  },
+  "Condor's Fury": {
+   "id": "910141",
+   "baseCost": 200,
+   "groupId": "91014",
+   "gold": false,
+   "pair": null
+  },
+  "Barcarole of Blessings": {
+   "id": "910151",
+   "baseCost": 200,
+   "groupId": "91015",
+   "gold": false,
+   "pair": null
+  },
+  "Free From the Ashes": {
+   "id": "910161",
+   "baseCost": 200,
+   "groupId": "91016",
+   "gold": false,
+   "pair": null
+  },
+  "Arrows Whistle, Shadows Disperse": {
+   "id": "910171",
+   "baseCost": 200,
+   "groupId": "91017",
+   "gold": false,
+   "pair": null
+  },
+  "Eternal Moments": {
+   "id": "910181",
+   "baseCost": 200,
+   "groupId": "91018",
+   "gold": false,
+   "pair": null
+  },
+  "THE MOE AAAA Thanks for My Life": {
+   "id": "910191",
+   "baseCost": 200,
+   "groupId": "91019",
+   "gold": false,
+   "pair": null
+  },
+  "Break It Down!": {
+   "id": "910201",
+   "baseCost": 200,
+   "groupId": "91020",
+   "gold": false,
+   "pair": null
+  },
+  "Lightning Flare": {
+   "id": "910211",
+   "baseCost": 200,
+   "groupId": "91021",
+   "gold": false,
+   "pair": null
+  },
+  "Best Day Ever": {
+   "id": "110221",
+   "baseCost": 0,
+   "groupId": "11022",
+   "gold": false,
+   "pair": null
+  },
+  "Presents from X": {
+   "id": "910231",
+   "baseCost": 200,
+   "groupId": "91023",
+   "gold": false,
+   "pair": null
+  },
+  "Flowery☆Maneuver": {
+   "id": "910241",
+   "baseCost": 200,
+   "groupId": "91024",
+   "gold": false,
+   "pair": null
+  },
+  "Operation Cacao": {
+   "id": "910261",
+   "baseCost": 200,
+   "groupId": "91026",
+   "gold": false,
+   "pair": null
+  },
+  "A Warm Cup for You": {
+   "id": "910271",
+   "baseCost": 200,
+   "groupId": "91027",
+   "gold": false,
+   "pair": null
+  },
+  "Every Rose Has Its Fangs": {
+   "id": "910301",
+   "baseCost": 200,
+   "groupId": "91030",
+   "gold": false,
+   "pair": null
+  },
+  "Fresh☆Parlor": {
+   "id": "910311",
+   "baseCost": 200,
+   "groupId": "91031",
+   "gold": false,
+   "pair": null
+  },
+  "Summer Halation": {
+   "id": "910321",
+   "baseCost": 200,
+   "groupId": "91032",
+   "gold": false,
+   "pair": null
+  },
+  "Firelight": {
+   "id": "910341",
+   "baseCost": 200,
+   "groupId": "91034",
+   "gold": false,
+   "pair": null
+  },
+  "Ticket to Your Dreams!": {
+   "id": "910351",
+   "baseCost": 200,
+   "groupId": "91035",
+   "gold": false,
+   "pair": null
+  },
+  "Guten Appetit ♪": {
+   "id": "910371",
+   "baseCost": 200,
+   "groupId": "91037",
+   "gold": false,
+   "pair": null
+  },
+  "One True Color": {
+   "id": "910381",
+   "baseCost": 200,
+   "groupId": "91038",
+   "gold": false,
+   "pair": null
+  },
+  "Dancing in the Leaves": {
+   "id": "910401",
+   "baseCost": 200,
+   "groupId": "91040",
+   "gold": false,
+   "pair": null
+  },
+  "Aced It!": {
+   "id": "110401111",
+   "baseCost": 0,
+   "groupId": "20053",
+   "gold": false,
+   "pair": null
+  },
+  "Runnin' the Race Solo": {
+   "id": "110401211",
+   "baseCost": 0,
+   "groupId": "20246",
+   "gold": false,
+   "pair": null
+  },
+  "Cherry☆Scramble": {
+   "id": "910411",
+   "baseCost": 200,
+   "groupId": "91041",
+   "gold": false,
+   "pair": null
+  },
+  "Give Mummy a Hug ♡": {
+   "id": "910451",
+   "baseCost": 200,
+   "groupId": "91045",
+   "gold": false,
+   "pair": null
+  },
+  "α-star*": {
+   "id": "910461",
+   "baseCost": 200,
+   "groupId": "91046",
+   "gold": false,
+   "pair": null
+  },
+  "Us Girlies Keep Winnin'! ♪": {
+   "id": "910481",
+   "baseCost": 200,
+   "groupId": "91048",
+   "gold": false,
+   "pair": null
+  },
+  "Hephaestus": {
+   "id": "910501",
+   "baseCost": 200,
+   "groupId": "91050",
+   "gold": false,
+   "pair": null
+  },
+  "Beyond the Stars with You": {
+   "id": "110501111",
+   "baseCost": 0,
+   "groupId": "20170",
+   "gold": false,
+   "pair": null
+  },
+  "Cross the Sea of Stars": {
+   "id": "110501211",
+   "baseCost": 0,
+   "groupId": "20260",
+   "gold": false,
+   "pair": null
+  },
+  "Flowering Dreams": {
+   "id": "910511",
+   "baseCost": 200,
+   "groupId": "91051",
+   "gold": false,
+   "pair": null
+  },
+  "114th Time's the Charm": {
+   "id": "910521",
+   "baseCost": 200,
+   "groupId": "91052",
+   "gold": false,
+   "pair": null
+  },
+  "Scorching Summer Tech!": {
+   "id": "910531",
+   "baseCost": 200,
+   "groupId": "91053",
+   "gold": false,
+   "pair": null
+  },
+  "Bountiful Harvest": {
+   "id": "910561",
+   "baseCost": 200,
+   "groupId": "91056",
+   "gold": false,
+   "pair": null
+  },
+  "Spooky, Scary, Happy": {
+   "id": "910581",
+   "baseCost": 200,
+   "groupId": "91058",
+   "gold": false,
+   "pair": null
+  },
+  "Wherever This Wonder Leads": {
+   "id": "910591",
+   "baseCost": 200,
+   "groupId": "91059",
+   "gold": false,
+   "pair": null
+  },
+  "Go☆Go☆Goal!": {
+   "id": "910601",
+   "baseCost": 200,
+   "groupId": "91060",
+   "gold": false,
+   "pair": null
+  },
+  "No Pressure, No Rush": {
+   "id": "110601111",
+   "baseCost": 0,
+   "groupId": "20142",
+   "gold": false,
+   "pair": null
+  },
+  "Collect All the Little Miracles": {
+   "id": "110601211",
+   "baseCost": 0,
+   "groupId": "20264",
+   "gold": false,
+   "pair": null
+  },
+  "Louder! Tracen Cheer!": {
+   "id": "910611",
+   "baseCost": 200,
+   "groupId": "91061",
+   "gold": false,
+   "pair": null
+  },
+  "Tumbly Power Drive!": {
+   "id": "910621",
+   "baseCost": 200,
+   "groupId": "91062",
+   "gold": false,
+   "pair": null
+  },
+  "Rain Cloud Bolt": {
+   "id": "910671",
+   "baseCost": 200,
+   "groupId": "91067",
+   "gold": false,
+   "pair": null
+  },
+  "Bring on the Banquet!": {
+   "id": "910681",
+   "baseCost": 200,
+   "groupId": "91068",
+   "gold": false,
+   "pair": null
+  },
+  "Watch! Me! BLOOM!": {
+   "id": "910691",
+   "baseCost": 200,
+   "groupId": "91069",
+   "gold": false,
+   "pair": null
+  },
+  "Danser le Présent": {
+   "id": "910711",
+   "baseCost": 200,
+   "groupId": "91071",
+   "gold": false,
+   "pair": null
+  },
+  "Medium Race Enthusiast": {
+   "id": "1200011",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Long Race Enthusiast": {
+   "id": "1200021",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Mile Race Enthusiast": {
+   "id": "1200031",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Sprint Race Enthusiast": {
+   "id": "1200041",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Dirt Race Enthusiast": {
+   "id": "1200051",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Dreams Donned with Pride!": {
+   "id": "920011",
+   "baseCost": 200,
+   "groupId": "92001",
+   "gold": false,
+   "pair": null
+  },
+  "Your Smile Sparkles as the Waves": {
+   "id": "920131",
+   "baseCost": 200,
+   "groupId": "92013",
+   "gold": false,
+   "pair": null
+  },
+  "Energetic Hero": {
+   "id": "1300011",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Sunny Hero": {
+   "id": "1300021",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Rainy Hero": {
+   "id": "1300031",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Inner Hero": {
+   "id": "1300041",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Outer Hero": {
+   "id": "1300051",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Friendly Hero": {
+   "id": "1300061",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Dashing Hero": {
+   "id": "1300071",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Right-Handed ◎": {
+   "id": "200011",
+   "baseCost": 110,
+   "groupId": "20001",
+   "gold": true,
+   "pair": "Right-Handed ○"
+  },
+  "Right-Handed ○": {
+   "id": "200012",
+   "baseCost": 90,
+   "groupId": "20001",
+   "gold": false,
+   "pair": "Right-Handed ◎"
+  },
+  "Right-Handed ×": {
+   "id": "200013",
+   "baseCost": 50,
+   "groupId": "20001",
+   "gold": false,
+   "pair": null
+  },
+  "Right-Handed Demon": {
+   "id": "200014",
+   "baseCost": 130,
+   "groupId": "20001",
+   "gold": true,
+   "pair": "Right-Handed ○",
+   "middle": "Right-Handed ◎"
+  },
+  "Left-Handed ◎": {
+   "id": "200021",
+   "baseCost": 110,
+   "groupId": "20002",
+   "gold": true,
+   "pair": "Left-Handed ○"
+  },
+  "Left-Handed ○": {
+   "id": "200022",
+   "baseCost": 90,
+   "groupId": "20002",
+   "gold": false,
+   "pair": "Left-Handed ◎"
+  },
+  "Left-Handed ×": {
+   "id": "200023",
+   "baseCost": 50,
+   "groupId": "20002",
+   "gold": false,
+   "pair": null
+  },
+  "Tokyo Racecourse ◎": {
+   "id": "200031",
+   "baseCost": 110,
+   "groupId": "20003",
+   "gold": true,
+   "pair": "Tokyo Racecourse ○"
+  },
+  "Tokyo Racecourse ○": {
+   "id": "200032",
+   "baseCost": 90,
+   "groupId": "20003",
+   "gold": false,
+   "pair": "Tokyo Racecourse ◎"
+  },
+  "Tokyo Racecourse ×": {
+   "id": "200033",
+   "baseCost": 50,
+   "groupId": "20003",
+   "gold": false,
+   "pair": null
+  },
+  "Nakayama Racecourse ◎": {
+   "id": "200041",
+   "baseCost": 110,
+   "groupId": "20004",
+   "gold": true,
+   "pair": "Nakayama Racecourse ○"
+  },
+  "Nakayama Racecourse ○": {
+   "id": "200042",
+   "baseCost": 90,
+   "groupId": "20004",
+   "gold": false,
+   "pair": "Nakayama Racecourse ◎"
+  },
+  "Nakayama Racecourse ×": {
+   "id": "200043",
+   "baseCost": 50,
+   "groupId": "20004",
+   "gold": false,
+   "pair": null
+  },
+  "Hanshin Racecourse ◎": {
+   "id": "200051",
+   "baseCost": 110,
+   "groupId": "20005",
+   "gold": true,
+   "pair": "Hanshin Racecourse ○"
+  },
+  "Hanshin Racecourse ○": {
+   "id": "200052",
+   "baseCost": 90,
+   "groupId": "20005",
+   "gold": false,
+   "pair": "Hanshin Racecourse ◎"
+  },
+  "Hanshin Racecourse ×": {
+   "id": "200053",
+   "baseCost": 50,
+   "groupId": "20005",
+   "gold": false,
+   "pair": null
+  },
+  "Kyoto Racecourse ◎": {
+   "id": "200061",
+   "baseCost": 110,
+   "groupId": "20006",
+   "gold": true,
+   "pair": "Kyoto Racecourse ○"
+  },
+  "Kyoto Racecourse ○": {
+   "id": "200062",
+   "baseCost": 90,
+   "groupId": "20006",
+   "gold": false,
+   "pair": "Kyoto Racecourse ◎"
+  },
+  "Kyoto Racecourse ×": {
+   "id": "200063",
+   "baseCost": 50,
+   "groupId": "20006",
+   "gold": false,
+   "pair": null
+  },
+  "Yodo Invicta": {
+   "id": "200064",
+   "baseCost": 130,
+   "groupId": "20006",
+   "gold": true,
+   "pair": "Kyoto Racecourse ○",
+   "middle": "Kyoto Racecourse ◎"
+  },
+  "Chukyo Racecourse ◎": {
+   "id": "200071",
+   "baseCost": 110,
+   "groupId": "20007",
+   "gold": true,
+   "pair": "Chukyo Racecourse ○"
+  },
+  "Chukyo Racecourse ○": {
+   "id": "200072",
+   "baseCost": 90,
+   "groupId": "20007",
+   "gold": false,
+   "pair": "Chukyo Racecourse ◎"
+  },
+  "Chukyo Racecourse ×": {
+   "id": "200073",
+   "baseCost": 50,
+   "groupId": "20007",
+   "gold": false,
+   "pair": null
+  },
+  "Sapporo Racecourse ◎": {
+   "id": "200081",
+   "baseCost": 90,
+   "groupId": "20008",
+   "gold": true,
+   "pair": "Sapporo Racecourse ○"
+  },
+  "Sapporo Racecourse ○": {
+   "id": "200082",
+   "baseCost": 70,
+   "groupId": "20008",
+   "gold": false,
+   "pair": "Sapporo Racecourse ◎"
+  },
+  "Sapporo Racecourse ×": {
+   "id": "200083",
+   "baseCost": 40,
+   "groupId": "20008",
+   "gold": false,
+   "pair": null
+  },
+  "Hakodate Racecourse ◎": {
+   "id": "200091",
+   "baseCost": 90,
+   "groupId": "20009",
+   "gold": true,
+   "pair": "Hakodate Racecourse ○"
+  },
+  "Hakodate Racecourse ○": {
+   "id": "200092",
+   "baseCost": 70,
+   "groupId": "20009",
+   "gold": false,
+   "pair": "Hakodate Racecourse ◎"
+  },
+  "Hakodate Racecourse ×": {
+   "id": "200093",
+   "baseCost": 40,
+   "groupId": "20009",
+   "gold": false,
+   "pair": null
+  },
+  "Fukushima Racecourse ◎": {
+   "id": "200101",
+   "baseCost": 90,
+   "groupId": "20010",
+   "gold": true,
+   "pair": "Fukushima Racecourse ○"
+  },
+  "Fukushima Racecourse ○": {
+   "id": "200102",
+   "baseCost": 70,
+   "groupId": "20010",
+   "gold": false,
+   "pair": "Fukushima Racecourse ◎"
+  },
+  "Fukushima Racecourse ×": {
+   "id": "200103",
+   "baseCost": 40,
+   "groupId": "20010",
+   "gold": false,
+   "pair": null
+  },
+  "Niigata Racecourse ◎": {
+   "id": "200111",
+   "baseCost": 90,
+   "groupId": "20011",
+   "gold": true,
+   "pair": "Niigata Racecourse ○"
+  },
+  "Niigata Racecourse ○": {
+   "id": "200112",
+   "baseCost": 70,
+   "groupId": "20011",
+   "gold": false,
+   "pair": "Niigata Racecourse ◎"
+  },
+  "Niigata Racecourse ×": {
+   "id": "200113",
+   "baseCost": 40,
+   "groupId": "20011",
+   "gold": false,
+   "pair": null
+  },
+  "Kokura Racecourse ◎": {
+   "id": "200121",
+   "baseCost": 90,
+   "groupId": "20012",
+   "gold": true,
+   "pair": "Kokura Racecourse ○"
+  },
+  "Kokura Racecourse ○": {
+   "id": "200122",
+   "baseCost": 70,
+   "groupId": "20012",
+   "gold": false,
+   "pair": "Kokura Racecourse ◎"
+  },
+  "Kokura Racecourse ×": {
+   "id": "200123",
+   "baseCost": 40,
+   "groupId": "20012",
+   "gold": false,
+   "pair": null
+  },
+  "Standard Distance ◎": {
+   "id": "200131",
+   "baseCost": 110,
+   "groupId": "20013",
+   "gold": true,
+   "pair": "Standard Distance ○"
+  },
+  "Standard Distance ○": {
+   "id": "200132",
+   "baseCost": 90,
+   "groupId": "20013",
+   "gold": false,
+   "pair": "Standard Distance ◎"
+  },
+  "Standard Distance ×": {
+   "id": "200133",
+   "baseCost": 50,
+   "groupId": "20013",
+   "gold": false,
+   "pair": null
+  },
+  "Non-Standard Distance ◎": {
+   "id": "200141",
+   "baseCost": 110,
+   "groupId": "20014",
+   "gold": true,
+   "pair": "Non-Standard Distance ○"
+  },
+  "Non-Standard Distance ○": {
+   "id": "200142",
+   "baseCost": 90,
+   "groupId": "20014",
+   "gold": false,
+   "pair": "Non-Standard Distance ◎"
+  },
+  "Non-Standard Distance ×": {
+   "id": "200143",
+   "baseCost": 50,
+   "groupId": "20014",
+   "gold": false,
+   "pair": null
+  },
+  "Firm Conditions ◎": {
+   "id": "200151",
+   "baseCost": 110,
+   "groupId": "20015",
+   "gold": true,
+   "pair": "Firm Conditions ○"
+  },
+  "Firm Conditions ○": {
+   "id": "200152",
+   "baseCost": 90,
+   "groupId": "20015",
+   "gold": false,
+   "pair": "Firm Conditions ◎"
+  },
+  "Firm Conditions ×": {
+   "id": "200153",
+   "baseCost": 50,
+   "groupId": "20015",
+   "gold": false,
+   "pair": null
+  },
+  "Firm Course Menace": {
+   "id": "200154",
+   "baseCost": 130,
+   "groupId": "20015",
+   "gold": true,
+   "pair": "Firm Conditions ○",
+   "middle": "Firm Conditions ◎"
+  },
+  "Wet Conditions ◎": {
+   "id": "200161",
+   "baseCost": 110,
+   "groupId": "20016",
+   "gold": true,
+   "pair": "Wet Conditions ○"
+  },
+  "Wet Conditions ○": {
+   "id": "200162",
+   "baseCost": 90,
+   "groupId": "20016",
+   "gold": false,
+   "pair": "Wet Conditions ◎"
+  },
+  "Wet Conditions ×": {
+   "id": "200163",
+   "baseCost": 50,
+   "groupId": "20016",
+   "gold": false,
+   "pair": null
+  },
+  "Spring Runner ◎": {
+   "id": "200171",
+   "baseCost": 110,
+   "groupId": "20017",
+   "gold": true,
+   "pair": "Spring Runner ○"
+  },
+  "Spring Runner ○": {
+   "id": "200172",
+   "baseCost": 90,
+   "groupId": "20017",
+   "gold": false,
+   "pair": "Spring Runner ◎"
+  },
+  "Spring Runner ×": {
+   "id": "200173",
+   "baseCost": 50,
+   "groupId": "20017",
+   "gold": false,
+   "pair": null
+  },
+  "Spring Spectacle": {
+   "id": "200174",
+   "baseCost": 130,
+   "groupId": "20017",
+   "gold": true,
+   "pair": "Spring Runner ○",
+   "middle": "Spring Runner ◎"
+  },
+  "Summer Runner ◎": {
+   "id": "200181",
+   "baseCost": 110,
+   "groupId": "20018",
+   "gold": true,
+   "pair": "Summer Runner ○"
+  },
+  "Summer Runner ○": {
+   "id": "200182",
+   "baseCost": 90,
+   "groupId": "20018",
+   "gold": false,
+   "pair": "Summer Runner ◎"
+  },
+  "Summer Runner ×": {
+   "id": "200183",
+   "baseCost": 50,
+   "groupId": "20018",
+   "gold": false,
+   "pair": null
+  },
+  "Summer Gust": {
+   "id": "200184",
+   "baseCost": 130,
+   "groupId": "20018",
+   "gold": true,
+   "pair": "Summer Runner ○",
+   "middle": "Summer Runner ◎"
+  },
+  "Fall Runner ◎": {
+   "id": "200191",
+   "baseCost": 110,
+   "groupId": "20019",
+   "gold": true,
+   "pair": "Fall Runner ○"
+  },
+  "Fall Runner ○": {
+   "id": "200192",
+   "baseCost": 90,
+   "groupId": "20019",
+   "gold": false,
+   "pair": "Fall Runner ◎"
+  },
+  "Fall Runner ×": {
+   "id": "200193",
+   "baseCost": 50,
+   "groupId": "20019",
+   "gold": false,
+   "pair": null
+  },
+  "Fall Frenzy": {
+   "id": "200194",
+   "baseCost": 130,
+   "groupId": "20019",
+   "gold": true,
+   "pair": "Fall Runner ○",
+   "middle": "Fall Runner ◎"
+  },
+  "Winter Runner ◎": {
+   "id": "200201",
+   "baseCost": 110,
+   "groupId": "20020",
+   "gold": true,
+   "pair": "Winter Runner ○"
+  },
+  "Winter Runner ○": {
+   "id": "200202",
+   "baseCost": 90,
+   "groupId": "20020",
+   "gold": false,
+   "pair": "Winter Runner ◎"
+  },
+  "Winter Runner ×": {
+   "id": "200203",
+   "baseCost": 50,
+   "groupId": "20020",
+   "gold": false,
+   "pair": null
+  },
+  "Sunny Days ◎": {
+   "id": "200211",
+   "baseCost": 110,
+   "groupId": "20021",
+   "gold": true,
+   "pair": "Sunny Days ○"
+  },
+  "Sunny Days ○": {
+   "id": "200212",
+   "baseCost": 90,
+   "groupId": "20021",
+   "gold": false,
+   "pair": "Sunny Days ◎"
+  },
+  "Cloudy Days ◎": {
+   "id": "200221",
+   "baseCost": 110,
+   "groupId": "20022",
+   "gold": true,
+   "pair": "Cloudy Days ○"
+  },
+  "Cloudy Days ○": {
+   "id": "200222",
+   "baseCost": 90,
+   "groupId": "20022",
+   "gold": false,
+   "pair": "Cloudy Days ◎"
+  },
+  "Rainy Days ◎": {
+   "id": "200231",
+   "baseCost": 110,
+   "groupId": "20023",
+   "gold": true,
+   "pair": "Rainy Days ○"
+  },
+  "Rainy Days ○": {
+   "id": "200232",
+   "baseCost": 90,
+   "groupId": "20023",
+   "gold": false,
+   "pair": "Rainy Days ◎"
+  },
+  "Rainy Days ×": {
+   "id": "200233",
+   "baseCost": 50,
+   "groupId": "20023",
+   "gold": false,
+   "pair": null
+  },
+  "Snowy Days ◎": {
+   "id": "200241",
+   "baseCost": 110,
+   "groupId": "20024",
+   "gold": true,
+   "pair": "Snowy Days ○"
+  },
+  "Snowy Days ○": {
+   "id": "200242",
+   "baseCost": 90,
+   "groupId": "20024",
+   "gold": false,
+   "pair": "Snowy Days ◎"
+  },
+  "Inner Post Proficiency ◎": {
+   "id": "200251",
+   "baseCost": 110,
+   "groupId": "20025",
+   "gold": true,
+   "pair": "Inner Post Proficiency ○"
+  },
+  "Inner Post Proficiency ○": {
+   "id": "200252",
+   "baseCost": 90,
+   "groupId": "20025",
+   "gold": false,
+   "pair": "Inner Post Proficiency ◎"
+  },
+  "Inner Post Averseness": {
+   "id": "200253",
+   "baseCost": 50,
+   "groupId": "20025",
+   "gold": false,
+   "pair": null
+  },
+  "Outer Post Proficiency ◎": {
+   "id": "200261",
+   "baseCost": 110,
+   "groupId": "20026",
+   "gold": true,
+   "pair": "Outer Post Proficiency ○"
+  },
+  "Outer Post Proficiency ○": {
+   "id": "200262",
+   "baseCost": 90,
+   "groupId": "20026",
+   "gold": false,
+   "pair": "Outer Post Proficiency ◎"
+  },
+  "Outer Post Averseness": {
+   "id": "200263",
+   "baseCost": 50,
+   "groupId": "20026",
+   "gold": false,
+   "pair": null
+  },
+  "Maverick ◎": {
+   "id": "200271",
+   "baseCost": 110,
+   "groupId": "20027",
+   "gold": true,
+   "pair": "Maverick ○"
+  },
+  "Maverick ○": {
+   "id": "200272",
+   "baseCost": 90,
+   "groupId": "20027",
+   "gold": false,
+   "pair": "Maverick ◎"
+  },
+  "Competitive Spirit ◎": {
+   "id": "200281",
+   "baseCost": 110,
+   "groupId": "20028",
+   "gold": true,
+   "pair": "Competitive Spirit ○"
+  },
+  "Competitive Spirit ○": {
+   "id": "200282",
+   "baseCost": 90,
+   "groupId": "20028",
+   "gold": false,
+   "pair": "Competitive Spirit ◎"
+  },
+  "Wallflower": {
+   "id": "200283",
+   "baseCost": 50,
+   "groupId": "20028",
+   "gold": false,
+   "pair": null
+  },
+  "Target in Sight ◎": {
+   "id": "200291",
+   "baseCost": 110,
+   "groupId": "20029",
+   "gold": true,
+   "pair": "Target in Sight ○"
+  },
+  "Target in Sight ○": {
+   "id": "200292",
+   "baseCost": 90,
+   "groupId": "20029",
+   "gold": false,
+   "pair": "Target in Sight ◎"
+  },
+  "Long Shot ◎": {
+   "id": "200301",
+   "baseCost": 110,
+   "groupId": "20030",
+   "gold": true,
+   "pair": "Long Shot ○"
+  },
+  "Long Shot ○": {
+   "id": "200302",
+   "baseCost": 90,
+   "groupId": "20030",
+   "gold": false,
+   "pair": "Long Shot ◎"
+  },
+  "G1 Averseness": {
+   "id": "200311",
+   "baseCost": 50,
+   "groupId": "20031",
+   "gold": false,
+   "pair": null
+  },
+  "Paddock Fright": {
+   "id": "200321",
+   "baseCost": 50,
+   "groupId": "20032",
+   "gold": false,
+   "pair": null
+  },
+  "Professor of Curvature": {
+   "id": "200331",
+   "baseCost": 180,
+   "groupId": "20033",
+   "gold": true,
+   "pair": "Corner Adept ○"
+  },
+  "Corner Adept ○": {
+   "id": "200332",
+   "baseCost": 180,
+   "groupId": "20033",
+   "gold": false,
+   "pair": "Professor of Curvature"
+  },
+  "Corner Adept ×": {
+   "id": "200333",
+   "baseCost": 100,
+   "groupId": "20033",
+   "gold": false,
+   "pair": null
+  },
+  "Corner Connoisseur": {
+   "id": "200341",
+   "baseCost": 180,
+   "groupId": "20034",
+   "gold": true,
+   "pair": "Corner Acceleration ○"
+  },
+  "Corner Acceleration ○": {
+   "id": "200342",
+   "baseCost": 180,
+   "groupId": "20034",
+   "gold": false,
+   "pair": "Corner Connoisseur"
+  },
+  "Corner Acceleration ×": {
+   "id": "200343",
+   "baseCost": 100,
+   "groupId": "20034",
+   "gold": false,
+   "pair": null
+  },
+  "Swinging Maestro": {
+   "id": "200351",
+   "baseCost": 170,
+   "groupId": "20035",
+   "gold": true,
+   "pair": "Corner Recovery ○"
+  },
+  "Corner Recovery ○": {
+   "id": "200352",
+   "baseCost": 170,
+   "groupId": "20035",
+   "gold": false,
+   "pair": "Swinging Maestro"
+  },
+  "Corner Recovery ×": {
+   "id": "200353",
+   "baseCost": 100,
+   "groupId": "20035",
+   "gold": false,
+   "pair": null
+  },
+  "Beeline Burst": {
+   "id": "200361",
+   "baseCost": 170,
+   "groupId": "20036",
+   "gold": true,
+   "pair": "Straightaway Adept"
+  },
+  "Straightaway Adept": {
+   "id": "200362",
+   "baseCost": 170,
+   "groupId": "20036",
+   "gold": false,
+   "pair": "Beeline Burst"
+  },
+  "Rushing Gale!": {
+   "id": "200371",
+   "baseCost": 170,
+   "groupId": "20037",
+   "gold": true,
+   "pair": "Straightaway Acceleration"
+  },
+  "Straightaway Acceleration": {
+   "id": "200372",
+   "baseCost": 170,
+   "groupId": "20037",
+   "gold": false,
+   "pair": "Rushing Gale!"
+  },
+  "Breath of Fresh Air": {
+   "id": "200381",
+   "baseCost": 170,
+   "groupId": "20038",
+   "gold": true,
+   "pair": "Straightaway Recovery"
+  },
+  "Straightaway Recovery": {
+   "id": "200382",
+   "baseCost": 170,
+   "groupId": "20038",
+   "gold": false,
+   "pair": "Breath of Fresh Air"
+  },
+  "Ramp Revulsion": {
+   "id": "200391",
+   "baseCost": 100,
+   "groupId": "20039",
+   "gold": false,
+   "pair": null
+  },
+  "Packphobia": {
+   "id": "200401",
+   "baseCost": 100,
+   "groupId": "20040",
+   "gold": false,
+   "pair": null
+  },
+  "Defeatist": {
+   "id": "200411",
+   "baseCost": 100,
+   "groupId": "20041",
+   "gold": false,
+   "pair": null
+  },
+  "Reckless": {
+   "id": "200421",
+   "baseCost": 100,
+   "groupId": "20042",
+   "gold": false,
+   "pair": null
+  },
+  "Concentration": {
+   "id": "200431",
+   "baseCost": 140,
+   "groupId": "20043",
+   "gold": true,
+   "pair": "Focus"
+  },
+  "Focus": {
+   "id": "200432",
+   "baseCost": 140,
+   "groupId": "20043",
+   "gold": false,
+   "pair": "Concentration"
+  },
+  "Gatekept": {
+   "id": "200433",
+   "baseCost": 70,
+   "groupId": "20043",
+   "gold": false,
+   "pair": null
+  },
+  "Iron Will": {
+   "id": "200441",
+   "baseCost": 160,
+   "groupId": "20044",
+   "gold": true,
+   "pair": "Lay Low"
+  },
+  "Lay Low": {
+   "id": "200442",
+   "baseCost": 160,
+   "groupId": "20044",
+   "gold": false,
+   "pair": "Iron Will"
+  },
+  "Center Stage": {
+   "id": "200451",
+   "baseCost": 120,
+   "groupId": "20045",
+   "gold": true,
+   "pair": "Prudent Positioning"
+  },
+  "Prudent Positioning": {
+   "id": "200452",
+   "baseCost": 120,
+   "groupId": "20045",
+   "gold": false,
+   "pair": "Center Stage"
+  },
+  "It's On!": {
+   "id": "200461",
+   "baseCost": 170,
+   "groupId": "20046",
+   "gold": true,
+   "pair": "Ramp Up"
+  },
+  "Ramp Up": {
+   "id": "200462",
+   "baseCost": 170,
+   "groupId": "20046",
+   "gold": false,
+   "pair": "It's On!"
+  },
+  "Indomitable": {
+   "id": "200471",
+   "baseCost": 170,
+   "groupId": "20047",
+   "gold": true,
+   "pair": "Pace Strategy"
+  },
+  "Pace Strategy": {
+   "id": "200472",
+   "baseCost": 170,
+   "groupId": "20047",
+   "gold": false,
+   "pair": "Indomitable"
+  },
+  "Unruffled": {
+   "id": "200481",
+   "baseCost": 170,
+   "groupId": "20048",
+   "gold": true,
+   "pair": "Calm in a Crowd"
+  },
+  "Calm in a Crowd": {
+   "id": "200482",
+   "baseCost": 170,
+   "groupId": "20048",
+   "gold": false,
+   "pair": "Unruffled"
+  },
+  "No Stopping Me!": {
+   "id": "200491",
+   "baseCost": 150,
+   "groupId": "20049",
+   "gold": true,
+   "pair": "Nimble Navigator"
+  },
+  "Nimble Navigator": {
+   "id": "200492",
+   "baseCost": 150,
+   "groupId": "20049",
+   "gold": false,
+   "pair": "No Stopping Me!"
+  },
+  "Lane Legerdemain": {
+   "id": "200501",
+   "baseCost": 120,
+   "groupId": "20050",
+   "gold": true,
+   "pair": "Go with the Flow"
+  },
+  "Go with the Flow": {
+   "id": "200502",
+   "baseCost": 120,
+   "groupId": "20050",
+   "gold": false,
+   "pair": "Lane Legerdemain"
+  },
+  "In Body and Mind": {
+   "id": "200511",
+   "baseCost": 170,
+   "groupId": "20051",
+   "gold": true,
+   "pair": "Homestretch Haste"
+  },
+  "Homestretch Haste": {
+   "id": "200512",
+   "baseCost": 170,
+   "groupId": "20051",
+   "gold": false,
+   "pair": "In Body and Mind"
+  },
+  "Running Idle": {
+   "id": "200521",
+   "baseCost": 100,
+   "groupId": "20052",
+   "gold": false,
+   "pair": null
+  },
+  "Taking the Lead": {
+   "id": "200531",
+   "baseCost": 120,
+   "groupId": "20053",
+   "gold": true,
+   "pair": "Early Lead"
+  },
+  "Early Lead": {
+   "id": "200532",
+   "baseCost": 120,
+   "groupId": "20053",
+   "gold": false,
+   "pair": "Taking the Lead"
+  },
+  "Escape Artist": {
+   "id": "200541",
+   "baseCost": 180,
+   "groupId": "20054",
+   "gold": true,
+   "pair": "Fast-Paced"
+  },
+  "Fast-Paced": {
+   "id": "200542",
+   "baseCost": 180,
+   "groupId": "20054",
+   "gold": false,
+   "pair": "Escape Artist"
+  },
+  "Unrestrained": {
+   "id": "200551",
+   "baseCost": 180,
+   "groupId": "20055",
+   "gold": true,
+   "pair": "Final Push"
+  },
+  "Final Push": {
+   "id": "200552",
+   "baseCost": 180,
+   "groupId": "20055",
+   "gold": false,
+   "pair": "Unrestrained"
+  },
+  "Calm and Collected": {
+   "id": "200561",
+   "baseCost": 180,
+   "groupId": "20056",
+   "gold": true,
+   "pair": "Stamina to Spare"
+  },
+  "Stamina to Spare": {
+   "id": "200562",
+   "baseCost": 180,
+   "groupId": "20056",
+   "gold": false,
+   "pair": "Calm and Collected"
+  },
+  "Race Planner": {
+   "id": "200571",
+   "baseCost": 180,
+   "groupId": "20057",
+   "gold": true,
+   "pair": "Preferred Position"
+  },
+  "Preferred Position": {
+   "id": "200572",
+   "baseCost": 180,
+   "groupId": "20057",
+   "gold": false,
+   "pair": "Race Planner"
+  },
+  "Speed Star": {
+   "id": "200581",
+   "baseCost": 180,
+   "groupId": "20058",
+   "gold": true,
+   "pair": "Prepared to Pass"
+  },
+  "Prepared to Pass": {
+   "id": "200582",
+   "baseCost": 180,
+   "groupId": "20058",
+   "gold": false,
+   "pair": "Speed Star"
+  },
+  "Fast & Furious": {
+   "id": "200591",
+   "baseCost": 180,
+   "groupId": "20059",
+   "gold": true,
+   "pair": "Position Pilfer"
+  },
+  "Position Pilfer": {
+   "id": "200592",
+   "baseCost": 180,
+   "groupId": "20059",
+   "gold": false,
+   "pair": "Fast & Furious"
+  },
+  "On Your Left!": {
+   "id": "200601",
+   "baseCost": 180,
+   "groupId": "20060",
+   "gold": true,
+   "pair": "Slick Surge"
+  },
+  "Slick Surge": {
+   "id": "200602",
+   "baseCost": 180,
+   "groupId": "20060",
+   "gold": false,
+   "pair": "On Your Left!"
+  },
+  "Rising Dragon": {
+   "id": "200611",
+   "baseCost": 180,
+   "groupId": "20061",
+   "gold": true,
+   "pair": "Outer Swell"
+  },
+  "Outer Swell": {
+   "id": "200612",
+   "baseCost": 180,
+   "groupId": "20061",
+   "gold": false,
+   "pair": "Rising Dragon"
+  },
+  "Sleeping Lion": {
+   "id": "200621",
+   "baseCost": 180,
+   "groupId": "20062",
+   "gold": true,
+   "pair": "Standing By"
+  },
+  "Standing By": {
+   "id": "200622",
+   "baseCost": 180,
+   "groupId": "20062",
+   "gold": false,
+   "pair": "Sleeping Lion"
+  },
+  "Sturm und Drang": {
+   "id": "200631",
+   "baseCost": 180,
+   "groupId": "20063",
+   "gold": true,
+   "pair": "Masterful Gambit"
+  },
+  "Masterful Gambit": {
+   "id": "200632",
+   "baseCost": 180,
+   "groupId": "20063",
+   "gold": false,
+   "pair": "Sturm und Drang"
+  },
+  "Encroaching Shadow": {
+   "id": "200641",
+   "baseCost": 180,
+   "groupId": "20064",
+   "gold": true,
+   "pair": "Straightaway Spurt"
+  },
+  "Straightaway Spurt": {
+   "id": "200642",
+   "baseCost": 180,
+   "groupId": "20064",
+   "gold": false,
+   "pair": "Encroaching Shadow"
+  },
+  "Turbo Sprint": {
+   "id": "200651",
+   "baseCost": 160,
+   "groupId": "20065",
+   "gold": true,
+   "pair": "Sprinting Gear"
+  },
+  "Sprinting Gear": {
+   "id": "200652",
+   "baseCost": 160,
+   "groupId": "20065",
+   "gold": false,
+   "pair": "Turbo Sprint"
+  },
+  "Wait-and-See": {
+   "id": "200662",
+   "baseCost": 160,
+   "groupId": "20066",
+   "gold": false,
+   "pair": null
+  },
+  "Blinding Flash": {
+   "id": "200671",
+   "baseCost": 160,
+   "groupId": "20067",
+   "gold": true,
+   "pair": "Gap Closer"
+  },
+  "Gap Closer": {
+   "id": "200672",
+   "baseCost": 160,
+   "groupId": "20067",
+   "gold": false,
+   "pair": "Blinding Flash"
+  },
+  "Mile Maven": {
+   "id": "200681",
+   "baseCost": 160,
+   "groupId": "20068",
+   "gold": true,
+   "pair": "Productive Plan"
+  },
+  "Productive Plan": {
+   "id": "200682",
+   "baseCost": 160,
+   "groupId": "20068",
+   "gold": false,
+   "pair": "Mile Maven"
+  },
+  "Keen Eye": {
+   "id": "200691",
+   "baseCost": 160,
+   "groupId": "20069",
+   "gold": true,
+   "pair": "Watchful Eye"
+  },
+  "Watchful Eye": {
+   "id": "200692",
+   "baseCost": 160,
+   "groupId": "20069",
+   "gold": false,
+   "pair": "Keen Eye"
+  },
+  "Furious Feat": {
+   "id": "200701",
+   "baseCost": 160,
+   "groupId": "20070",
+   "gold": true,
+   "pair": "Updrafters"
+  },
+  "Updrafters": {
+   "id": "200702",
+   "baseCost": 160,
+   "groupId": "20070",
+   "gold": false,
+   "pair": "Furious Feat"
+  },
+  "Trackblazer": {
+   "id": "200711",
+   "baseCost": 160,
+   "groupId": "20071",
+   "gold": true,
+   "pair": "Rosy Outlook"
+  },
+  "Rosy Outlook": {
+   "id": "200712",
+   "baseCost": 160,
+   "groupId": "20071",
+   "gold": false,
+   "pair": "Trackblazer"
+  },
+  "Killer Tunes": {
+   "id": "200721",
+   "baseCost": 160,
+   "groupId": "20072",
+   "gold": true,
+   "pair": "Up-Tempo"
+  },
+  "Up-Tempo": {
+   "id": "200722",
+   "baseCost": 160,
+   "groupId": "20072",
+   "gold": false,
+   "pair": "Killer Tunes"
+  },
+  "Unyielding": {
+   "id": "200731",
+   "baseCost": 160,
+   "groupId": "20073",
+   "gold": true,
+   "pair": "Steadfast"
+  },
+  "Steadfast": {
+   "id": "200732",
+   "baseCost": 160,
+   "groupId": "20073",
+   "gold": false,
+   "pair": "Unyielding"
+  },
+  "Cooldown": {
+   "id": "200741",
+   "baseCost": 160,
+   "groupId": "20074",
+   "gold": true,
+   "pair": "Deep Breaths"
+  },
+  "Deep Breaths": {
+   "id": "200742",
+   "baseCost": 160,
+   "groupId": "20074",
+   "gold": false,
+   "pair": "Cooldown"
+  },
+  "Innate Experience": {
+   "id": "200751",
+   "baseCost": 160,
+   "groupId": "20075",
+   "gold": true,
+   "pair": "Inside Scoop"
+  },
+  "Inside Scoop": {
+   "id": "200752",
+   "baseCost": 160,
+   "groupId": "20075",
+   "gold": false,
+   "pair": "Innate Experience"
+  },
+  "Adrenaline Rush": {
+   "id": "200761",
+   "baseCost": 160,
+   "groupId": "20076",
+   "gold": true,
+   "pair": "Extra Tank"
+  },
+  "Extra Tank": {
+   "id": "200762",
+   "baseCost": 160,
+   "groupId": "20076",
+   "gold": false,
+   "pair": "Adrenaline Rush"
+  },
+  "Trick (Front)": {
+   "id": "200771",
+   "baseCost": 140,
+   "groupId": "20077",
+   "gold": true,
+   "pair": "Tantalizing Trick"
+  },
+  "Tantalizing Trick": {
+   "id": "200772",
+   "baseCost": 140,
+   "groupId": "20077",
+   "gold": false,
+   "pair": "Trick (Front)"
+  },
+  "Trick (Rear)": {
+   "id": "200781",
+   "baseCost": 140,
+   "groupId": "20078",
+   "gold": false,
+   "pair": null
+  },
+  "Frenzied Front Runners": {
+   "id": "200791",
+   "baseCost": 130,
+   "groupId": "20079",
+   "gold": false,
+   "pair": null
+  },
+  "Frenzied Pace Chasers": {
+   "id": "200801",
+   "baseCost": 130,
+   "groupId": "20080",
+   "gold": false,
+   "pair": null
+  },
+  "Frenzied Late Surgers": {
+   "id": "200811",
+   "baseCost": 130,
+   "groupId": "20081",
+   "gold": false,
+   "pair": null
+  },
+  "Frenzied End Closers": {
+   "id": "200821",
+   "baseCost": 130,
+   "groupId": "20082",
+   "gold": false,
+   "pair": null
+  },
+  "Subdued Front Runners": {
+   "id": "200831",
+   "baseCost": 130,
+   "groupId": "20083",
+   "gold": false,
+   "pair": null
+  },
+  "Flustered Front Runners": {
+   "id": "200841",
+   "baseCost": 130,
+   "groupId": "20084",
+   "gold": false,
+   "pair": null
+  },
+  "Hesitant Front Runners": {
+   "id": "200851",
+   "baseCost": 130,
+   "groupId": "20085",
+   "gold": false,
+   "pair": null
+  },
+  "Subdued Pace Chasers": {
+   "id": "200861",
+   "baseCost": 130,
+   "groupId": "20086",
+   "gold": false,
+   "pair": null
+  },
+  "Flustered Pace Chasers": {
+   "id": "200871",
+   "baseCost": 130,
+   "groupId": "20087",
+   "gold": false,
+   "pair": null
+  },
+  "Hesitant Pace Chasers": {
+   "id": "200881",
+   "baseCost": 130,
+   "groupId": "20088",
+   "gold": false,
+   "pair": null
+  },
+  "Subdued Late Surgers": {
+   "id": "200891",
+   "baseCost": 130,
+   "groupId": "20089",
+   "gold": false,
+   "pair": null
+  },
+  "Flustered Late Surgers": {
+   "id": "200901",
+   "baseCost": 130,
+   "groupId": "20090",
+   "gold": false,
+   "pair": null
+  },
+  "Hesitant Late Surgers": {
+   "id": "200911",
+   "baseCost": 130,
+   "groupId": "20091",
+   "gold": false,
+   "pair": null
+  },
+  "Subdued End Closers": {
+   "id": "200921",
+   "baseCost": 130,
+   "groupId": "20092",
+   "gold": false,
+   "pair": null
+  },
+  "Flustered End Closers": {
+   "id": "200931",
+   "baseCost": 130,
+   "groupId": "20093",
+   "gold": false,
+   "pair": null
+  },
+  "Hesitant End Closers": {
+   "id": "200941",
+   "baseCost": 130,
+   "groupId": "20094",
+   "gold": false,
+   "pair": null
+  },
+  "Oi Racecourse ◎": {
+   "id": "200951",
+   "baseCost": 110,
+   "groupId": "20095",
+   "gold": true,
+   "pair": "Oi Racecourse ○"
+  },
+  "Oi Racecourse ○": {
+   "id": "200952",
+   "baseCost": 90,
+   "groupId": "20095",
+   "gold": false,
+   "pair": "Oi Racecourse ◎"
+  },
+  "Oi Racecourse ×": {
+   "id": "200953",
+   "baseCost": 50,
+   "groupId": "20095",
+   "gold": false,
+   "pair": null
+  },
+  "Sprint Straightaways ◎": {
+   "id": "200961",
+   "baseCost": 110,
+   "groupId": "20096",
+   "gold": true,
+   "pair": "Sprint Straightaways ○"
+  },
+  "Sprint Straightaways ○": {
+   "id": "200962",
+   "baseCost": 100,
+   "groupId": "20096",
+   "gold": false,
+   "pair": "Sprint Straightaways ◎"
+  },
+  "Shocking Flash": {
+   "id": "200963",
+   "baseCost": 150,
+   "groupId": "20096",
+   "gold": false,
+   "pair": null
+  },
+  "Sprint Corners ◎": {
+   "id": "200971",
+   "baseCost": 110,
+   "groupId": "20097",
+   "gold": true,
+   "pair": "Sprint Corners ○"
+  },
+  "Sprint Corners ○": {
+   "id": "200972",
+   "baseCost": 100,
+   "groupId": "20097",
+   "gold": false,
+   "pair": "Sprint Corners ◎"
+  },
+  "Staggering Lead": {
+   "id": "200981",
+   "baseCost": 170,
+   "groupId": "20098",
+   "gold": true,
+   "pair": "Huge Lead"
+  },
+  "Huge Lead": {
+   "id": "200982",
+   "baseCost": 170,
+   "groupId": "20098",
+   "gold": false,
+   "pair": "Staggering Lead"
+  },
+  "Plan X": {
+   "id": "200991",
+   "baseCost": 160,
+   "groupId": "20099",
+   "gold": true,
+   "pair": "Countermeasure"
+  },
+  "Countermeasure": {
+   "id": "200992",
+   "baseCost": 160,
+   "groupId": "20099",
+   "gold": false,
+   "pair": "Plan X"
+  },
+  "Perfect Prep!": {
+   "id": "201001",
+   "baseCost": 140,
+   "groupId": "20100",
+   "gold": true,
+   "pair": "Meticulous Measures"
+  },
+  "Meticulous Measures": {
+   "id": "201002",
+   "baseCost": 140,
+   "groupId": "20100",
+   "gold": false,
+   "pair": "Perfect Prep!"
+  },
+  "Adored by All": {
+   "id": "201011",
+   "baseCost": 170,
+   "groupId": "20101",
+   "gold": true,
+   "pair": "Intimidate"
+  },
+  "Intimidate": {
+   "id": "201012",
+   "baseCost": 170,
+   "groupId": "20101",
+   "gold": false,
+   "pair": "Adored by All"
+  },
+  "You've Got No Shot": {
+   "id": "201021",
+   "baseCost": 170,
+   "groupId": "20102",
+   "gold": true,
+   "pair": "Stop Right There!"
+  },
+  "Stop Right There!": {
+   "id": "201022",
+   "baseCost": 170,
+   "groupId": "20102",
+   "gold": false,
+   "pair": "You've Got No Shot"
+  },
+  "Mile Straightaways ◎": {
+   "id": "201031",
+   "baseCost": 110,
+   "groupId": "20103",
+   "gold": true,
+   "pair": "Mile Straightaways ○"
+  },
+  "Mile Straightaways ○": {
+   "id": "201032",
+   "baseCost": 100,
+   "groupId": "20103",
+   "gold": false,
+   "pair": "Mile Straightaways ◎"
+  },
+  "Mile Corners ◎": {
+   "id": "201041",
+   "baseCost": 110,
+   "groupId": "20104",
+   "gold": true,
+   "pair": "Mile Corners ○"
+  },
+  "Mile Corners ○": {
+   "id": "201042",
+   "baseCost": 100,
+   "groupId": "20104",
+   "gold": false,
+   "pair": "Mile Corners ◎"
+  },
+  "Crescent Gust": {
+   "id": "201043",
+   "baseCost": 150,
+   "groupId": "20104",
+   "gold": false,
+   "pair": null
+  },
+  "Changing Gears": {
+   "id": "201051",
+   "baseCost": 160,
+   "groupId": "20105",
+   "gold": true,
+   "pair": "Shifting Gears"
+  },
+  "Shifting Gears": {
+   "id": "201052",
+   "baseCost": 160,
+   "groupId": "20105",
+   "gold": false,
+   "pair": "Changing Gears"
+  },
+  "Step on the Gas!": {
+   "id": "201061",
+   "baseCost": 160,
+   "groupId": "20106",
+   "gold": true,
+   "pair": "Acceleration"
+  },
+  "Acceleration": {
+   "id": "201062",
+   "baseCost": 160,
+   "groupId": "20106",
+   "gold": false,
+   "pair": "Step on the Gas!"
+  },
+  "Big-Sisterly": {
+   "id": "201071",
+   "baseCost": 120,
+   "groupId": "20107",
+   "gold": true,
+   "pair": "Unyielding Spirit"
+  },
+  "Unyielding Spirit": {
+   "id": "201072",
+   "baseCost": 120,
+   "groupId": "20107",
+   "gold": false,
+   "pair": "Big-Sisterly"
+  },
+  "Greed for Speed": {
+   "id": "201081",
+   "baseCost": 160,
+   "groupId": "20108",
+   "gold": true,
+   "pair": "Speed Eater"
+  },
+  "Speed Eater": {
+   "id": "201082",
+   "baseCost": 160,
+   "groupId": "20108",
+   "gold": false,
+   "pair": "Greed for Speed"
+  },
+  "Battle Formation": {
+   "id": "201091",
+   "baseCost": 160,
+   "groupId": "20109",
+   "gold": true,
+   "pair": "Opening Gambit"
+  },
+  "Opening Gambit": {
+   "id": "201092",
+   "baseCost": 160,
+   "groupId": "20109",
+   "gold": false,
+   "pair": "Battle Formation"
+  },
+  "Medium Straightaways ◎": {
+   "id": "201101",
+   "baseCost": 110,
+   "groupId": "20110",
+   "gold": true,
+   "pair": "Medium Straightaways ○"
+  },
+  "Medium Straightaways ○": {
+   "id": "201102",
+   "baseCost": 100,
+   "groupId": "20110",
+   "gold": false,
+   "pair": "Medium Straightaways ◎"
+  },
+  "Flash Forward": {
+   "id": "201103",
+   "baseCost": 150,
+   "groupId": "20110",
+   "gold": false,
+   "pair": null
+  },
+  "Medium Corners ◎": {
+   "id": "201111",
+   "baseCost": 110,
+   "groupId": "20111",
+   "gold": true,
+   "pair": "Medium Corners ○"
+  },
+  "Medium Corners ○": {
+   "id": "201112",
+   "baseCost": 100,
+   "groupId": "20111",
+   "gold": false,
+   "pair": "Medium Corners ◎"
+  },
+  "Refraction Arc": {
+   "id": "201113",
+   "baseCost": 150,
+   "groupId": "20111",
+   "gold": false,
+   "pair": null
+  },
+  "Clairvoyance": {
+   "id": "201121",
+   "baseCost": 110,
+   "groupId": "20112",
+   "gold": true,
+   "pair": "Hawkeye"
+  },
+  "Hawkeye": {
+   "id": "201122",
+   "baseCost": 110,
+   "groupId": "20112",
+   "gold": false,
+   "pair": "Clairvoyance"
+  },
+  "Lightning Step": {
+   "id": "201131",
+   "baseCost": 140,
+   "groupId": "20113",
+   "gold": true,
+   "pair": "Thunderbolt Step"
+  },
+  "Thunderbolt Step": {
+   "id": "201132",
+   "baseCost": 140,
+   "groupId": "20113",
+   "gold": false,
+   "pair": "Lightning Step"
+  },
+  "Miraculous Step": {
+   "id": "201141",
+   "baseCost": 160,
+   "groupId": "20114",
+   "gold": true,
+   "pair": "Soft Step"
+  },
+  "Soft Step": {
+   "id": "201142",
+   "baseCost": 160,
+   "groupId": "20114",
+   "gold": false,
+   "pair": "Miraculous Step"
+  },
+  "Dominator": {
+   "id": "201151",
+   "baseCost": 160,
+   "groupId": "20115",
+   "gold": true,
+   "pair": "Tether"
+  },
+  "Tether": {
+   "id": "201152",
+   "baseCost": 160,
+   "groupId": "20115",
+   "gold": false,
+   "pair": "Dominator"
+  },
+  "Mystifying Murmur": {
+   "id": "201161",
+   "baseCost": 160,
+   "groupId": "20116",
+   "gold": true,
+   "pair": "Murmur"
+  },
+  "Murmur": {
+   "id": "201162",
+   "baseCost": 160,
+   "groupId": "20116",
+   "gold": false,
+   "pair": "Mystifying Murmur"
+  },
+  "Long Straightaways ◎": {
+   "id": "201171",
+   "baseCost": 110,
+   "groupId": "20117",
+   "gold": true,
+   "pair": "Long Straightaways ○"
+  },
+  "Long Straightaways ○": {
+   "id": "201172",
+   "baseCost": 100,
+   "groupId": "20117",
+   "gold": false,
+   "pair": "Long Straightaways ◎"
+  },
+  "Blast Forward": {
+   "id": "201173",
+   "baseCost": 150,
+   "groupId": "20117",
+   "gold": false,
+   "pair": null
+  },
+  "Long Corners ◎": {
+   "id": "201181",
+   "baseCost": 110,
+   "groupId": "20118",
+   "gold": true,
+   "pair": "Long Corners ○"
+  },
+  "Long Corners ○": {
+   "id": "201182",
+   "baseCost": 100,
+   "groupId": "20118",
+   "gold": false,
+   "pair": "Long Corners ◎"
+  },
+  "Vanguard Spirit": {
+   "id": "201191",
+   "baseCost": 160,
+   "groupId": "20119",
+   "gold": true,
+   "pair": "Keeping the Lead"
+  },
+  "Keeping the Lead": {
+   "id": "201192",
+   "baseCost": 160,
+   "groupId": "20119",
+   "gold": false,
+   "pair": "Vanguard Spirit"
+  },
+  "VIP Pass": {
+   "id": "201201",
+   "baseCost": 160,
+   "groupId": "20120",
+   "gold": true,
+   "pair": "Passing Pro"
+  },
+  "Passing Pro": {
+   "id": "201202",
+   "baseCost": 160,
+   "groupId": "20120",
+   "gold": false,
+   "pair": "VIP Pass"
+  },
+  "Overwhelming Pressure": {
+   "id": "201211",
+   "baseCost": 160,
+   "groupId": "20121",
+   "gold": true,
+   "pair": "Pressure"
+  },
+  "Pressure": {
+   "id": "201212",
+   "baseCost": 160,
+   "groupId": "20121",
+   "gold": false,
+   "pair": "Overwhelming Pressure"
+  },
+  "Stamina Siphon": {
+   "id": "201221",
+   "baseCost": 160,
+   "groupId": "20122",
+   "gold": true,
+   "pair": "Stamina Eater"
+  },
+  "Stamina Eater": {
+   "id": "201222",
+   "baseCost": 160,
+   "groupId": "20122",
+   "gold": false,
+   "pair": "Stamina Siphon"
+  },
+  "Illusionist": {
+   "id": "201231",
+   "baseCost": 110,
+   "groupId": "20123",
+   "gold": true,
+   "pair": "Smoke Screen"
+  },
+  "Smoke Screen": {
+   "id": "201232",
+   "baseCost": 110,
+   "groupId": "20123",
+   "gold": false,
+   "pair": "Illusionist"
+  },
+  "Front Runner Straightaways ◎": {
+   "id": "201241",
+   "baseCost": 140,
+   "groupId": "20124",
+   "gold": true,
+   "pair": "Front Runner Straightaways ○"
+  },
+  "Front Runner Straightaways ○": {
+   "id": "201242",
+   "baseCost": 130,
+   "groupId": "20124",
+   "gold": false,
+   "pair": "Front Runner Straightaways ◎"
+  },
+  "Front Runner Corners ◎": {
+   "id": "201251",
+   "baseCost": 140,
+   "groupId": "20125",
+   "gold": true,
+   "pair": "Front Runner Corners ○"
+  },
+  "Front Runner Corners ○": {
+   "id": "201252",
+   "baseCost": 130,
+   "groupId": "20125",
+   "gold": false,
+   "pair": "Front Runner Corners ◎"
+  },
+  "Crescent Gale": {
+   "id": "201253",
+   "baseCost": 150,
+   "groupId": "20125",
+   "gold": false,
+   "pair": null
+  },
+  "Sixth Sense": {
+   "id": "201261",
+   "baseCost": 110,
+   "groupId": "20126",
+   "gold": true,
+   "pair": "Dodging Danger"
+  },
+  "Dodging Danger": {
+   "id": "201262",
+   "baseCost": 110,
+   "groupId": "20126",
+   "gold": false,
+   "pair": "Sixth Sense"
+  },
+  "Top Runner": {
+   "id": "201271",
+   "baseCost": 180,
+   "groupId": "20127",
+   "gold": true,
+   "pair": "Leader's Pride"
+  },
+  "Leader's Pride": {
+   "id": "201272",
+   "baseCost": 180,
+   "groupId": "20127",
+   "gold": false,
+   "pair": "Top Runner"
+  },
+  "Restless": {
+   "id": "201281",
+   "baseCost": 180,
+   "groupId": "20128",
+   "gold": true,
+   "pair": "Moxie"
+  },
+  "Moxie": {
+   "id": "201282",
+   "baseCost": 180,
+   "groupId": "20128",
+   "gold": false,
+   "pair": "Restless"
+  },
+  "Reignition": {
+   "id": "201291",
+   "baseCost": 180,
+   "groupId": "20129",
+   "gold": true,
+   "pair": "Second Wind"
+  },
+  "Second Wind": {
+   "id": "201292",
+   "baseCost": 180,
+   "groupId": "20129",
+   "gold": false,
+   "pair": "Reignition"
+  },
+  "Restart": {
+   "id": "201302",
+   "baseCost": 130,
+   "groupId": "20130",
+   "gold": false,
+   "pair": null
+  },
+  "Pace Chaser Straightaways ◎": {
+   "id": "201311",
+   "baseCost": 140,
+   "groupId": "20131",
+   "gold": true,
+   "pair": "Pace Chaser Straightaways ○"
+  },
+  "Pace Chaser Straightaways ○": {
+   "id": "201312",
+   "baseCost": 130,
+   "groupId": "20131",
+   "gold": false,
+   "pair": "Pace Chaser Straightaways ◎"
+  },
+  "Pace Chaser Corners ◎": {
+   "id": "201321",
+   "baseCost": 140,
+   "groupId": "20132",
+   "gold": true,
+   "pair": "Pace Chaser Corners ○"
+  },
+  "Pace Chaser Corners ○": {
+   "id": "201322",
+   "baseCost": 130,
+   "groupId": "20132",
+   "gold": false,
+   "pair": "Pace Chaser Corners ◎"
+  },
+  "Technician": {
+   "id": "201331",
+   "baseCost": 120,
+   "groupId": "20133",
+   "gold": true,
+   "pair": "Shrewd Step"
+  },
+  "Shrewd Step": {
+   "id": "201332",
+   "baseCost": 120,
+   "groupId": "20133",
+   "gold": false,
+   "pair": "Technician"
+  },
+  "Determined Descent": {
+   "id": "201341",
+   "baseCost": 120,
+   "groupId": "20134",
+   "gold": true,
+   "pair": "Straight Descent"
+  },
+  "Straight Descent": {
+   "id": "201342",
+   "baseCost": 120,
+   "groupId": "20134",
+   "gold": false,
+   "pair": "Determined Descent"
+  },
+  "Gourmand": {
+   "id": "201351",
+   "baseCost": 180,
+   "groupId": "20135",
+   "gold": true,
+   "pair": "Hydrate"
+  },
+  "Hydrate": {
+   "id": "201352",
+   "baseCost": 180,
+   "groupId": "20135",
+   "gold": false,
+   "pair": "Gourmand"
+  },
+  "Shatterproof": {
+   "id": "201361",
+   "baseCost": 120,
+   "groupId": "20136",
+   "gold": true,
+   "pair": "Tactical Tweak"
+  },
+  "Tactical Tweak": {
+   "id": "201362",
+   "baseCost": 120,
+   "groupId": "20136",
+   "gold": false,
+   "pair": "Shatterproof"
+  },
+  "Dazzling Disorientation": {
+   "id": "201371",
+   "baseCost": 110,
+   "groupId": "20137",
+   "gold": true,
+   "pair": "Disorient"
+  },
+  "Disorient": {
+   "id": "201372",
+   "baseCost": 110,
+   "groupId": "20137",
+   "gold": false,
+   "pair": "Dazzling Disorientation"
+  },
+  "Late Surger Straightaways ◎": {
+   "id": "201381",
+   "baseCost": 140,
+   "groupId": "20138",
+   "gold": true,
+   "pair": "Late Surger Straightaways ○"
+  },
+  "Late Surger Straightaways ○": {
+   "id": "201382",
+   "baseCost": 130,
+   "groupId": "20138",
+   "gold": false,
+   "pair": "Late Surger Straightaways ◎"
+  },
+  "Sharp Streak": {
+   "id": "201383",
+   "baseCost": 150,
+   "groupId": "20138",
+   "gold": false,
+   "pair": null
+  },
+  "Late Surger Corners ◎": {
+   "id": "201391",
+   "baseCost": 140,
+   "groupId": "20139",
+   "gold": true,
+   "pair": "Late Surger Corners ○"
+  },
+  "Late Surger Corners ○": {
+   "id": "201392",
+   "baseCost": 130,
+   "groupId": "20139",
+   "gold": false,
+   "pair": "Late Surger Corners ◎"
+  },
+  "Sharp Arc": {
+   "id": "201393",
+   "baseCost": 150,
+   "groupId": "20139",
+   "gold": false,
+   "pair": null
+  },
+  "Hard Worker": {
+   "id": "201401",
+   "baseCost": 120,
+   "groupId": "20140",
+   "gold": true,
+   "pair": "Fighter"
+  },
+  "Fighter": {
+   "id": "201402",
+   "baseCost": 120,
+   "groupId": "20140",
+   "gold": false,
+   "pair": "Hard Worker"
+  },
+  "15,000,000 CC": {
+   "id": "201411",
+   "baseCost": 120,
+   "groupId": "20141",
+   "gold": true,
+   "pair": "1,500,000 CC"
+  },
+  "1,500,000 CC": {
+   "id": "201412",
+   "baseCost": 120,
+   "groupId": "20141",
+   "gold": false,
+   "pair": "15,000,000 CC"
+  },
+  "Relax": {
+   "id": "201421",
+   "baseCost": 180,
+   "groupId": "20142",
+   "gold": true,
+   "pair": "A Small Breather"
+  },
+  "A Small Breather": {
+   "id": "201422",
+   "baseCost": 180,
+   "groupId": "20142",
+   "gold": false,
+   "pair": "Relax"
+  },
+  "The Bigger Picture": {
+   "id": "201431",
+   "baseCost": 120,
+   "groupId": "20143",
+   "gold": true,
+   "pair": "Studious"
+  },
+  "Studious": {
+   "id": "201432",
+   "baseCost": 120,
+   "groupId": "20143",
+   "gold": false,
+   "pair": "The Bigger Picture"
+  },
+  "All-Seeing Eyes": {
+   "id": "201441",
+   "baseCost": 180,
+   "groupId": "20144",
+   "gold": true,
+   "pair": "Sharp Gaze"
+  },
+  "Sharp Gaze": {
+   "id": "201442",
+   "baseCost": 180,
+   "groupId": "20144",
+   "gold": false,
+   "pair": "All-Seeing Eyes"
+  },
+  "End Closer Straightaways ◎": {
+   "id": "201451",
+   "baseCost": 140,
+   "groupId": "20145",
+   "gold": true,
+   "pair": "End Closer Straightaways ○"
+  },
+  "End Closer Straightaways ○": {
+   "id": "201452",
+   "baseCost": 130,
+   "groupId": "20145",
+   "gold": false,
+   "pair": "End Closer Straightaways ◎"
+  },
+  "Moonlit Flash": {
+   "id": "201453",
+   "baseCost": 150,
+   "groupId": "20145",
+   "gold": false,
+   "pair": null
+  },
+  "End Closer Corners ◎": {
+   "id": "201461",
+   "baseCost": 140,
+   "groupId": "20146",
+   "gold": true,
+   "pair": "End Closer Corners ○"
+  },
+  "End Closer Corners ○": {
+   "id": "201462",
+   "baseCost": 130,
+   "groupId": "20146",
+   "gold": false,
+   "pair": "End Closer Corners ◎"
+  },
+  "The Coast Is Clear!": {
+   "id": "201471",
+   "baseCost": 110,
+   "groupId": "20147",
+   "gold": true,
+   "pair": "I Can See Right Through You"
+  },
+  "I Can See Right Through You": {
+   "id": "201472",
+   "baseCost": 110,
+   "groupId": "20147",
+   "gold": false,
+   "pair": "The Coast Is Clear!"
+  },
+  "Go-Home Specialist": {
+   "id": "201481",
+   "baseCost": 170,
+   "groupId": "20148",
+   "gold": true,
+   "pair": "After-School Stroll"
+  },
+  "After-School Stroll": {
+   "id": "201482",
+   "baseCost": 170,
+   "groupId": "20148",
+   "gold": false,
+   "pair": "Go-Home Specialist"
+  },
+  "Serenity": {
+   "id": "201491",
+   "baseCost": 180,
+   "groupId": "20149",
+   "gold": true,
+   "pair": "Levelheaded"
+  },
+  "Levelheaded": {
+   "id": "201492",
+   "baseCost": 180,
+   "groupId": "20149",
+   "gold": false,
+   "pair": "Serenity"
+  },
+  "Crusader": {
+   "id": "201501",
+   "baseCost": 110,
+   "groupId": "20150",
+   "gold": true,
+   "pair": "Strategist"
+  },
+  "Strategist": {
+   "id": "201502",
+   "baseCost": 110,
+   "groupId": "20150",
+   "gold": false,
+   "pair": "Crusader"
+  },
+  "Petrifying Gaze": {
+   "id": "201511",
+   "baseCost": 180,
+   "groupId": "20151",
+   "gold": true,
+   "pair": "Intense Gaze"
+  },
+  "Intense Gaze": {
+   "id": "201512",
+   "baseCost": 180,
+   "groupId": "20151",
+   "gold": false,
+   "pair": "Petrifying Gaze"
+  },
+  "Front Runner Savvy ◎": {
+   "id": "201521",
+   "baseCost": 130,
+   "groupId": "20152",
+   "gold": true,
+   "pair": "Front Runner Savvy ○"
+  },
+  "Front Runner Savvy ○": {
+   "id": "201522",
+   "baseCost": 110,
+   "groupId": "20152",
+   "gold": false,
+   "pair": "Front Runner Savvy ◎"
+  },
+  "Pace Chaser Savvy ◎": {
+   "id": "201531",
+   "baseCost": 130,
+   "groupId": "20153",
+   "gold": true,
+   "pair": "Pace Chaser Savvy ○"
+  },
+  "Pace Chaser Savvy ○": {
+   "id": "201532",
+   "baseCost": 110,
+   "groupId": "20153",
+   "gold": false,
+   "pair": "Pace Chaser Savvy ◎"
+  },
+  "Late Surger Savvy ◎": {
+   "id": "201541",
+   "baseCost": 130,
+   "groupId": "20154",
+   "gold": true,
+   "pair": "Late Surger Savvy ○"
+  },
+  "Late Surger Savvy ○": {
+   "id": "201542",
+   "baseCost": 110,
+   "groupId": "20154",
+   "gold": false,
+   "pair": "Late Surger Savvy ◎"
+  },
+  "End Closer Savvy ◎": {
+   "id": "201551",
+   "baseCost": 130,
+   "groupId": "20155",
+   "gold": true,
+   "pair": "End Closer Savvy ○"
+  },
+  "End Closer Savvy ○": {
+   "id": "201552",
+   "baseCost": 110,
+   "groupId": "20155",
+   "gold": false,
+   "pair": "End Closer Savvy ◎"
+  },
+  "Super Lucky Seven": {
+   "id": "201561",
+   "baseCost": 110,
+   "groupId": "20156",
+   "gold": true,
+   "pair": "Lucky Seven"
+  },
+  "Lucky Seven": {
+   "id": "201562",
+   "baseCost": 110,
+   "groupId": "20156",
+   "gold": false,
+   "pair": "Super Lucky Seven"
+  },
+  "Triple 7s": {
+   "id": "201571",
+   "baseCost": 160,
+   "groupId": "20157",
+   "gold": false,
+   "pair": null
+  },
+  "Highlander": {
+   "id": "201581",
+   "baseCost": 160,
+   "groupId": "20158",
+   "gold": false,
+   "pair": null
+  },
+  "Uma Stan": {
+   "id": "201591",
+   "baseCost": 160,
+   "groupId": "20159",
+   "gold": true,
+   "pair": "Superstan"
+  },
+  "Superstan": {
+   "id": "201592",
+   "baseCost": 160,
+   "groupId": "20159",
+   "gold": false,
+   "pair": "Uma Stan"
+  },
+  "Groundwork": {
+   "id": "201601",
+   "baseCost": 100,
+   "groupId": "20160",
+   "gold": true,
+   "pair": "Solid Preparation"
+  },
+  "Solid Preparation": {
+   "id": "201602",
+   "baseCost": 180,
+   "groupId": "20160",
+   "gold": false,
+   "pair": "Groundwork"
+  },
+  "Tail Held High": {
+   "id": "201611",
+   "baseCost": 100,
+   "groupId": "20161",
+   "gold": true,
+   "pair": "Tail Nine"
+  },
+  "Tail Nine": {
+   "id": "201612",
+   "baseCost": 180,
+   "groupId": "20161",
+   "gold": false,
+   "pair": "Tail Held High"
+  },
+  "Shake It Out": {
+   "id": "201621",
+   "baseCost": 100,
+   "groupId": "20162",
+   "gold": false,
+   "pair": null
+  },
+  "Sympathy": {
+   "id": "201631",
+   "baseCost": 70,
+   "groupId": "20163",
+   "gold": false,
+   "pair": null
+  },
+  "Lone Wolf": {
+   "id": "201641",
+   "baseCost": 70,
+   "groupId": "20164",
+   "gold": false,
+   "pair": null
+  },
+  "Slipstream": {
+   "id": "201651",
+   "baseCost": 160,
+   "groupId": "20165",
+   "gold": true,
+   "pair": "Perfect Spot!"
+  },
+  "Perfect Spot!": {
+   "id": "201652",
+   "baseCost": 160,
+   "groupId": "20165",
+   "gold": false,
+   "pair": "Slipstream"
+  },
+  "Playtime's Over!": {
+   "id": "201661",
+   "baseCost": 160,
+   "groupId": "20166",
+   "gold": true,
+   "pair": "See Ya Later!"
+  },
+  "See Ya Later!": {
+   "id": "201662",
+   "baseCost": 160,
+   "groupId": "20166",
+   "gold": false,
+   "pair": "Playtime's Over!"
+  },
+  "Trending in the Charts!": {
+   "id": "201671",
+   "baseCost": 180,
+   "groupId": "20167",
+   "gold": true,
+   "pair": "Top Pick"
+  },
+  "Top Pick": {
+   "id": "201672",
+   "baseCost": 180,
+   "groupId": "20167",
+   "gold": false,
+   "pair": "Trending in the Charts!"
+  },
+  "Lead the Charge!": {
+   "id": "201681",
+   "baseCost": 140,
+   "groupId": "20168",
+   "gold": true,
+   "pair": "Forward, March!"
+  },
+  "Forward, March!": {
+   "id": "201682",
+   "baseCost": 140,
+   "groupId": "20168",
+   "gold": false,
+   "pair": "Lead the Charge!"
+  },
+  "Lie in Wait": {
+   "id": "201691",
+   "baseCost": 180,
+   "groupId": "20169",
+   "gold": true,
+   "pair": "Be Still"
+  },
+  "Be Still": {
+   "id": "201692",
+   "baseCost": 180,
+   "groupId": "20169",
+   "gold": false,
+   "pair": "Lie in Wait"
+  },
+  "Come What May": {
+   "id": "201701",
+   "baseCost": 160,
+   "groupId": "20170",
+   "gold": true,
+   "pair": "All I've Got"
+  },
+  "All I've Got": {
+   "id": "201702",
+   "baseCost": 160,
+   "groupId": "20170",
+   "gold": false,
+   "pair": "Come What May"
+  },
+  "♡ 3D Nail Art": {
+   "id": "201801",
+   "baseCost": 50,
+   "groupId": "20180",
+   "gold": false,
+   "pair": null
+  },
+  "Neck and Neck": {
+   "id": "201901",
+   "baseCost": 180,
+   "groupId": "20190",
+   "gold": true,
+   "pair": "Head-On"
+  },
+  "Head-On": {
+   "id": "201902",
+   "baseCost": 180,
+   "groupId": "20190",
+   "gold": false,
+   "pair": "Neck and Neck"
+  },
+  "Master of the Sands": {
+   "id": "202001",
+   "baseCost": 200,
+   "groupId": "20200",
+   "gold": true,
+   "pair": "Familiar Ground"
+  },
+  "Familiar Ground": {
+   "id": "202002",
+   "baseCost": 180,
+   "groupId": "20200",
+   "gold": false,
+   "pair": "Master of the Sands"
+  },
+  "Headliner": {
+   "id": "202011",
+   "baseCost": 160,
+   "groupId": "20201",
+   "gold": true,
+   "pair": "Feature Act"
+  },
+  "Feature Act": {
+   "id": "202012",
+   "baseCost": 160,
+   "groupId": "20201",
+   "gold": false,
+   "pair": "Headliner"
+  },
+  "Daring Strike": {
+   "id": "202021",
+   "baseCost": 180,
+   "groupId": "20202",
+   "gold": true,
+   "pair": "Early Start"
+  },
+  "Early Start": {
+   "id": "202022",
+   "baseCost": 180,
+   "groupId": "20202",
+   "gold": false,
+   "pair": "Daring Strike"
+  },
+  "Nothing Ventured": {
+   "id": "202031",
+   "baseCost": 120,
+   "groupId": "20203",
+   "gold": true,
+   "pair": "Risky Business"
+  },
+  "Risky Business": {
+   "id": "202032",
+   "baseCost": 120,
+   "groupId": "20203",
+   "gold": false,
+   "pair": "Nothing Ventured"
+  },
+  "In High Spirits": {
+   "id": "202041",
+   "baseCost": 160,
+   "groupId": "20204",
+   "gold": true,
+   "pair": "Light as a Feather"
+  },
+  "Light as a Feather": {
+   "id": "202042",
+   "baseCost": 160,
+   "groupId": "20204",
+   "gold": false,
+   "pair": "In High Spirits"
+  },
+  "Runaway": {
+   "id": "202051",
+   "baseCost": 200,
+   "groupId": "20205",
+   "gold": false,
+   "pair": null
+  },
+  "Best in Japan": {
+   "id": "202061",
+   "baseCost": 360,
+   "groupId": "20206",
+   "gold": false,
+   "pair": null
+  },
+  "Of Calm Mind": {
+   "id": "202071",
+   "baseCost": 170,
+   "groupId": "20207",
+   "gold": true,
+   "pair": "Free-Spirited"
+  },
+  "Free-Spirited": {
+   "id": "202072",
+   "baseCost": 170,
+   "groupId": "20207",
+   "gold": false,
+   "pair": "Of Calm Mind"
+  },
+  "From the Brink": {
+   "id": "202081",
+   "baseCost": 160,
+   "groupId": "20208",
+   "gold": true,
+   "pair": "Take the Chance"
+  },
+  "Take the Chance": {
+   "id": "202082",
+   "baseCost": 160,
+   "groupId": "20208",
+   "gold": false,
+   "pair": "From the Brink"
+  },
+  "Burning Soul": {
+   "id": "202091",
+   "baseCost": 160,
+   "groupId": "20209",
+   "gold": true,
+   "pair": "Fighting Spirit"
+  },
+  "Fighting Spirit": {
+   "id": "202092",
+   "baseCost": 160,
+   "groupId": "20209",
+   "gold": false,
+   "pair": "Burning Soul"
+  },
+  "Elated": {
+   "id": "202101",
+   "baseCost": 160,
+   "groupId": "20210",
+   "gold": true,
+   "pair": "Eager"
+  },
+  "Eager": {
+   "id": "202102",
+   "baseCost": 160,
+   "groupId": "20210",
+   "gold": false,
+   "pair": "Elated"
+  },
+  "Full of Vigor": {
+   "id": "202111",
+   "baseCost": 160,
+   "groupId": "20211",
+   "gold": true,
+   "pair": "Pumped"
+  },
+  "Pumped": {
+   "id": "202112",
+   "baseCost": 160,
+   "groupId": "20211",
+   "gold": false,
+   "pair": "Full of Vigor"
+  },
+  "Dauntless": {
+   "id": "202121",
+   "baseCost": 180,
+   "groupId": "20212",
+   "gold": true,
+   "pair": "Fearless"
+  },
+  "Fearless": {
+   "id": "202122",
+   "baseCost": 180,
+   "groupId": "20212",
+   "gold": false,
+   "pair": "Dauntless"
+  },
+  "Wild Wind": {
+   "id": "202131",
+   "baseCost": 160,
+   "groupId": "20213",
+   "gold": true,
+   "pair": "With All My Soul"
+  },
+  "With All My Soul": {
+   "id": "202132",
+   "baseCost": 160,
+   "groupId": "20213",
+   "gold": false,
+   "pair": "Wild Wind"
+  },
+  "You're Not the Boss of Me!": {
+   "id": "202141",
+   "baseCost": 0,
+   "groupId": "20214",
+   "gold": false,
+   "pair": null
+  },
+  "Keep Going!": {
+   "id": "202151",
+   "baseCost": 160,
+   "groupId": "20215",
+   "gold": true,
+   "pair": "Full Throttle"
+  },
+  "Full Throttle": {
+   "id": "202152",
+   "baseCost": 160,
+   "groupId": "20215",
+   "gold": false,
+   "pair": "Keep Going!"
+  },
+  "Restraint": {
+   "id": "202161",
+   "baseCost": 160,
+   "groupId": "20216",
+   "gold": false,
+   "pair": null
+  },
+  "Master of Declines": {
+   "id": "202171",
+   "baseCost": 170,
+   "groupId": "20217",
+   "gold": true,
+   "pair": "Downhill Speedster"
+  },
+  "Downhill Speedster": {
+   "id": "202172",
+   "baseCost": 170,
+   "groupId": "20217",
+   "gold": false,
+   "pair": "Master of Declines"
+  },
+  "99 Problems": {
+   "id": "202181",
+   "baseCost": 0,
+   "groupId": "20218",
+   "gold": false,
+   "pair": null
+  },
+  "Heart All Set": {
+   "id": "202191",
+   "baseCost": 170,
+   "groupId": "20219",
+   "gold": true,
+   "pair": "All Set"
+  },
+  "All Set": {
+   "id": "202192",
+   "baseCost": 170,
+   "groupId": "20219",
+   "gold": false,
+   "pair": "Heart All Set"
+  },
+  "Kawasaki Racecourse ◎": {
+   "id": "202201",
+   "baseCost": 90,
+   "groupId": "20220",
+   "gold": true,
+   "pair": "Kawasaki Racecourse ○"
+  },
+  "Kawasaki Racecourse ○": {
+   "id": "202202",
+   "baseCost": 70,
+   "groupId": "20220",
+   "gold": false,
+   "pair": "Kawasaki Racecourse ◎"
+  },
+  "Kawasaki Racecourse ×": {
+   "id": "202203",
+   "baseCost": 40,
+   "groupId": "20220",
+   "gold": false,
+   "pair": null
+  },
+  "Funabashi Racecourse ◎": {
+   "id": "202211",
+   "baseCost": 90,
+   "groupId": "20221",
+   "gold": true,
+   "pair": "Funabashi Racecourse ○"
+  },
+  "Funabashi Racecourse ○": {
+   "id": "202212",
+   "baseCost": 70,
+   "groupId": "20221",
+   "gold": false,
+   "pair": "Funabashi Racecourse ◎"
+  },
+  "Funabashi Racecourse ×": {
+   "id": "202213",
+   "baseCost": 40,
+   "groupId": "20221",
+   "gold": false,
+   "pair": null
+  },
+  "Morioka Racecourse ◎": {
+   "id": "202221",
+   "baseCost": 90,
+   "groupId": "20222",
+   "gold": true,
+   "pair": "Morioka Racecourse ○"
+  },
+  "Morioka Racecourse ○": {
+   "id": "202222",
+   "baseCost": 70,
+   "groupId": "20222",
+   "gold": false,
+   "pair": "Morioka Racecourse ◎"
+  },
+  "Morioka Racecourse ×": {
+   "id": "202223",
+   "baseCost": 40,
+   "groupId": "20222",
+   "gold": false,
+   "pair": null
+  },
+  "Night Races ◎": {
+   "id": "202231",
+   "baseCost": 90,
+   "groupId": "20223",
+   "gold": true,
+   "pair": "Night Races ○"
+  },
+  "Night Races ○": {
+   "id": "202232",
+   "baseCost": 70,
+   "groupId": "20223",
+   "gold": false,
+   "pair": "Night Races ◎"
+  },
+  "Night Races ×": {
+   "id": "202233",
+   "baseCost": 40,
+   "groupId": "20223",
+   "gold": false,
+   "pair": null
+  },
+  "Sharp Turns ◎": {
+   "id": "202241",
+   "baseCost": 90,
+   "groupId": "20224",
+   "gold": true,
+   "pair": "Sharp Turns ○"
+  },
+  "Sharp Turns ○": {
+   "id": "202242",
+   "baseCost": 70,
+   "groupId": "20224",
+   "gold": false,
+   "pair": "Sharp Turns ◎"
+  },
+  "Sharp Turns ×": {
+   "id": "202243",
+   "baseCost": 40,
+   "groupId": "20224",
+   "gold": false,
+   "pair": null
+  },
+  "Collaborative Graded Races ◎": {
+   "id": "202251",
+   "baseCost": 90,
+   "groupId": "20225",
+   "gold": true,
+   "pair": "Collaborative Graded Races ○"
+  },
+  "Collaborative Graded Races ○": {
+   "id": "202252",
+   "baseCost": 70,
+   "groupId": "20225",
+   "gold": false,
+   "pair": "Collaborative Graded Races ◎"
+  },
+  "Collaborative Graded Races ×": {
+   "id": "202253",
+   "baseCost": 40,
+   "groupId": "20225",
+   "gold": false,
+   "pair": null
+  },
+  "Chance of Victory": {
+   "id": "202261",
+   "baseCost": 180,
+   "groupId": "20226",
+   "gold": true,
+   "pair": "Sunny Sign"
+  },
+  "Sunny Sign": {
+   "id": "202262",
+   "baseCost": 180,
+   "groupId": "20226",
+   "gold": false,
+   "pair": "Chance of Victory"
+  },
+  "Can't Keep Me Down": {
+   "id": "202271",
+   "baseCost": 180,
+   "groupId": "20227",
+   "gold": true,
+   "pair": "Comeback"
+  },
+  "Comeback": {
+   "id": "202272",
+   "baseCost": 180,
+   "groupId": "20227",
+   "gold": false,
+   "pair": "Can't Keep Me Down"
+  },
+  "Full Speed!": {
+   "id": "202281",
+   "baseCost": 180,
+   "groupId": "20228",
+   "gold": true,
+   "pair": "Full Tilt"
+  },
+  "Full Tilt": {
+   "id": "202282",
+   "baseCost": 180,
+   "groupId": "20228",
+   "gold": false,
+   "pair": "Full Speed!"
+  },
+  "Crystal Clear": {
+   "id": "202291",
+   "baseCost": 150,
+   "groupId": "20229",
+   "gold": true,
+   "pair": "Rational"
+  },
+  "Rational": {
+   "id": "202292",
+   "baseCost": 150,
+   "groupId": "20229",
+   "gold": false,
+   "pair": "Crystal Clear"
+  },
+  "Dancer in the Dirt": {
+   "id": "202301",
+   "baseCost": 160,
+   "groupId": "20230",
+   "gold": true,
+   "pair": "Down in the Dirt ○"
+  },
+  "Down in the Dirt ○": {
+   "id": "202302",
+   "baseCost": 160,
+   "groupId": "20230",
+   "gold": false,
+   "pair": "Dancer in the Dirt"
+  },
+  "Down in the Dirt ×": {
+   "id": "202303",
+   "baseCost": 100,
+   "groupId": "20230",
+   "gold": false,
+   "pair": null
+  },
+  "Be the Center!": {
+   "id": "202311",
+   "baseCost": 180,
+   "groupId": "20231",
+   "gold": true,
+   "pair": "Got the Spirit!"
+  },
+  "Got the Spirit!": {
+   "id": "202312",
+   "baseCost": 180,
+   "groupId": "20231",
+   "gold": false,
+   "pair": "Be the Center!"
+  },
+  "Run Like Crazy!": {
+   "id": "202321",
+   "baseCost": 180,
+   "groupId": "20232",
+   "gold": true,
+   "pair": "Rapid Gain"
+  },
+  "Rapid Gain": {
+   "id": "202322",
+   "baseCost": 180,
+   "groupId": "20232",
+   "gold": false,
+   "pair": "Run Like Crazy!"
+  },
+  "Strong Steps": {
+   "id": "202331",
+   "baseCost": 120,
+   "groupId": "20233",
+   "gold": true,
+   "pair": "Solid Steps"
+  },
+  "Solid Steps": {
+   "id": "202332",
+   "baseCost": 120,
+   "groupId": "20233",
+   "gold": false,
+   "pair": "Strong Steps"
+  },
+  "Maestro of the Mud": {
+   "id": "202341",
+   "baseCost": 130,
+   "groupId": "20234",
+   "gold": true,
+   "pair": "Muddy ◎"
+  },
+  "Muddy ◎": {
+   "id": "202342",
+   "baseCost": 110,
+   "groupId": "20234",
+   "gold": false,
+   "pair": "Maestro of the Mud"
+  },
+  "Muddy ○": {
+   "id": "202343",
+   "baseCost": 90,
+   "groupId": "20234",
+   "gold": false,
+   "pair": null
+  },
+  "Muddy ×": {
+   "id": "202344",
+   "baseCost": 50,
+   "groupId": "20234",
+   "gold": true,
+   "pair": "Muddy ◎",
+   "middle": "Maestro of the Mud"
+  },
+  "Dust Cloud Idol": {
+   "id": "202351",
+   "baseCost": 120,
+   "groupId": "20235",
+   "gold": true,
+   "pair": "Dust Cloud"
+  },
+  "Dust Cloud": {
+   "id": "202352",
+   "baseCost": 120,
+   "groupId": "20235",
+   "gold": false,
+   "pair": "Dust Cloud Idol"
+  },
+  "Catch 'Em Off Guard": {
+   "id": "202361",
+   "baseCost": 180,
+   "groupId": "20236",
+   "gold": true,
+   "pair": "Oppression"
+  },
+  "Oppression": {
+   "id": "202362",
+   "baseCost": 180,
+   "groupId": "20236",
+   "gold": false,
+   "pair": "Catch 'Em Off Guard"
+  },
+  "Unstoppable": {
+   "id": "202371",
+   "baseCost": 180,
+   "groupId": "20237",
+   "gold": true,
+   "pair": "On the Attack"
+  },
+  "On the Attack": {
+   "id": "202372",
+   "baseCost": 180,
+   "groupId": "20237",
+   "gold": false,
+   "pair": "Unstoppable"
+  },
+  "Breakin' Ahead": {
+   "id": "202381",
+   "baseCost": 180,
+   "groupId": "20238",
+   "gold": true,
+   "pair": "Breakin' Out"
+  },
+  "Breakin' Out": {
+   "id": "202382",
+   "baseCost": 180,
+   "groupId": "20238",
+   "gold": false,
+   "pair": "Breakin' Ahead"
+  },
+  "Givin' It 1000%": {
+   "id": "202391",
+   "baseCost": 180,
+   "groupId": "20239",
+   "gold": true,
+   "pair": "Mad Dash"
+  },
+  "Mad Dash": {
+   "id": "202392",
+   "baseCost": 180,
+   "groupId": "20239",
+   "gold": false,
+   "pair": "Givin' It 1000%"
+  },
+  "Leap Forward": {
+   "id": "202402",
+   "baseCost": 180,
+   "groupId": "20240",
+   "gold": false,
+   "pair": "Flash Forward"
+  },
+  "Ambitious Breeze": {
+   "id": "202411",
+   "baseCost": 180,
+   "groupId": "20241",
+   "gold": true,
+   "pair": "Aspire"
+  },
+  "Aspire": {
+   "id": "202412",
+   "baseCost": 180,
+   "groupId": "20241",
+   "gold": false,
+   "pair": "Ambitious Breeze"
+  },
+  "Claw Forward": {
+   "id": "202421",
+   "baseCost": 180,
+   "groupId": "20242",
+   "gold": true,
+   "pair": "Scramble"
+  },
+  "Scramble": {
+   "id": "202422",
+   "baseCost": 180,
+   "groupId": "20242",
+   "gold": false,
+   "pair": "Claw Forward"
+  },
+  "Solid Strike": {
+   "id": "202431",
+   "baseCost": 170,
+   "groupId": "20243",
+   "gold": true,
+   "pair": "Steady Gait"
+  },
+  "Steady Gait": {
+   "id": "202432",
+   "baseCost": 170,
+   "groupId": "20243",
+   "gold": false,
+   "pair": "Solid Strike"
+  },
+  "Risk-Maker": {
+   "id": "202441",
+   "baseCost": 180,
+   "groupId": "20244",
+   "gold": true,
+   "pair": "Risk-Taker"
+  },
+  "Risk-Taker": {
+   "id": "202442",
+   "baseCost": 180,
+   "groupId": "20244",
+   "gold": false,
+   "pair": "Risk-Maker"
+  },
+  "Top Gear": {
+   "id": "202451",
+   "baseCost": 180,
+   "groupId": "20245",
+   "gold": true,
+   "pair": "Pedal to the Metal"
+  },
+  "Pedal to the Metal": {
+   "id": "202452",
+   "baseCost": 180,
+   "groupId": "20245",
+   "gold": false,
+   "pair": "Top Gear"
+  },
+  "Can't Even Catch My Shadow": {
+   "id": "202461",
+   "baseCost": 180,
+   "groupId": "20246",
+   "gold": true,
+   "pair": "Firm Resolve"
+  },
+  "Firm Resolve": {
+   "id": "202462",
+   "baseCost": 180,
+   "groupId": "20246",
+   "gold": false,
+   "pair": "Can't Even Catch My Shadow"
+  },
+  "Hot Pursuit": {
+   "id": "202471",
+   "baseCost": 180,
+   "groupId": "20247",
+   "gold": true,
+   "pair": "Latch On"
+  },
+  "Latch On": {
+   "id": "202472",
+   "baseCost": 180,
+   "groupId": "20247",
+   "gold": false,
+   "pair": "Hot Pursuit"
+  },
+  "Beast Mode": {
+   "id": "202481",
+   "baseCost": 180,
+   "groupId": "20248",
+   "gold": true,
+   "pair": "My True Strength"
+  },
+  "My True Strength": {
+   "id": "202482",
+   "baseCost": 180,
+   "groupId": "20248",
+   "gold": false,
+   "pair": "Beast Mode"
+  },
+  "Razor-Sharp Steps": {
+   "id": "202491",
+   "baseCost": 180,
+   "groupId": "20249",
+   "gold": true,
+   "pair": "Sharp Steps"
+  },
+  "Sharp Steps": {
+   "id": "202492",
+   "baseCost": 180,
+   "groupId": "20249",
+   "gold": false,
+   "pair": "Razor-Sharp Steps"
+  },
+  "Reckless Charge": {
+   "id": "202501",
+   "baseCost": 180,
+   "groupId": "20250",
+   "gold": true,
+   "pair": "No Looking Back"
+  },
+  "No Looking Back": {
+   "id": "202502",
+   "baseCost": 180,
+   "groupId": "20250",
+   "gold": false,
+   "pair": "Reckless Charge"
+  },
+  "Gonna Be Ur #1 FRFR": {
+   "id": "202511",
+   "baseCost": 0,
+   "groupId": "20251",
+   "gold": false,
+   "pair": null
+  },
+  "Beautiful Form": {
+   "id": "202521",
+   "baseCost": 180,
+   "groupId": "20252",
+   "gold": true,
+   "pair": "Break the Mold"
+  },
+  "Break the Mold": {
+   "id": "202522",
+   "baseCost": 180,
+   "groupId": "20252",
+   "gold": false,
+   "pair": "Beautiful Form"
+  },
+  "Superb Gait": {
+   "id": "202531",
+   "baseCost": 180,
+   "groupId": "20253",
+   "gold": true,
+   "pair": "Graceful Gait"
+  },
+  "Graceful Gait": {
+   "id": "202532",
+   "baseCost": 180,
+   "groupId": "20253",
+   "gold": false,
+   "pair": "Superb Gait"
+  },
+  "Vying for the Throne": {
+   "id": "202541",
+   "baseCost": 190,
+   "groupId": "20254",
+   "gold": true,
+   "pair": "Pressure"
+  },
+  "Divine Speed": {
+   "id": "202551",
+   "baseCost": 200,
+   "groupId": "20255",
+   "gold": true,
+   "pair": "High Speed"
+  },
+  "High Speed": {
+   "id": "202552",
+   "baseCost": 200,
+   "groupId": "20255",
+   "gold": false,
+   "pair": "Divine Speed"
+  },
+  "Sure Shot": {
+   "id": "202561",
+   "baseCost": 160,
+   "groupId": "20256",
+   "gold": true,
+   "pair": "Locked On"
+  },
+  "Locked On": {
+   "id": "202562",
+   "baseCost": 160,
+   "groupId": "20256",
+   "gold": false,
+   "pair": "Sure Shot"
+  },
+  "Miracle for My Future": {
+   "id": "202571",
+   "baseCost": 0,
+   "groupId": "20257",
+   "gold": false,
+   "pair": null
+  },
+  "Light-Footed as a Hare": {
+   "id": "202581",
+   "baseCost": 200,
+   "groupId": "20258",
+   "gold": true,
+   "pair": "Undistracted"
+  },
+  "Undistracted": {
+   "id": "202582",
+   "baseCost": 200,
+   "groupId": "20258",
+   "gold": false,
+   "pair": "Light-Footed as a Hare"
+  },
+  "In One Fell Swoop": {
+   "id": "202591",
+   "baseCost": 160,
+   "groupId": "20259",
+   "gold": true,
+   "pair": "Hurry Up!"
+  },
+  "Hurry Up!": {
+   "id": "202592",
+   "baseCost": 160,
+   "groupId": "20259",
+   "gold": false,
+   "pair": "In One Fell Swoop"
+  },
+  "Luminescence": {
+   "id": "202601",
+   "baseCost": 160,
+   "groupId": "20260",
+   "gold": true,
+   "pair": "Ignition"
+  },
+  "Ignition": {
+   "id": "202602",
+   "baseCost": 160,
+   "groupId": "20260",
+   "gold": false,
+   "pair": "Luminescence"
+  },
+  "Unrestrained Passion": {
+   "id": "202612",
+   "baseCost": 180,
+   "groupId": "20261",
+   "gold": false,
+   "pair": null
+  },
+  "Rampaging Passion": {
+   "id": "202621",
+   "baseCost": 180,
+   "groupId": "20262",
+   "gold": true,
+   "pair": "Start the Charge"
+  },
+  "Start the Charge": {
+   "id": "202622",
+   "baseCost": 180,
+   "groupId": "20262",
+   "gold": false,
+   "pair": "Rampaging Passion"
+  },
+  "A Journey in a Step": {
+   "id": "202641",
+   "baseCost": 180,
+   "groupId": "20264",
+   "gold": true,
+   "pair": "First Step"
+  },
+  "First Step": {
+   "id": "202642",
+   "baseCost": 180,
+   "groupId": "20264",
+   "gold": false,
+   "pair": "A Journey in a Step"
+  },
+  "Part the Clouds": {
+   "id": "202651",
+   "baseCost": 180,
+   "groupId": "20265",
+   "gold": true,
+   "pair": "Confident"
+  },
+  "Confident": {
+   "id": "202652",
+   "baseCost": 180,
+   "groupId": "20265",
+   "gold": false,
+   "pair": "Part the Clouds"
+  },
+  "Rising Pulse": {
+   "id": "202661",
+   "baseCost": 180,
+   "groupId": "20266",
+   "gold": true,
+   "pair": "Rising Heat"
+  },
+  "Rising Heat": {
+   "id": "202662",
+   "baseCost": 180,
+   "groupId": "20266",
+   "gold": false,
+   "pair": "Rising Pulse"
+  },
+  "High Voltage": {
+   "id": "202671",
+   "baseCost": 160,
+   "groupId": "20267",
+   "gold": true,
+   "pair": "Beating Heart"
+  },
+  "Beating Heart": {
+   "id": "202672",
+   "baseCost": 160,
+   "groupId": "20267",
+   "gold": false,
+   "pair": "High Voltage"
+  },
+  "Send It! ☆": {
+   "id": "202681",
+   "baseCost": 200,
+   "groupId": "20268",
+   "gold": true,
+   "pair": "Pop Off!"
+  },
+  "Pop Off!": {
+   "id": "202682",
+   "baseCost": 200,
+   "groupId": "20268",
+   "gold": false,
+   "pair": "Send It! ☆"
+  },
+  "Before Anyone!": {
+   "id": "202691",
+   "baseCost": 120,
+   "groupId": "20269",
+   "gold": true,
+   "pair": "Goin' First"
+  },
+  "Goin' First": {
+   "id": "202692",
+   "baseCost": 120,
+   "groupId": "20269",
+   "gold": false,
+   "pair": "Before Anyone!"
+  },
+  "Singularity": {
+   "id": "202701",
+   "baseCost": 120,
+   "groupId": "20270",
+   "gold": true,
+   "pair": "Adventurer"
+  },
+  "Adventurer": {
+   "id": "202702",
+   "baseCost": 120,
+   "groupId": "20270",
+   "gold": false,
+   "pair": "Singularity"
+  },
+  "Burning Spirit SPD": {
+   "id": "210011",
+   "baseCost": 200,
+   "groupId": "21001",
+   "gold": true,
+   "pair": "Ignited Spirit SPD"
+  },
+  "Ignited Spirit SPD": {
+   "id": "210012",
+   "baseCost": 200,
+   "groupId": "21001",
+   "gold": false,
+   "pair": "Burning Spirit SPD"
+  },
+  "Burning Spirit STA": {
+   "id": "210021",
+   "baseCost": 200,
+   "groupId": "21002",
+   "gold": true,
+   "pair": "Ignited Spirit STA"
+  },
+  "Ignited Spirit STA": {
+   "id": "210022",
+   "baseCost": 200,
+   "groupId": "21002",
+   "gold": false,
+   "pair": "Burning Spirit STA"
+  },
+  "Burning Spirit PWR": {
+   "id": "210031",
+   "baseCost": 200,
+   "groupId": "21003",
+   "gold": true,
+   "pair": "Ignited Spirit PWR"
+  },
+  "Ignited Spirit PWR": {
+   "id": "210032",
+   "baseCost": 200,
+   "groupId": "21003",
+   "gold": false,
+   "pair": "Burning Spirit PWR"
+  },
+  "Burning Spirit GUTS": {
+   "id": "210041",
+   "baseCost": 200,
+   "groupId": "21004",
+   "gold": true,
+   "pair": "Ignited Spirit GUTS"
+  },
+  "Ignited Spirit GUTS": {
+   "id": "210042",
+   "baseCost": 200,
+   "groupId": "21004",
+   "gold": false,
+   "pair": "Burning Spirit GUTS"
+  },
+  "Burning Spirit WIT": {
+   "id": "210051",
+   "baseCost": 200,
+   "groupId": "21005",
+   "gold": true,
+   "pair": "Ignited Spirit WIT"
+  },
+  "Ignited Spirit WIT": {
+   "id": "210052",
+   "baseCost": 200,
+   "groupId": "21005",
+   "gold": false,
+   "pair": "Burning Spirit WIT"
+  },
+  "Radiant Star": {
+   "id": "210061",
+   "baseCost": 200,
+   "groupId": "21006",
+   "gold": true,
+   "pair": "Glittering Star"
+  },
+  "I Wanna Win with You": {
+   "id": "210071",
+   "baseCost": 200,
+   "groupId": "21007",
+   "gold": true,
+   "pair": "On the Way to Our Dream"
+  },
+  "On the Way to Our Dream": {
+   "id": "210072",
+   "baseCost": 200,
+   "groupId": "21007",
+   "gold": false,
+   "pair": "I Wanna Win with You"
+  },
+  "Past My Limits": {
+   "id": "210081",
+   "baseCost": 200,
+   "groupId": "21008",
+   "gold": true,
+   "pair": "Eyes on the Goal"
+  },
+  "Eyes on the Goal": {
+   "id": "210082",
+   "baseCost": 200,
+   "groupId": "21008",
+   "gold": false,
+   "pair": "Past My Limits"
+  },
+  "Racing Spirit: Speed": {
+   "id": "210091",
+   "baseCost": 150,
+   "groupId": "21009",
+   "gold": false,
+   "pair": null
+  },
+  "Racing Spirit: Stamina": {
+   "id": "210101",
+   "baseCost": 150,
+   "groupId": "21010",
+   "gold": false,
+   "pair": null
+  },
+  "Racing Spirit: Power": {
+   "id": "210111",
+   "baseCost": 150,
+   "groupId": "21011",
+   "gold": false,
+   "pair": null
+  },
+  "Racing Spirit: Guts": {
+   "id": "210121",
+   "baseCost": 150,
+   "groupId": "21012",
+   "gold": false,
+   "pair": null
+  },
+  "Racing Spirit: Wit": {
+   "id": "210131",
+   "baseCost": 150,
+   "groupId": "21013",
+   "gold": false,
+   "pair": null
+  },
+  "Racing Spirit: Mood": {
+   "id": "210141",
+   "baseCost": 150,
+   "groupId": "21014",
+   "gold": false,
+   "pair": null
+  },
+  "Wisdom of the Sun": {
+   "id": "210261",
+   "baseCost": 200,
+   "groupId": "21026",
+   "gold": true,
+   "pair": "Sun's Blessing"
+  },
+  "Sun's Blessing": {
+   "id": "210262",
+   "baseCost": 200,
+   "groupId": "21026",
+   "gold": false,
+   "pair": "Wisdom of the Sun"
+  },
+  "Wisdom of the Sea": {
+   "id": "210271",
+   "baseCost": 200,
+   "groupId": "21027",
+   "gold": true,
+   "pair": "Sea's Blessing"
+  },
+  "Sea's Blessing": {
+   "id": "210272",
+   "baseCost": 200,
+   "groupId": "21027",
+   "gold": false,
+   "pair": "Wisdom of the Sea"
+  },
+  "Wisdom of the Earth": {
+   "id": "210281",
+   "baseCost": 200,
+   "groupId": "21028",
+   "gold": true,
+   "pair": "Earth's Blessing"
+  },
+  "Earth's Blessing": {
+   "id": "210282",
+   "baseCost": 200,
+   "groupId": "21028",
+   "gold": false,
+   "pair": "Wisdom of the Earth"
+  },
+  "Unquenched Thirst": {
+   "id": "300011",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Unchanging": {
+   "id": "300021",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Towards the Scenery I Seek": {
+   "id": "300031",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Creeping Anxiety": {
+   "id": "300041",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Blatant Fear": {
+   "id": "300051",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Dream Run": {
+   "id": "300061",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Show Me What Lies Beyond!": {
+   "id": "300071",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Hoiya! Have a Good Run!": {
+   "id": "300081",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "As a Friend and Rival": {
+   "id": "300091",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Cheers of a Fellow Dreamer": {
+   "id": "300101",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Chin Up, Derby Umamusume!": {
+   "id": "300111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "For the Team": {
+   "id": "300121",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Ruler of Japan": {
+   "id": "300131",
+   "baseCost": 0,
+   "groupId": "30013",
+   "gold": false,
+   "pair": null
+  },
+  "Carnival Bonus (inherited)": {
+   "id": "9000011",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Gluttonous Ruler (inherited)": {
+   "id": "900101111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Accelerating to My Dreams! (inherited)": {
+   "id": "900101211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Sunshine 'n' Spirit! (inherited)": {
+   "id": "900102111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Ruler of Summer (inherited)": {
+   "id": "900102211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Overwhelming Advance (inherited)": {
+   "id": "900103111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Gutsiest in Japan (inherited)": {
+   "id": "900103211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Fully Focused (inherited)": {
+   "id": "900201111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Otherworldly Front-Runner (inherited)": {
+   "id": "900201211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Ultramarine Getaway (inherited)": {
+   "id": "900202111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Ráfaga Azul (inherited)": {
+   "id": "900202211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Talented Technique (inherited)": {
+   "id": "900301111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Teio Step (inherited)": {
+   "id": "900301211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Racing Prodigy (inherited)": {
+   "id": "900302111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "To the Ends of the Earth (inherited)": {
+   "id": "900302211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Let's Floor It, Baby! (inherited)": {
+   "id": "900401111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Revved Up Red-Hot (inherited)": {
+   "id": "900401211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "You Can't Handle Me ☆ (inherited)": {
+   "id": "900402111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Queen of the Stage (inherited)": {
+   "id": "900402211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Dazzling Star (inherited)": {
+   "id": "900501111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Entertainer (inherited)": {
+   "id": "900501211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Stunning Trick (inherited)": {
+   "id": "900502111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Glittering Star (inherited)": {
+   "id": "900502211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Kasamatsu's Bottomless Pit (inherited)": {
+   "id": "900601111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Cornered by the Beast (inherited)": {
+   "id": "900601211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Full Belly, Full Energy (inherited)": {
+   "id": "900602111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Holiday Miracle (inherited)": {
+   "id": "900602211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Her Lordship Seeth All (inherited)": {
+   "id": "900701111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "It's All Goin' Downhill from Here! (inherited)": {
+   "id": "900701211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Golshi's Out-of-Body Experience (inherited)": {
+   "id": "900702111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Have Some Squid, Kid! (inherited)": {
+   "id": "900702211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Warning Shot! (inherited)": {
+   "id": "90071",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "A Swig of Strength (inherited)": {
+   "id": "900801111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Feet of Fury (inherited)": {
+   "id": "900801211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Cuttin' Through! (inherited)": {
+   "id": "900802111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Kick It into Top Gear! (inherited)": {
+   "id": "900802211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Xceleration (inherited)": {
+   "id": "90081",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Perfectly Tuned (inherited)": {
+   "id": "900901111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "First Place Is MINE! (inherited)": {
+   "id": "900901211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Rough Queen (inherited)": {
+   "id": "900902111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Door to My Dream (inherited)": {
+   "id": "900902211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Red Ace (inherited)": {
+   "id": "90091",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Shootin' Straight Ahead! (inherited)": {
+   "id": "901001111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Frontier Spirit (inherited)": {
+   "id": "901001211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Takin' Y'all on a Wild Ride! (inherited)": {
+   "id": "901002111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "May the Best Uma Win! (inherited)": {
+   "id": "901002211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Yamato Nadeshiko (inherited)": {
+   "id": "901101111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Indomitable Spirit (inherited)": {
+   "id": "901101211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Comforting Heal (inherited)": {
+   "id": "901102111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "The Magic of Courage (inherited)": {
+   "id": "901102211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Focused Mind (inherited)": {
+   "id": "90111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Cry of Victory (inherited)": {
+   "id": "901201111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Pororoca Roar (inherited)": {
+   "id": "901201211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Engaging Engine! (inherited)": {
+   "id": "901202111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Cake-Cuttin' Time! (inherited)": {
+   "id": "901202211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "As Befits a Mejiro (inherited)": {
+   "id": "901301111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Top-Class Composure (inherited)": {
+   "id": "901301211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Rigorous Rest (inherited)": {
+   "id": "901302111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Above the Cloudline (inherited)": {
+   "id": "901302211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Classy Summer (inherited)": {
+   "id": "901303111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "An Earnest Breather (inherited)": {
+   "id": "901303211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Eyes of the Condor (inherited)": {
+   "id": "901401111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Performing Perfecto! (inherited)": {
+   "id": "901401211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Heroic Flurry (inherited)": {
+   "id": "901402111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Rising Condor (inherited)": {
+   "id": "901402211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Corazón ☆ Ardiente (inherited)": {
+   "id": "90141",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Entrance of the Centurial Overlord! (inherited)": {
+   "id": "901501111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "The Leading Actor (inherited)": {
+   "id": "901501211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Maestro of the Waltz (inherited)": {
+   "id": "901502111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Never a Beat Late! (inherited)": {
+   "id": "901502211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Decisive Strike (inherited)": {
+   "id": "901601111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "In the Wolf's Maw (inherited)": {
+   "id": "901601211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Blazing Wolf (inherited)": {
+   "id": "901602111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Ravenous Beast (inherited)": {
+   "id": "901602211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Eyes of an Emperor (inherited)": {
+   "id": "901701111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Unquestioned Might (inherited)": {
+   "id": "901701211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Unwavering Expression (inherited)": {
+   "id": "901702111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Autumn Grace (inherited)": {
+   "id": "901702211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "As the Empress Wills (inherited)": {
+   "id": "901801111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Untouchable Beauty (inherited)": {
+   "id": "901801211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Dignified Empress (inherited)": {
+   "id": "901802111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Moonlight Sommelier (inherited)": {
+   "id": "901802211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Empress's Pride (inherited)": {
+   "id": "90181",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Ultimate Uma Simp (inherited)": {
+   "id": "901901111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Best View of Anyone! (inherited)": {
+   "id": "901901211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Run Like the Fic's Due Tomorrow! (inherited)": {
+   "id": "901902111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Back for More Moe! (inherited)": {
+   "id": "901902211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Quick Reel (inherited)": {
+   "id": "902001111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Breakaway Scheme (inherited)": {
+   "id": "902001211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Run If You Can ♪ (inherited)": {
+   "id": "902002111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Record Runner (inherited)": {
+   "id": "902002211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Gone in a Flash (inherited)": {
+   "id": "902101111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Paradise Tail (inherited)": {
+   "id": "902101211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "A Prayer for Our Predecessors (inherited)": {
+   "id": "902102111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "C'mon, Let's Do This! (inherited)": {
+   "id": "902102211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Royal Star (inherited)": {
+   "id": "902201111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Heavenly Descent (inherited)": {
+   "id": "902201211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Emboldening Memories (inherited)": {
+   "id": "902202111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Spear of Morrígan (inherited)": {
+   "id": "902202211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "All According to Plan (inherited)": {
+   "id": "902301111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Strategic Cooldown (inherited)": {
+   "id": "902301211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Very Important Positioning (inherited)": {
+   "id": "902302111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Speedy Santa (inherited)": {
+   "id": "902302211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "You copy? (inherited)": {
+   "id": "902401111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "I copy! (inherited)": {
+   "id": "902401211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Soft White Whisper (inherited)": {
+   "id": "902402111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Barrel Roll! (inherited)": {
+   "id": "902402211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "1st Place Kiss☆ (inherited)": {
+   "id": "90241",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Coffee Break (inherited)": {
+   "id": "902501111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Don't Leave Me... (inherited)": {
+   "id": "902501211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Overclock (inherited)": {
+   "id": "902601111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Overcome Any Strife (inherited)": {
+   "id": "902601211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Malfunction Mitigation (inherited)": {
+   "id": "902602111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Perfect Boost (inherited)": {
+   "id": "902602211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Let Those Muscles SING! (inherited)": {
+   "id": "902701111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Bulk Up & Away! (inherited)": {
+   "id": "902701211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Helping Grant Your Dream (inherited)": {
+   "id": "902702111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Give You a Taste of Glory (inherited)": {
+   "id": "902702211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Feel the Burn! (inherited)": {
+   "id": "90271",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Full Tank! (inherited)": {
+   "id": "902801111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Always Hungry for More! (inherited)": {
+   "id": "902801211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Like They Do in the City! (inherited)": {
+   "id": "902901111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Snow Gals Know Howta Sled! (inherited)": {
+   "id": "902901211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Heroic Determination (inherited)": {
+   "id": "903001111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Dark Assassin (inherited)": {
+   "id": "903001211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "I Can Do This! (inherited)": {
+   "id": "903002111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Trick and Treat (inherited)": {
+   "id": "903002211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Stubborn Sis (inherited)": {
+   "id": "903101111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Wind God's Wrath (inherited)": {
+   "id": "903101211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Perfect ♪ Order Up! (inherited)": {
+   "id": "903102111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Slick Serving (inherited)": {
+   "id": "903102211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Latent One (inherited)": {
+   "id": "903201111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Efficient Rest Methodology (inherited)": {
+   "id": "903201211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Devil's Laplace (inherited)": {
+   "id": "903202111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Blinding Luxon (inherited)": {
+   "id": "903202211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Introduction to Physiology (inherited)": {
+   "id": "90321",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Quiet Promise (inherited)": {
+   "id": "903301111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Self-Destructive Comet (inherited)": {
+   "id": "903301211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Firefighter's Ascent (inherited)": {
+   "id": "903401111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Expert on the Dirt (inherited)": {
+   "id": "903401211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Fan Dance (inherited)": {
+   "id": "903402111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Standout Step (inherited)": {
+   "id": "903402211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Never Ever Give Up (inherited)": {
+   "id": "903501111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Winning Road (inherited)": {
+   "id": "903501211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Superpowered Engines! (inherited)": {
+   "id": "903502111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "I Can Fly! (inherited)": {
+   "id": "903502211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "V Is for Victory! (inherited)": {
+   "id": "90351",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Uplift (inherited)": {
+   "id": "903601111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Lose Myself (inherited)": {
+   "id": "903601211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Blinding Magia (inherited)": {
+   "id": "903701111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "On My Honor (inherited)": {
+   "id": "903701211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Recipe for Victory (inherited)": {
+   "id": "903702111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Dark Flash (inherited)": {
+   "id": "903702211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "#CuteChaos♪ (inherited)": {
+   "id": "903801111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "#GotYouDownBad♪ (inherited)": {
+   "id": "903801211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "#ThinkOfMe (inherited)": {
+   "id": "903802111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "#BeautifulSprint (inherited)": {
+   "id": "903802211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Unstoppable Princess (inherited)": {
+   "id": "903901111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Rising Road Rage (inherited)": {
+   "id": "903901211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Pristine Foresight (inherited)": {
+   "id": "904001111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Star of the Runway (inherited)": {
+   "id": "904001211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Golden Formation (inherited)": {
+   "id": "904002111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Geared to Strike (inherited)": {
+   "id": "904002211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Bakushin SPRINT! (inherited)": {
+   "id": "904101111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Bakushin LEAD! (inherited)": {
+   "id": "904101211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Full Charge! BAKUSHIIIN! (inherited)": {
+   "id": "904102111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Baku-speed! BakuSHIIIIN! (inherited)": {
+   "id": "904102211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Class Rep + Speed = Bakushin (inherited)": {
+   "id": "90411",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "The World Is My Oyster (inherited)": {
+   "id": "904201111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Pearlescent Danceoff (inherited)": {
+   "id": "904201211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Just Run Like Crazy! (inherited)": {
+   "id": "904301111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Mischevious Maestro (inherited)": {
+   "id": "904301211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "After-School Magical Girl (inherited)": {
+   "id": "904401111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Magic Charm (inherited)": {
+   "id": "904401211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Sweet Trance (inherited)": {
+   "id": "904501111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Motherly Maestro (inherited)": {
+   "id": "904501211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Expert Caretaker (inherited)": {
+   "id": "904502111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Mummy's Sweet Whispers (inherited)": {
+   "id": "904502211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Clear Heart (inherited)": {
+   "id": "90451",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Umadol★Onstage! (inherited)": {
+   "id": "904601111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Umadol ♪ Chart Topper! (inherited)": {
+   "id": "904601211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Rising to Umadol Stardom! (inherited)": {
+   "id": "904602111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Always Center Stage! (inherited)": {
+   "id": "904602211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Halfway to Heroism (inherited)": {
+   "id": "904701111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Shining Sword (inherited)": {
+   "id": "904701211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Lezzgo! (inherited)": {
+   "id": "904801111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Trendsetter (inherited)": {
+   "id": "904801211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "I Can Totes Shake 'Em! (inherited)": {
+   "id": "904802111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "I'm Literally the Best! (inherited)": {
+   "id": "904802211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "It's All or Nothing (inherited)": {
+   "id": "904901111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Takin' Each Gamble (inherited)": {
+   "id": "904901211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Cutting-Edge Senses (inherited)": {
+   "id": "905001111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Heart of a Hunter (inherited)": {
+   "id": "905001211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "I'll Show You! (inherited)": {
+   "id": "905002111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Bolt from the Brink (inherited)": {
+   "id": "905002211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Petals in the Breeze (inherited)": {
+   "id": "905101111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Blooming Resolve (inherited)": {
+   "id": "905101211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Flower Girl's Blessing (inherited)": {
+   "id": "905102111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Veil in the Spring Breeze (inherited)": {
+   "id": "905102211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "I'll Keep Trying! (inherited)": {
+   "id": "905201111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "I Won't Lose! (inherited)": {
+   "id": "905201211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Look, Look! (inherited)": {
+   "id": "905202111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "I'll Do My Very Best! (inherited)": {
+   "id": "905202211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Super-Duper Stoked (inherited)": {
+   "id": "90521",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Peak Discipline (inherited)": {
+   "id": "905301111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Ready for a Red-Hot Tech! (inherited)": {
+   "id": "905301211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Red-Hot Transforma-Runner! (inherited)": {
+   "id": "905302111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Ultimate Ultra-Sprint! (inherited)": {
+   "id": "905302211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Marvelous ☆ Thrill (inherited)": {
+   "id": "905501111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Make the World Marvelous ☆ (inherited)": {
+   "id": "905501211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Lucky Sign! (inherited)": {
+   "id": "905601111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Lucky Number Seven (inherited)": {
+   "id": "905601211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Crazy Extra Mega Lucky! (inherited)": {
+   "id": "905602111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Bring On the Luck! (inherited)": {
+   "id": "905602211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Luck Be with Me! (inherited)": {
+   "id": "90561",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Soaring Steps (inherited)": {
+   "id": "905701111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Spring from the Earth (inherited)": {
+   "id": "905701211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Right on the Dot (inherited)": {
+   "id": "905801111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "I-I'm Doing My Best! (inherited)": {
+   "id": "905801211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "For My Rival! (inherited)": {
+   "id": "905802111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Soul Guide (inherited)": {
+   "id": "905802211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Cold Look (inherited)": {
+   "id": "905901111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Queen of Yodo (inherited)": {
+   "id": "905901211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "I Want to Explore More! (inherited)": {
+   "id": "905902111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "First Step from the Brink (inherited)": {
+   "id": "905902211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Cynical Charm (inherited)": {
+   "id": "906001111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Be the Lead! (inherited)": {
+   "id": "906001211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Just Gotta Do What I Can (inherited)": {
+   "id": "906002111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Keep the Cheers Comin' (inherited)": {
+   "id": "906002211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "I Can Win Sometimes, Right? (inherited)": {
+   "id": "90601",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Shocking Sweep (inherited)": {
+   "id": "906101111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Kingly View (inherited)": {
+   "id": "906101211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Ascend Glory (inherited)": {
+   "id": "906102111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Sakura Blossoms in the Breeze (inherited)": {
+   "id": "906102211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Call Me King (inherited)": {
+   "id": "90611",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Goin' My Way! (inherited)": {
+   "id": "906201111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Ei, Ei, Mun! (inherited)": {
+   "id": "906201211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Positive Smile (inherited)": {
+   "id": "906202111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Turning Things Right Around! (inherited)": {
+   "id": "906202211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Ready, Go! (inherited)": {
+   "id": "90621",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "WILD, Amirite? (inherited)": {
+   "id": "906401111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Breakaway on Lock (inherited)": {
+   "id": "906401211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "LOL I'm on FIRE! (inherited)": {
+   "id": "906501111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "DW I'm on It! (inherited)": {
+   "id": "906501211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "1000% Output! (inherited)": {
+   "id": "906601111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Turbo's Leadin' the Charge! (inherited)": {
+   "id": "906601211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Engines LIT! (inherited)": {
+   "id": "90661",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Indestructable (inherited)": {
+   "id": "906701111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Rondo to the Right (inherited)": {
+   "id": "906701211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Beyond My Station (inherited)": {
+   "id": "906702111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "The Dawn Always Comes! (inherited)": {
+   "id": "906702211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Get the Festival Going! (inherited)": {
+   "id": "906801111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Bright Blast (inherited)": {
+   "id": "906801211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Leap Ahead to the Future (inherited)": {
+   "id": "906802111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Introducing the Victor! (inherited)": {
+   "id": "906802211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Good Year for Sakura! (inherited)": {
+   "id": "906901111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "The Sakura Bloom Regally Today (inherited)": {
+   "id": "906901211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Bloom Down the Branch (inherited)": {
+   "id": "906902111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "I Don't Wanna Lose! (inherited)": {
+   "id": "906902211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Unyielding Aster (inherited)": {
+   "id": "907001111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Arabesque of the Brightest Star (inherited)": {
+   "id": "907001211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Eternal Light (inherited)": {
+   "id": "907101111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Give This Moment Everything (inherited)": {
+   "id": "907101211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Elegant Phosphorescence (inherited)": {
+   "id": "907102111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Fleeting Afterglow (inherited)": {
+   "id": "907102211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Growing Flame (inherited)": {
+   "id": "907201111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Yaeno's Fighting Spirit (inherited)": {
+   "id": "907201211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Ladylike Resolve (inherited)": {
+   "id": "907401111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Immovable as a Mountain (inherited)": {
+   "id": "907401211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Open All the Buds (inherited)": {
+   "id": "907601111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Blossom for Us! (inherited)": {
+   "id": "907601211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Shearing Gust (inherited)": {
+   "id": "907801111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "As Nature Wills (inherited)": {
+   "id": "907801211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Simple and Sturdy (inherited)": {
+   "id": "908301111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Imposing Innovation (inherited)": {
+   "id": "908301211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "The Stormcaller of Destruction (inherited)": {
+   "id": "908401111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Intoxicate the World (inherited)": {
+   "id": "908401211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Ever Graceful (inherited)": {
+   "id": "908501111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Always the Most Brilliant (inherited)": {
+   "id": "908501211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Raise the Pitch (inherited)": {
+   "id": "908701111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Leave a Footprint in Your Memory (inherited)": {
+   "id": "908701211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Lucky Rickey! (inherited)": {
+   "id": "909801111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Longmai Pulse (inherited)": {
+   "id": "909801211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Thinkin' About Tomakomai Food (inherited)": {
+   "id": "909901111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Be a Good Ambassador! (inherited)": {
+   "id": "909901211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Feelin' a Bit Silly (inherited)": {
+   "id": "9100011",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "A Dose of Ambition (inherited)": {
+   "id": "910001111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Divine on the Dirt (inherited)": {
+   "id": "910001211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Best day ever": {
+   "id": "910221",
+   "baseCost": 200,
+   "groupId": "91022",
+   "gold": false,
+   "pair": null
+  },
+  "Aced It! (inherited)": {
+   "id": "910401111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Runnin' the Race Solo (inherited)": {
+   "id": "910401211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Beyond the Stars with You (inherited)": {
+   "id": "910501111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Cross the Sea of Stars (inherited)": {
+   "id": "910501211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "No Pressure, No Rush (inherited)": {
+   "id": "910601111",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Collect All the Little Miracles (inherited)": {
+   "id": "910601211",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Medium Race Enthusiast (inherited)": {
+   "id": "9200011",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Long Race Enthusiast (inherited)": {
+   "id": "9200021",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Mile Race Enthusiast (inherited)": {
+   "id": "9200031",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Sprint Race Enthusiast (inherited)": {
+   "id": "9200041",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Dirt Race Enthusiast (inherited)": {
+   "id": "9200051",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Energetic Hero (inherited)": {
+   "id": "9300011",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Sunny Hero (inherited)": {
+   "id": "9300021",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Rainy Hero (inherited)": {
+   "id": "9300031",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Inner Hero (inherited)": {
+   "id": "9300041",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Outer Hero (inherited)": {
+   "id": "9300051",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Friendly Hero (inherited)": {
+   "id": "9300061",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  },
+  "Dashing Hero (inherited)": {
+   "id": "9300071",
+   "baseCost": null,
+   "groupId": null,
+   "gold": false,
+   "pair": null
+  }
+ }
+}

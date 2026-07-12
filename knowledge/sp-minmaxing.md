@@ -1,6 +1,6 @@
 # SP Min-Maxing: Buying Skills for Maximum L Gain
 
-*Last updated: 2026-07-12. Worked examples: [questions/2026-07-11-sp-minmax.md](../questions/2026-07-11-sp-minmax.md), [questions/2026-07-12-sp-minmax-rudolf.md](../questions/2026-07-12-sp-minmax-rudolf.md).*
+*Last updated: 2026-07-12. Worked examples: [questions/2026-07-11-sp-minmax.md](../questions/2026-07-11-sp-minmax.md), [questions/2026-07-12-sp-minmax-rudolf.md](../questions/2026-07-12-sp-minmax-rudolf.md), [questions/2026-07-12-sp-minmax-rudolf-career2.md](../questions/2026-07-12-sp-minmax-rudolf-career2.md) (includes the gold bundle-price correction).*
 
 Method for spending leftover skill points on the skills that most improve race performance on a **specific target course**.
 
@@ -13,7 +13,7 @@ Method for spending leftover skill points on the skills that most improve race p
 
 1. **Filter to skills that can actually proc.** Discard anything gated on the wrong running style, wrong distance band, wrong course/direction/season/condition. This usually eliminates most of the list — the Learn screen offers every hinted skill, not just useful ones.
 2. **Join** remaining skills: cost from screenshots, mean ΔL from the chart.
-3. **Model prerequisites:** a gold skill requires its white base (listed directly above it in the Learn screen); its chart ΔL is the *total* for gold, so the upgrade increment = ΔL(gold) − ΔL(white), at the gold's own cost. ○/◎ passives with the ◎ hint are bought directly (no ○ prerequisite).
+3. **Model prerequisites:** a gold skill requires its white base, listed directly beneath it in the Learn screen — and the **gold's shown price is a bundle that already includes that white**. Record shown prices verbatim in the CSV with `requires`; the optimizer subtracts the prereq's shown price to get the true increment. Value side: chart ΔL is per-skill, so the gold row's value = ΔL(gold) − ΔL(white) when the white is a separate row. Green rare golds (Firm Course Menace style) hide a ◎ tier inside the bundle — model ○ → ◎ → gold as three rows. When unsure what pairs with what, `python3 tools/skill-db/lookup.py "<name>"` shows the partner, base cost, and every hint price; `optimize.py` also cross-checks the CSV against skill-db automatically.
 4. **Optimize:** run [tools/sp-optimizer](../tools/sp-optimizer/README.md) — `python3 optimize.py <skills.csv> <budget> --notes "<uma, course, conditions>"` — an exact 0/1 knapsack with prerequisite chains. Each run is logged to `tools/sp-optimizer/runs/` (gitignored) with the full skill snapshot and results, and clears the `reference/` staging folder afterwards (`--keep-inputs` skips that). Greedy by L-per-SP is a good sanity check but can be beaten by the exact solve.
 5. **Verify in umalator:** add the chosen set to the uma and re-sim vs the current build — ΔL additivity is an approximation.
 

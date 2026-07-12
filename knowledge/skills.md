@@ -1,6 +1,6 @@
 # Skills
 
-*Last updated: 2026-07-11*
+*Last updated: 2026-07-12*
 
 ## Types
 
@@ -24,7 +24,9 @@
 ## Skill points, hints, discounts
 
 - Trainees buy skills during/after career with **skill points**.
-- **Hint levels** (from support card training events) discount the cost: Lv1 −10%, Lv2 −20%, Lv3 −30%, Lv4 −35%, Lv5 −40%.
-- Buying the white version first then upgrading to gold is how gold costs are paid; total cost planning matters near end-of-career.
+- **Hint levels** (from support card training events) discount the cost: Lv1 −10%, Lv2 −20%, Lv3 −30%, Lv4 −35%, Lv5 −40%. Discounted prices are **floored** (90 base at Lv4 → 58).
+- A gold requires its white: when the white is unowned, the Learn screen lists it beneath the gold and the **gold's shown price is a bundle** that already includes the white (each part at its own hint discount). E.g. Fast & Furious shown 306 = 126 (base 180, Lv3) + 180 Position Pilfer. When the white is owned, the gold shows only its own price. Verified in-game 2026-07-12.
+- Green-skill rare golds (e.g. Firm Course Menace over Firm Conditions) bundle the whole ○ → ◎ → gold chain — the ◎ is included even if it isn't visible on screen (exact price decomposition confirms it).
+- Base costs, gold/white pairs, and hint price tables: `tools/skill-db/` (`python3 lookup.py "<name>"`), built from the umalator repo's own data.
 - General buying priority for a race target: skills that reliably proc on the target course (matching passives, well-placed speed/accel skills) > generic recovery as needed for spurt rate > everything else. Verify with umalator's skill chart / bashin comparison.
 - For spending leftover SP optimally, see [sp-minmaxing.md](sp-minmaxing.md).
