@@ -1,0 +1,20 @@
+name,cost,value,requires
+Let's Pump Some Iron!,160,1.93,
+Slick Surge,180,1.18,
+On Your Left! (gold),342,0.81,Slick Surge
+Leap Forward,162,0.95,
+Sprinting Gear,144,1.07,
+Ignited Spirit PWR,140,0.70,
+Corner Acceleration ○,144,0.52,
+Ignited Spirit GUTS,160,0.50,
+Professor of Curvature (gold),126,0.34,
+Sprint Corners ○,80,0.30,
+Firm Conditions ○,81,0.25,
+Playtime's Over!,144,0.25,
+Ignited Spirit SPD,120,0.22,
+Burning Spirit SPD (gold),260,0.26,Ignited Spirit SPD
+Triumphant Pulse,160,0.19,
+It's On! (gold),289,0.18,Ramp Up
+Ramp Up,153,0.16,
+"15,000,000 CC (gold)",84,0.34,
+Sprint Straightaways ○,80,0.11,

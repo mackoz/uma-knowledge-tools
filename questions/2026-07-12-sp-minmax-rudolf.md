@@ -51,7 +51,22 @@ Runner-up (+8.56, 1713 SP) swaps Professor of Curvature + Firm Conditions ○ fo
 
 Skipped by the optimizer: Burning Spirit SPD (gold increment only +0.29 for 260+120 SP), It's On!/Ramp Up chain (+0.35 for 442 SP), Playtime's Over!, Triumphant Pulse, 15,000,000 CC, Sprint Straightaways ○, Ignited Spirit SPD.
 
+## Re-check: chart regenerated with 564 Escapades + Dominator owned
+
+The sim was re-run with the two pre-committed skills added to the build (they show as owned: 564 Escapades reads 0.00, Dominator in the ✕ owned list), removing the "chart generated without them" caveat. CSV: `…-v2.csv`, run log `2026-07-12T102802Z-…`. Value shifts worth noting — both consistent with 564 Escapades' "activate 1 rare skill regardless of its conditions" effect:
+
+- **On Your Left! total dropped 2.17 → 1.99** (increment over Slick Surge 1.02 → 0.81).
+- **15,000,000 CC jumped 0.18 → 0.34** (max 0.25 → 2.04 — Escapades can force-proc it).
+- Everything else moved ≤ 0.09.
+
+New optimum is a **statistical tie** with the v1 set:
+
+1. +8.55 L / 1677 SP: v1 set with Professor of Curvature → **15,000,000 CC** (42 SP leftover).
+2. +8.55 L / 1719 SP: the **v1 set unchanged**.
+
+**Decision: keep the v1 buy list** (all 11 skills above). Expected L is identical to 2 decimals, leftover SP is worthless at end of career, and the extra learned skill adds a bit of evaluation score. Adding 15,000,000 CC instead of Professor of Curvature is equally defensible.
+
 ## Caveats
 
-- ΔL additivity assumed; chart was also generated **without** 564 Escapades/Dominator owned. **Re-sim the full final build in umalator before buying.**
-- Mean hides variance: Let's Pump Some Iron! is remarkably consistent (min 1.74); On Your Left! floor is 1.31; Leap Forward/Sprinting Gear can whiff (min ~0).
+- ΔL additivity assumed. **Re-sim the full final build in umalator before buying.**
+- Mean hides variance: Let's Pump Some Iron! is remarkably consistent (min 1.74); Leap Forward/Sprinting Gear can whiff (min ~0). On Your Left!'s floor fell to 0.34 in the v2 chart.
