@@ -29,11 +29,15 @@ All six gold bundle prices decomposed exactly against `tools/skill-db` base cost
 - Recovery blues (chart strips HP by design; 1200m spurt not stamina-limited): Corner Recovery ○ 136, A Small Breather 144, Be Still 144.
 - Near-zero chart value, dropped to stay under the optimizer's 22-item cap: Focus 91 (+0.01), Target in Sight ○ 81 (+0.03), Inner Post Proficiency ○ 81 (+0.04).
 
-Hesitant Late Surgers **was** kept: unlike the other debuffs it has a chart entry (+0.22, tight 0.20–0.24 range) at only 91 SP.
+Hesitant Late Surgers was initially kept (unlike the other debuffs it has a chart entry, +0.22 at 91 SP), but the user ruled out the hesitant skills entirely — see the final result below.
 
-## Result
+## ~~First result (superseded — included Hesitant Late Surgers)~~
 
-**OPTIMAL: +9.44 L for 2059 SP (6 leftover), 16 skills** — the biggest haul of the three careers:
+~~+9.44 L for 2059 SP, 16 skills~~ (run log `2026-07-12T135635Z-…`) — same as the final set below except it bought Hesitant Late Surgers (+0.22), Playtime's Over! (+0.25), and Burning Spirit SPD (+0.29) instead of Professor of Curvature, Firm Conditions ◎, and Firm Course Menace. Dropped per user: no debuff purchases.
+
+## Result (final — no debuffs)
+
+**OPTIMAL: +9.34 L for 2058 SP (7 leftover), 16 skills** (run log `2026-07-12T135922Z-…`) — still the biggest haul of the three careers:
 
 | Skill | effective SP | mean ΔL |
 |---|---|---|
@@ -47,20 +51,20 @@ Hesitant Late Surgers **was** kept: unlike the other debuffs it has a chart entr
 | Ignited Spirit GUTS | 180 | +0.48 |
 | Ignited Spirit SPD | 120 | +0.25 |
 | Burning Spirit SPD (gold; shown 260) | 140 | +0.29 |
-| Playtime's Over! | 144 | +0.25 |
 | Firm Conditions ○ | 63 | +0.24 |
+| Firm Conditions ◎ (shown 140) | 77 | +0.11 |
+| Firm Course Menace (gold; shown 257) | 117 | +0.21 |
 | Corner Adept ○ | 180 | +0.23 |
-| Hesitant Late Surgers | 91 | +0.22 |
+| Professor of Curvature (gold; shown 360) | 180 | +0.34 |
 | Right-Handed ○ | 63 | +0.14 |
 | Summer Runner ○ | 63 | +0.14 |
 
-Skipped: the Firm Conditions upper tiers (◎ 77 for +0.11, Firm Course Menace 117 for +0.21), Professor of Curvature (180 for +0.34 — its base Corner Adept ○ *is* bought), It's On! + Ramp Up (306 for +0.36), Straightaway Acceleration (153 for +0.16).
+Skipped: Playtime's Over! (144 for +0.25), Burning Spirit SPD (140 for +0.29 — its base Ignited Spirit SPD *is* bought), It's On! + Ramp Up (306 for +0.36), Straightaway Acceleration (153 for +0.16).
 
-Notable: the solver buys **Corner Adept ○ without Professor of Curvature** — the ○ alone is +0.23 for 180 and fills the last slot better than any alternative combination. Runner-ups at +9.39 trade the Corner Adept slot for the full Firm chain or for PoC, all within 0.05 L — noise; the optimal also leaves only 6 SP on the table.
+Removing Hesitant Late Surgers reshuffled more than one slot: versus the first run, Playtime's Over! and the Burning Spirit SPD gold also drop out, and the freed 375 SP buys Professor of Curvature plus the full Firm chain (◎ + Firm Course Menace) for a net +0.66. Runner-up +9.33/2045 keeps Burning Spirit SPD + Playtime's Over! instead of PoC + Firm Course Menace — 0.01 L difference, pure noise; pick either if one is easier to tap through.
 
 ## Caveats
 
 - ΔL additivity assumed. **Re-sim the full 16-skill build in umalator before buying.**
 - Consistency: Let's Pump Some Iron! (min 1.81) and Slick Surge (min 0.77) are near-guaranteed; No Stopping Me!/Nimble Navigator (min 0.00) only proc when blocked in the last spurt.
-- Hesitant Late Surgers is a debuff — its chart mean is unusually stable here, but debuff modeling is the chart's weakest area; it's also the easiest cut if in doubt (frees 91 SP, next best pickup is Firm Conditions ◎ +0.11).
 - Meticulous Measures (126, Sprint-valid) is unvalued by the chart, not worthless — if it ever gets modeled, re-check.
