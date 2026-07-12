@@ -17,7 +17,7 @@ Personal knowledge base and homegrown tools for Uma Musume: Pretty Derby (**glob
 | `tools/` | Homegrown runnable tools, one subfolder each with its own README |
 | `tools/sp-optimizer/` | Knapsack solver: best skill purchases for a given SP budget |
 | `questions/` | One file per question worked through (skill picks, build comparisons, etc.) |
-| `reference/` | Source materials: umalator PDF capture, game screenshots |
+| `reference/` | **Local-only staging** (gitignored) for the current run's inputs: umalator PDF capture, game screenshots. Cleared automatically by each sp-optimizer run |
 
 ## Conventions
 
@@ -28,5 +28,5 @@ Personal knowledge base and homegrown tools for Uma Musume: Pretty Derby (**glob
 
 ## Notes
 
-- `reference/` materials were used for [questions/2026-07-11-sp-minmax.md](questions/2026-07-11-sp-minmax.md) (Curren Chan SP spend, Nakayama 1200m).
+- `reference/` is transient and never committed: drop a run's raw inputs there, work through the question, and let the sp-optimizer run clear it. The durable record of a run is the example CSV in `tools/sp-optimizer/examples/`, the log in `tools/sp-optimizer/runs/` (local), and the writeup in `questions/`.
 - poppler is installed; `pdftotext -layout` works well on umalator page-print PDFs.

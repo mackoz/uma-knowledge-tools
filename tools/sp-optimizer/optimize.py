@@ -2,7 +2,7 @@
 """Find the skill purchase set that maximizes total estimated L gain within an SP budget.
 
 Usage:
-    python3 optimize.py <skills.csv> <budget> [--top N] [--notes TEXT] [--no-log]
+    python3 optimize.py <skills.csv> <budget> [--top N] [--notes TEXT] [--no-log] [--keep-inputs]
 
 CSV columns (header required):
     name      skill name
@@ -14,12 +14,18 @@ CSV columns (header required):
 Each run is logged to runs/ next to this script (gitignored) unless --no-log is
 given; use --notes to record the uma, course, and conditions in the log.
 
+Each run also clears the repo's reference/ staging folder (the current run's
+raw PDF/screenshot inputs) once the CSV has loaded — the log embeds the CSV
+verbatim, so the raw inputs are disposable. Pass --keep-inputs to skip this
+(e.g. when re-running mid-analysis).
+
 Only include skills that can actually proc on the target course/style; see
 knowledge/sp-minmaxing.md for the filtering method and caveats (recovery skills
 and debuffs are not valued by the chart — handle them separately).
 """
 import argparse
 import csv
+import shutil
 import sys
 from datetime import datetime, timezone
 from itertools import combinations
@@ -41,6 +47,21 @@ def load(path):
         if r["requires"] and r["requires"] not in names:
             sys.exit(f"error: {r['name']!r} requires unknown skill {r['requires']!r}")
     return rows
+
+
+def clear_reference():
+    """Empty the repo's reference/ staging folder of run inputs."""
+    ref_dir = Path(__file__).resolve().parent.parent.parent / "reference"
+    if not ref_dir.is_dir():
+        return
+    removed = []
+    for entry in sorted(ref_dir.iterdir()):
+        if entry.name == ".DS_Store":
+            continue
+        shutil.rmtree(entry) if entry.is_dir() else entry.unlink()
+        removed.append(entry.name)
+    if removed:
+        print(f"cleared reference/ ({len(removed)} entries): {', '.join(removed)}\n")
 
 
 def solve(items, budget):
@@ -133,9 +154,13 @@ def main():
     ap.add_argument("--top", type=int, default=5, help="show N best distinct sets")
     ap.add_argument("--notes", help="run context (uma, course, conditions) recorded in the log")
     ap.add_argument("--no-log", action="store_true", help="skip writing a log file to runs/")
+    ap.add_argument("--keep-inputs", action="store_true",
+                    help="don't clear the reference/ staging folder")
     args = ap.parse_args()
 
     items = load(args.csv_path)
+    if not args.keep_inputs:
+        clear_reference()
     results = solve(items, args.budget)
     report = render_report(items, results, args.budget, args.top)
     print(report)

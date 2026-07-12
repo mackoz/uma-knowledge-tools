@@ -12,7 +12,7 @@ A personal knowledge base **plus homegrown tools** for **Uma Musume: Pretty Derb
 - `knowledge/` — one markdown file per mechanics topic (stats, racing, skills, training, glossary, game overview). Includes `umalator.md`, notes on the umalator-global race simulator (https://kachi-dev.github.io/uma-tools/umalator-global/, source: github.com/kachi-dev/uma-tools), the main external tool used for build comparisons and stamina/spurt-rate checks.
 - `tools/` — runnable tools the user builds over time, one subfolder each (README with usage + input format, script, `examples/` with real session data). Current: `sp-optimizer/` (knapsack over skill costs/ΔL values; run `python3 optimize.py <csv> <budget>`). The methodology for a tool belongs in `knowledge/`, the implementation here.
 - `questions/` — one dated file per question worked through (e.g. `2026-07-11-sp-minmax.md`), capturing the decision and reasoning.
-- `reference/` — source materials: game screenshots and saved pages (poppler is installed; `pdftotext -layout` handles umalator page-print PDFs well).
+- `reference/` — **local-only, gitignored staging** for the current run's raw inputs (game screenshots, saved pages; poppler is installed — `pdftotext -layout` handles umalator page-print PDFs well). Each sp-optimizer run clears it (skip with `--keep-inputs`); the durable record of a run is the CSV in `tools/sp-optimizer/examples/`, the local log in `tools/sp-optimizer/runs/`, and the `questions/` writeup.
 
 ## Conventions
 

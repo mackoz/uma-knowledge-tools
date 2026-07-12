@@ -7,7 +7,7 @@ The method for gathering the input data (umalator skill chart for ΔL values, in
 ## Usage
 
 ```
-python3 optimize.py <skills.csv> <budget> [--top N] [--notes TEXT] [--no-log]
+python3 optimize.py <skills.csv> <budget> [--top N] [--notes TEXT] [--no-log] [--keep-inputs]
 ```
 
 Example (Curren Chan @ Nakayama 1200m, 524 SP — see [questions/2026-07-11-sp-minmax.md](../../questions/2026-07-11-sp-minmax.md)):
@@ -32,3 +32,7 @@ Output: efficiency ranking, the optimal set, and the top N distinct sets so near
 ## Run logs
 
 Every run also writes a markdown log to `runs/` next to the script (gitignored — session data, not repo content), named `<UTC timestamp>-<csv stem>.md`. It records the command line, budget, notes, the full skill snapshot (costs, ΔL, efficiency), the optimal/alternative sets, and the input CSV verbatim so the run stays reproducible after the CSV changes. Pass `--notes "Curren Chan, Nakayama 1200m, firm"` to capture the context the CSV can't, or `--no-log` to skip logging.
+
+## Input staging cleanup
+
+The raw inputs for a run (umalator chart PDF, Learn-screen screenshots) are staged in the repo's `reference/` folder (gitignored). Because the run log embeds everything durable, each run **clears `reference/`** once the CSV loads successfully, so the folder only ever holds the current run's inputs. Pass `--keep-inputs` to skip clearing (e.g. when re-running mid-analysis while the screenshots are still needed).
