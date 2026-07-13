@@ -4,6 +4,21 @@ Finds the skill purchase set that maximizes total estimated L gain within a skil
 
 The method for gathering the input data (umalator skill chart for ΔL values, in-game Learn screen screenshots for hint-discounted costs) and its caveats live in [knowledge/sp-minmaxing.md](../../knowledge/sp-minmaxing.md).
 
+## Input pipeline (scripted; used by the `/sp-optimizer` skill)
+
+Three scripts turn the raw inputs staged in `reference/` into an optimizer-ready CSV without anyone re-reading the PDFs/screenshots:
+
+```
+python3 parse_chart.py "../../reference/<chart>.pdf"   # → reference/chart.csv (+ owned ✕ legend)
+python3 ocr_learn.py ../../reference/*.png             # → reference/learn.csv (+ budget from header)
+python3 build_csv.py --style "Late Surger" --distance Sprint \
+    [--exclude-debuffs] [--exclude "No Stopping Me!"] --out examples/<date>-<run>.csv
+```
+
+- `parse_chart.py` parses the umalator page-print PDF (values line precedes each skill name; owned skills carry a `✕` in the trailing legend).
+- `ocr_learn.py` OCRs the Learn screenshots with Apple Vision (bundled `ocr.swift`; `--engine tesseract` as fallback), fuzzy-matches every name against `../skill-db/skills.json`, dedupes scroll overlap, and extracts the SP budget. Misreads can't survive silently: unresolved names/prices are flagged with their source screenshot.
+- `build_csv.py` joins the two with skill-db: classifies rows (obtained / dead style/distance / debuff / recovery / unmodeled / candidate), links gold chains (`requires` + incremental ΔL), resolves ◎/○ ambiguity by base-cost fit, and validates every price against baseCost × hint discount. Conditional greens (course/season/direction) are left in with their chart values — prune the non-matching ones by hand. Anything under `FLAG` needs a human look at the named screenshot.
+
 ## Usage
 
 ```

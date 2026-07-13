@@ -1,6 +1,8 @@
 # SP Min-Maxing: Buying Skills for Maximum L Gain
 
-*Last updated: 2026-07-12. Worked examples: [questions/2026-07-11-sp-minmax.md](../questions/2026-07-11-sp-minmax.md), [questions/2026-07-12-sp-minmax-rudolf.md](../questions/2026-07-12-sp-minmax-rudolf.md), [questions/2026-07-12-sp-minmax-rudolf-career2.md](../questions/2026-07-12-sp-minmax-rudolf-career2.md) (includes the gold bundle-price correction), [questions/2026-07-12-sp-minmax-rudolf-career3.md](../questions/2026-07-12-sp-minmax-rudolf-career3.md).*
+*Last updated: 2026-07-12. **The whole pipeline is scripted — invoke the `/sp-optimizer` skill for a run**; the manual method below remains the reference for what the scripts do and the fallback if OCR fails.*
+
+*Worked examples: [questions/2026-07-11-sp-minmax.md](../questions/2026-07-11-sp-minmax.md), [questions/2026-07-12-sp-minmax-rudolf.md](../questions/2026-07-12-sp-minmax-rudolf.md), [questions/2026-07-12-sp-minmax-rudolf-career2.md](../questions/2026-07-12-sp-minmax-rudolf-career2.md) (includes the gold bundle-price correction), [questions/2026-07-12-sp-minmax-rudolf-career3.md](../questions/2026-07-12-sp-minmax-rudolf-career3.md), [questions/2026-07-12-sp-minmax-rudolf-career4.md](../questions/2026-07-12-sp-minmax-rudolf-career4.md).*
 
 Method for spending leftover skill points on the skills that most improve race performance on a **specific target course**.
 

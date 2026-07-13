@@ -58,6 +58,7 @@ def load(path):
     by_name = {r["name"]: r for r in rows}
     for r in rows:
         r["display_cost"] = r["cost"]
+    for r in rows:
         if r["requires"]:
             base = by_name.get(r["requires"])
             if base is None:
