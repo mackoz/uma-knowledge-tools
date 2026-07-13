@@ -35,9 +35,13 @@ Hesitant Late Surgers was initially kept (unlike the other debuffs it has a char
 
 ~~+9.44 L for 2059 SP, 16 skills~~ (run log `2026-07-12T135635Z-…`) — same as the final set below except it bought Hesitant Late Surgers (+0.22), Playtime's Over! (+0.25), and Burning Spirit SPD (+0.29) instead of Professor of Curvature, Firm Conditions ◎, and Firm Course Menace. Dropped per user: no debuff purchases.
 
-## Result (final — no debuffs)
+## ~~Second result (superseded — included No Stopping Me!)~~
 
-**OPTIMAL: +9.34 L for 2058 SP (7 leftover), 16 skills** (run log `2026-07-12T135922Z-…`) — still the biggest haul of the three careers:
+~~+9.34 L for 2058 SP, 16 skills~~ (run log `2026-07-12T135922Z-…`) — the no-debuff optimum; the user then also ruled out **No Stopping Me!** (blocked-in-last-spurt gold, min 0.00 — only procs when boxed in). Same as the final set below except it bought No Stopping Me! (135 for +0.69) instead of Burning Spirit SPD. Its base Nimble Navigator stays a candidate.
+
+## Result (final — no debuffs, no No Stopping Me!)
+
+**OPTIMAL: +8.94 L for 2063 SP (2 leftover), 16 skills** (run log `2026-07-12T140155Z-…`) — still the biggest haul of the three careers:
 
 | Skill | effective SP | mean ΔL |
 |---|---|---|
@@ -47,7 +51,6 @@ Hesitant Late Surgers was initially kept (unlike the other debuffs it has a char
 | Sprinting Gear | 128 | +1.02 |
 | Louder! Tracen Cheer! | 140 | +0.86 |
 | Nimble Navigator | 150 | +0.75 |
-| No Stopping Me! (gold; shown 285) | 135 | +0.69 |
 | Ignited Spirit GUTS | 180 | +0.48 |
 | Ignited Spirit SPD | 120 | +0.25 |
 | Burning Spirit SPD (gold; shown 260) | 140 | +0.29 |
@@ -59,12 +62,12 @@ Hesitant Late Surgers was initially kept (unlike the other debuffs it has a char
 | Right-Handed ○ | 63 | +0.14 |
 | Summer Runner ○ | 63 | +0.14 |
 
-Skipped: Playtime's Over! (144 for +0.25), Burning Spirit SPD (140 for +0.29 — its base Ignited Spirit SPD *is* bought), It's On! + Ramp Up (306 for +0.36), Straightaway Acceleration (153 for +0.16).
+Skipped: Playtime's Over! (144 for +0.25), It's On! + Ramp Up (306 for +0.36), Straightaway Acceleration (153 for +0.16).
 
-Removing Hesitant Late Surgers reshuffled more than one slot: versus the first run, Playtime's Over! and the Burning Spirit SPD gold also drop out, and the freed 375 SP buys Professor of Curvature plus the full Firm chain (◎ + Firm Course Menace) for a net +0.66. Runner-up +9.33/2045 keeps Burning Spirit SPD + Playtime's Over! instead of PoC + Firm Course Menace — 0.01 L difference, pure noise; pick either if one is easier to tap through.
+The 135 SP freed by dropping No Stopping Me! buys the Burning Spirit SPD gold back (+0.29); Nimble Navigator survives on its own merit (0.50 L/100 SP standalone). Runner-up +8.87/2013 swaps the Firm ◎/Menace tiers for Playtime's Over! — 0.07 L behind with 50 SP spare.
 
 ## Caveats
 
 - ΔL additivity assumed. **Re-sim the full 16-skill build in umalator before buying.**
-- Consistency: Let's Pump Some Iron! (min 1.81) and Slick Surge (min 0.77) are near-guaranteed; No Stopping Me!/Nimble Navigator (min 0.00) only proc when blocked in the last spurt.
+- Consistency: Let's Pump Some Iron! (min 1.81) and Slick Surge (min 0.77) are near-guaranteed; Nimble Navigator (min 0.00) only procs when blocked in the last spurt.
 - Meticulous Measures (126, Sprint-valid) is unvalued by the chart, not worthless — if it ever gets modeled, re-check.

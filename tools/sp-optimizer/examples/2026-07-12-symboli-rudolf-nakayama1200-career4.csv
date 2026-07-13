@@ -1,0 +1,22 @@
+name,cost,value,requires
+Louder! Tracen Cheer!,160,0.56,
+Slick Surge,180,0.94,
+On Your Left! (gold),342,0.60,Slick Surge
+Nimble Navigator,135,0.65,
+Position Pilfer,180,0.25,
+Fast & Furious (gold),306,0.33,Position Pilfer
+Ignited Spirit SPD,120,0.22,
+Burning Spirit SPD (gold),260,0.28,Ignited Spirit SPD
+Ignited Spirit PWR,140,0.53,
+Corner Adept ○,180,0.21,
+Professor of Curvature (gold),360,0.33,Corner Adept ○
+Corner Acceleration ○,126,0.45,
+Ramp Up,136,0.15,
+It's On! (gold),272,0.19,Ramp Up
+Triumphant Pulse,180,0.30,
+Playtime's Over!,144,0.25,
+Late Surger Corners ○,117,0.25,
+Competitive Spirit ○,72,0.17,
+Straightaway Adept,153,0.13,
+Straightaway Acceleration,136,0.09,
+Inner Post Proficiency ○,63,0.02,
